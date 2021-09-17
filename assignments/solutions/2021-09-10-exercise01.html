@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>2021-09-10-exercise01 - MTH201</title>
+  <meta charset="utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="../../css/my.css">
+<link rel="stylesheet" href="../../css/syntax.css">
+  <link rel="alternate" type="application/atom+xml" title="MTH 201" href="../../atom.xml" />
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+  <div class="navbar">
+
+    <header>
+      <hgroup>
+        <h1><a href="../../index.html" id="titlelink">Curves and Surfaces<br /> (MTH 201)</a></h1>
+      </hgroup>
+    </header>
+
+    <nav id="mainnav">
+      <div id="topmenu">
+        <menu>
+          <a href="../../index.html">Course information</a>
+	  
+          <a href="../../assignments.html">Exercise sheets</a>
+	  
+	  
+          <a href="../../slides.html">Slides</a>
+	  
+	  
+        </menu>
+	</div>
+    </nav>
+    </div>
+    <section id="pagecontent">
+        <article>
+    <section class="header">
+        <h1>Hints / Solutions to Exercise sheet 1</h1>
+    </section>
+    <section>
+<p class="date"><strong>Last modified: 05:05 PM - 17 September, 2021 </strong></p>
+	  
+	  <a href="../../assignments/solutions/pdfs/2021-09-10-exercise01.pdf">PDF version</a>
+	  
+        <p><strong>Question 1:</strong> Find a parametrization <span class="math inline">\(\gamma(t)\)</span> for a line segment joining two given points <span class="math inline">\((x_1, y_1)\)</span> and <span class="math inline">\((x_2, y_2)\)</span>. Find <span class="math inline">\(\dot{\gamma}(t)\)</span>.</p>
+<p><strong>Solution 1:</strong> The line points in the direction, <span class="math inline">\(\mathbf{v}= (x_2, y_2)-(x_1, y_1)= (x_2-x_1, y_2-y_1)\)</span>. Every other point on the line is a translate of <span class="math inline">\((x_1, y_2)\)</span> by scalar multiples of <span class="math inline">\(\mathbf{v}\)</span>, i.e. <span class="math inline">\(\gamma(t) = (x_1,y_1) + t \mathbf{v}\)</span>. When <span class="math inline">\(t=0\)</span>, we get the point <span class="math inline">\((x_1, x_2)\)</span> and when <span class="math inline">\(t=1\)</span>, we get the translate of <span class="math inline">\((x_1,y_1)\)</span> by <span class="math inline">\(\mathbf{v}\)</span>, so we restrict the domain to <span class="math inline">\((0, 1)\)</span> to get <span class="math inline">\(\gamma : (0,1) \to \mathbb{R}^2\)</span>.</p>
+<hr />
+<p><strong>Question 2:</strong> What does the parametrization trace out <span class="math inline">\(\gamma(t) = (\frac{2t}{1+t^2}, \frac{1-t^2}{1+t^2})\)</span>?</p>
+<p><strong>Solution 2:</strong> Observe that <span class="math inline">\((\frac{2t}{1+t^2})^2 + (\frac{1-t^2}{1+t^2})^2 = 1\)</span>, and, therefore, the image of the parametrization is a subset of <span class="math inline">\(\{(x,y) \ |\ x^2 + y^2 = 1\}\)</span>, which is a circle. The parametrization is continuous so it will trace out an arc of the circle. The arc will be determined by the domain.</p>
+<p>This shows that the circle can also be parametrized by a parametrization which uses only polynomials, more precisely “rational functions”, i.e. functions that can be represented by quotients of polynomials.</p>
+<hr />
+<p><strong>Question 3:</strong> Show that the parametrization <span class="math inline">\(\gamma(t) := (t^2 - 1, t(t^2 - 1))\)</span> is not injective<br />
+<strong>Solution 3:</strong> <span class="math inline">\(\gamma(1) = (0,0) = \gamma(-1)\)</span></p>
+<p><strong>Question 3:</strong> Express the curve traced out by the parametrization <span class="math inline">\(\gamma(t) := (t^2 - 1, t(t^2 - 1))\)</span> as the zero set of some function.<br />
+<strong>Solution 3:</strong> We will try to “eliminate the variable” <span class="math inline">\(t\)</span>, which in this case is doable (but not always!)<br />
+<span class="math inline">\(x = t^2 - 1\)</span> and <span class="math inline">\(y = t(t^2 - 1)\)</span>, so <span class="math inline">\(y/x = t\)</span> as long as <span class="math inline">\(t \neq \pm 1\)</span> (because we cannot divide by 0!). Now, plugging in <span class="math inline">\(t = y/x\)</span> in <span class="math inline">\(x = t^2 - 1\)</span>, we get <span class="math inline">\(x = (y/x)^2 - 1\)</span>, and so <span class="math inline">\(x^3 = y^2 - x^2\)</span>. We know this holds for all <span class="math inline">\(t\)</span> except <span class="math inline">\(\pm 1\)</span>, but for <span class="math inline">\(t=\pm 1\)</span> we get the point <span class="math inline">\((0,0)\)</span>. We can easily check that this also satisfies <span class="math inline">\(x^3 = y^2 - x^2\)</span>.</p>
+    </section>
+</article>
+
+    </section>
+
+<section id="posts" class="sidenav">
+
+    <h2>Latest exercise sheet</h2>
+<ul>
+    
+        <li>
+          <a href="../../assignments/2021-09-13-exercise02.html">Exercise sheet 2</a>
+	   /
+	  <a href="../../assignments/pdfs/2021-09-13-exercise02.pdf">PDF version</a>
+	  
+	  
+        </li>
+    
+        <li>
+          <a href="../../assignments/2021-09-10-exercise01.html">Exercise sheet 1</a>
+	   /
+	  <a href="../../assignments/pdfs/2021-09-10-exercise01.pdf">PDF version</a>
+	  
+	  <br /> 
+	   (<a href="../../assignments/solutions/2021-09-10-exercise01.html">Hints or Solutions</a> /
+	  <a href="../../assignments/solutions/pdfs/2021-09-10-exercise01.pdf">Hints or Solutions PDF</a>)
+	  
+        </li>
+    
+</ul>
+
+    <p><a href="../../assignments.html">All exercise sheets&hellip;</a></p>
+
+
+
+    <h2>Recent slides</h2>
+<ul>
+    
+        <li>
+            <a href="../../texslides/2021-09-16-lecture05.pdf">Lecture on 16 September, 2021</a>
+        </li>
+    
+        <li>
+            <a href="../../texslides/2021-09-13-lecture04.pdf">Lecture on 13 September, 2021</a>
+        </li>
+    
+        <li>
+            <a href="../../texslides/2021-09-10-lecture03.pdf">Lecture on 10 September, 2021</a>
+        </li>
+    
+</ul>
+
+    <p><a href="../../slides.html">All slides&hellip;</a></p>
+
+
+
+
+
+
+
+</section>
+</body>
+</html>
