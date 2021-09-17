@@ -2,12 +2,81 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"
     xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
-        <title>Assignments</title>
-        <link>http://blog.shane</link>
-        <description><![CDATA[Regular assignments]]></description>
-        <atom:link href="http://blog.shane/rss.xml" rel="self"
+        <title>MTH201 Curves and Surfaces</title>
+        <link>http://sejdm.github.io/mth201/</link>
+        <description><![CDATA[Get exercises and announcements]]></description>
+        <atom:link href="http://sejdm.github.io/mth201//rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>Unknown</lastBuildDate>
-        
+        <lastBuildDate>05:06 PM - 17 September, 2021 </lastBuildDate>
+        <item>
+    <title>exercise01</title>
+    <link>http://sejdm.github.io/mth201//assignments/exercise01.html</link>
+    <description><![CDATA[<article>
+    <section class="header">
+        <h1>Exercise sheet 1</h1>
+    </section>
+    <section>
+<p class="date"><strong>Last modified: 05:06 PM - 17 September, 2021 </strong></p>
+	  
+	  <a href="/assignments/pdfs/exercise01.pdf">PDF version</a>
+	  
+	  
+	  <br />
+	  <a href="/assignments/solutions/exercise01.html">Hints or Solutions</a> / 
+	  <a href="/assignments/solutions/pdfs/exercise01.pdf">Hints or Solutions PDF</a>
+	  
+        <ol>
+<li><p>Find a parametrization <span class="math inline">\(\gamma(t)\)</span> for a line segment joining two given points <span class="math inline">\((x_1. y_1)\)</span> and <span class="math inline">\((x_2. y_2)\)</span>. Find <span class="math inline">\(\dot{\gamma}(t)\)</span>.</p></li>
+<li><p>What does the parametrization trace out <span class="math inline">\(\gamma(t) = (\frac{2t}{1+t^2}, \frac{1-t^2}{1+t^2})\)</span>?</p></li>
+<li><p>Show that the parametrization <span class="math inline">\(\gamma(t) := (t^2 - 1, t(t^2 - 1))\)</span> is not injective, i.e. there are two <em>distinct</em> real numbers <span class="math inline">\(t_1\)</span> and <span class="math inline">\(t_2\)</span> so that <span class="math inline">\(\gamma(t_1) = \gamma(t_2)\)</span>. Can you deduce the shape<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> of this curve? Can you express the set of points defined by this curve as the zero set<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> of some function <span class="math inline">\(f(x,y)\)</span>?</p></li>
+<li><p>Remember that <span class="math inline">\(\mathbb{R}^2\)</span> can be given the structure of a vector space by defining, <span class="math inline">\((x_1,y_1) + (x_2,y_2) := (x_1+x_2, y_1 + y_2)\)</span> (vector addition) and <span class="math inline">\(c(x,y) := (cx, cy)\)</span> (scalar multiplication) for some real number <span class="math inline">\(c\)</span>. Let <span class="math inline">\(\mathbf{v}_1 : (\alpha, \beta) \to \mathbb{R}^2\)</span> and <span class="math inline">\(\mathbf{v}_2 : (\alpha, \beta) \to \mathbb{R}^2\)</span> be smooth “vector valued” functions. Show that,</p>
+<ol>
+<li><p><span class="math inline">\((\mathbf{v}_1(t) + \mathbf{v}_2(t))&#39; = \mathbf{v}_1&#39;(t) + \mathbf{v}_2&#39;(t)\)</span></p></li>
+<li><p><span class="math inline">\((\mathbf{v}_1(t) - \mathbf{v}_2(t))&#39; = \mathbf{v}_1&#39;(t) - \mathbf{v}_2&#39;(t)\)</span></p></li>
+<li><p><span class="math inline">\(\mathbf{v}(\phi(t))&#39; = \mathbf{v}&#39;(\phi(t))\phi&#39;(t)\)</span>, where <span class="math inline">\(\phi : (\alpha&#39;, \beta&#39;) \to (\alpha, \beta)\)</span> is a smooth function.</p></li>
+<li><p>During the lecture we defined <span class="math inline">\(\mathbf{v}&#39;(t)\)</span>, where <span class="math inline">\(\mathbf{v}(t) = (f(t), g(t))\)</span> to be <span class="math inline">\((f&#39;(t), g&#39;(t))\)</span>. Show that, <span class="math display">\[\mathbf{v}&#39;(t) = \lim_{h\to 0} 1/h (\mathbf{v}(t+h) - \mathbf{v}(t))\]</span> Remember that the subtraction above is vector subtraction and the multiplication by <span class="math inline">\(1/h\)</span> is scalar multiplication.</p></li>
+</ol></li>
+</ol>
+<section class="footnotes" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p>Just a rough drawing showing where the curve intersects the axes and where it self-intersects etc.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p>The zero set of a function <span class="math inline">\(f : \mathbb{R}^2 \to \mathbb{R}\)</span> is <span class="math inline">\(\{(x,y) \ |\ f(x,y) = 0\}\)</span>, i.e. the set of points <span class="math inline">\((x,y)\)</span> in the plane for which <span class="math inline">\(f(x,y)=0\)</span><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+    </section>
+</article>
+]]></description>
+    <pubDate>2010-09-06 00:01:00</pubDate>
+    <guid>http://sejdm.github.io/mth201//assignments/exercise01.html</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
+    <title>exercise02</title>
+    <link>http://sejdm.github.io/mth201//assignments/exercise02.html</link>
+    <description><![CDATA[<article>
+    <section class="header">
+        <h1>Exercise sheet 2</h1>
+    </section>
+    <section>
+<p class="date"><strong>Last modified: 12:18 AM - 18 September, 2021 </strong></p>
+	  
+	  <a href="/assignments/pdfs/exercise02.pdf">PDF version</a>
+	  
+	  
+        <ol>
+<li><p>For <span class="math inline">\(\mathbf{v} : (\alpha,\beta) \to \mathbf{R}^2\)</span> and <span class="math inline">\(\mathbf{w} : (\alpha,\beta) \to \mathbf{R}^2\)</span>, show that <span class="math inline">\((\mathbf{v}(t). \mathbf{w}(t))&#39; = \mathbf{v}&#39;(t). \mathbf{w}(t) + \mathbf{v}(t). \mathbf{w}&#39;(t)\)</span>.</p></li>
+<li><p>If <span class="math inline">\(\mathbf{n} : (\alpha,\beta) \to \mathbf{R}^2\)</span> is such that <span class="math inline">\(||\mathbf{n}(t)||\)</span> is constant, then prove that <span class="math inline">\(\dot{\mathbf{n}}(t)\)</span> is either 0 or perpendicular to <span class="math inline">\(\mathbf{n}(t)\)</span>.</p></li>
+<li><p>For <span class="math inline">\(\mathbf{v} : (\alpha,\beta) \to \mathbf{R}^2\)</span> and <span class="math inline">\(\mathbf{w} : (\alpha,\beta) \to \mathbf{R}^2\)</span>, show that <span class="math inline">\((\mathbf{v}(t). \mathbf{w}(t))&#39; = \mathbf{v}&#39;(t). \mathbf{w}(t) + \mathbf{v}(t). \mathbf{w}&#39;(t)\)</span> (Assume that all the functions are smooth).</p></li>
+</ol>
+<p>To be updated...</p>
+    </section>
+</article>
+]]></description>
+    <pubDate>2010-09-06 00:01:00</pubDate>
+    <guid>http://sejdm.github.io/mth201//assignments/exercise02.html</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+
     </channel>
 </rss>
