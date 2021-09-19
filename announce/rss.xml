@@ -3,45 +3,45 @@
     xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
         <title>MTH201 Curves and Surfaces</title>
-        <link>http://sejdm.github.io/mth201/</link>
+        <link>http://sejdm.github.io/mth201</link>
         <description><![CDATA[Get exercises and announcements]]></description>
-        <atom:link href="http://sejdm.github.io/mth201//announce/rss.xml" rel="self"
+        <atom:link href="http://sejdm.github.io/mth201/announce/rss.xml" rel="self"
                    type="application/rss+xml" />
         <lastBuildDate>05:09 PM - 17 September, 2021 </lastBuildDate>
         <item>
     <title>2021-09-17-hints-and-solutions</title>
-    <link>http://sejdm.github.io/mth201//announcements/2021-09-17-hints-and-solutions.html</link>
+    <link>http://sejdm.github.io/mth201/announcements/2021-09-17-hints-and-solutions.html</link>
     <description><![CDATA[<div class="announcement"><p>Partial <span style="color:red">hints / solutions</span> have been posted for some of the exercises from exercise sheet 1. These are just some of the ways of working them out. The tutorial instructors may have used other methods, which is fine.</p></div> <br /><span class="date">Last modified: 05:09 PM - 17 September, 2021 </span>
 ]]></description>
     <pubDate>Fri, 17 Sep 2021 00:00:00 UT</pubDate>
-    <guid>http://sejdm.github.io/mth201//announcements/2021-09-17-hints-and-solutions.html</guid>
+    <guid>http://sejdm.github.io/mth201/announcements/2021-09-17-hints-and-solutions.html</guid>
     <dc:creator>Shane D'Mello</dc:creator>
 </item>
 <item>
     <title>2021-09-18-tutorial-rooms</title>
-    <link>http://sejdm.github.io/mth201//announcements/2021-09-18-tutorial-rooms.html</link>
+    <link>http://sejdm.github.io/mth201/announcements/2021-09-18-tutorial-rooms.html</link>
     <description><![CDATA[<div class="announcement"><p>Your tutorial room assignments are now posted below, on this webpage.</p></div> <br /><span class="date">Last modified: 03:44 PM - 17 September, 2021 </span>
 ]]></description>
     <pubDate>Sat, 18 Sep 2021 00:00:00 UT</pubDate>
-    <guid>http://sejdm.github.io/mth201//announcements/2021-09-18-tutorial-rooms.html</guid>
+    <guid>http://sejdm.github.io/mth201/announcements/2021-09-18-tutorial-rooms.html</guid>
     <dc:creator>Shane D'Mello</dc:creator>
 </item>
 <item>
     <title>2021-09-16-quiz</title>
-    <link>http://sejdm.github.io/mth201//announcements/2021-09-16-quiz.html</link>
+    <link>http://sejdm.github.io/mth201/announcements/2021-09-16-quiz.html</link>
     <description><![CDATA[<div class="announcement"><p><span style="color:red"><strong>Quiz</strong></span> on Friday, the 24th of September.</p></div> <br /><span class="date">Last modified: 07:32 PM - 16 September, 2021 </span>
 ]]></description>
     <pubDate>Thu, 16 Sep 2021 00:00:00 UT</pubDate>
-    <guid>http://sejdm.github.io/mth201//announcements/2021-09-16-quiz.html</guid>
+    <guid>http://sejdm.github.io/mth201/announcements/2021-09-16-quiz.html</guid>
     <dc:creator>Shane D'Mello</dc:creator>
 </item>
 <item>
     <title>2021-09-17-test</title>
-    <link>http://sejdm.github.io/mth201//announcements/2021-09-17-test.html</link>
+    <link>http://sejdm.github.io/mth201/announcements/2021-09-17-test.html</link>
     <description><![CDATA[<div class="announcement"><p>Question 4 from Exercise sheet 1 has been corrected. Solutions to these exercises will be discussed during your tutorial.</p></div> <br /><span class="date">Last modified: 07:31 PM - 16 September, 2021 </span>
 ]]></description>
     <pubDate>Fri, 17 Sep 2021 00:00:00 UT</pubDate>
-    <guid>http://sejdm.github.io/mth201//announcements/2021-09-17-test.html</guid>
+    <guid>http://sejdm.github.io/mth201/announcements/2021-09-17-test.html</guid>
     <dc:creator>Shane D'Mello</dc:creator>
 </item>
 

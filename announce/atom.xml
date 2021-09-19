@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>MTH201 Curves and Surfaces</title>
-    <link href="http://sejdm.github.io/mth201//announce/atom.xml" rel="self" />
-    <link href="http://sejdm.github.io/mth201/" />
-    <id>http://sejdm.github.io/mth201//announce/atom.xml</id>
+    <link href="http://sejdm.github.io/mth201/announce/atom.xml" rel="self" />
+    <link href="http://sejdm.github.io/mth201" />
+    <id>http://sejdm.github.io/mth201/announce/atom.xml</id>
     <author>
         <name>Shane D'Mello</name>
         <email>shane@iisermohali.ac.in</email>
@@ -11,8 +11,8 @@
     <updated>05:09 PM - 17 September, 2021 </updated>
     <entry>
     <title>2021-09-17-hints-and-solutions</title>
-    <link href="http://sejdm.github.io/mth201//announcements/2021-09-17-hints-and-solutions.html" />
-    <id>http://sejdm.github.io/mth201//announcements/2021-09-17-hints-and-solutions.html</id>
+    <link href="http://sejdm.github.io/mth201/announcements/2021-09-17-hints-and-solutions.html" />
+    <id>http://sejdm.github.io/mth201/announcements/2021-09-17-hints-and-solutions.html</id>
     <published>2021-09-17T00:00:00Z</published>
     <updated>05:09 PM - 17 September, 2021 </updated>
     <summary type="html"><![CDATA[<div class="announcement"><p>Partial <span style="color:red">hints / solutions</span> have been posted for some of the exercises from exercise sheet 1. These are just some of the ways of working them out. The tutorial instructors may have used other methods, which is fine.</p></div> <br /><span class="date">Last modified: 05:09 PM - 17 September, 2021 </span>
@@ -20,8 +20,8 @@
 </entry>
 <entry>
     <title>2021-09-18-tutorial-rooms</title>
-    <link href="http://sejdm.github.io/mth201//announcements/2021-09-18-tutorial-rooms.html" />
-    <id>http://sejdm.github.io/mth201//announcements/2021-09-18-tutorial-rooms.html</id>
+    <link href="http://sejdm.github.io/mth201/announcements/2021-09-18-tutorial-rooms.html" />
+    <id>http://sejdm.github.io/mth201/announcements/2021-09-18-tutorial-rooms.html</id>
     <published>2021-09-18T00:00:00Z</published>
     <updated>03:44 PM - 17 September, 2021 </updated>
     <summary type="html"><![CDATA[<div class="announcement"><p>Your tutorial room assignments are now posted below, on this webpage.</p></div> <br /><span class="date">Last modified: 03:44 PM - 17 September, 2021 </span>
@@ -29,8 +29,8 @@
 </entry>
 <entry>
     <title>2021-09-16-quiz</title>
-    <link href="http://sejdm.github.io/mth201//announcements/2021-09-16-quiz.html" />
-    <id>http://sejdm.github.io/mth201//announcements/2021-09-16-quiz.html</id>
+    <link href="http://sejdm.github.io/mth201/announcements/2021-09-16-quiz.html" />
+    <id>http://sejdm.github.io/mth201/announcements/2021-09-16-quiz.html</id>
     <published>2021-09-16T00:00:00Z</published>
     <updated>07:32 PM - 16 September, 2021 </updated>
     <summary type="html"><![CDATA[<div class="announcement"><p><span style="color:red"><strong>Quiz</strong></span> on Friday, the 24th of September.</p></div> <br /><span class="date">Last modified: 07:32 PM - 16 September, 2021 </span>
@@ -38,8 +38,8 @@
 </entry>
 <entry>
     <title>2021-09-17-test</title>
-    <link href="http://sejdm.github.io/mth201//announcements/2021-09-17-test.html" />
-    <id>http://sejdm.github.io/mth201//announcements/2021-09-17-test.html</id>
+    <link href="http://sejdm.github.io/mth201/announcements/2021-09-17-test.html" />
+    <id>http://sejdm.github.io/mth201/announcements/2021-09-17-test.html</id>
     <published>2021-09-17T00:00:00Z</published>
     <updated>07:31 PM - 16 September, 2021 </updated>
     <summary type="html"><![CDATA[<div class="announcement"><p>Question 4 from Exercise sheet 1 has been corrected. Solutions to these exercises will be discussed during your tutorial.</p></div> <br /><span class="date">Last modified: 07:31 PM - 16 September, 2021 </span>

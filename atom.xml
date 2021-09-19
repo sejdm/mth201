@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>MTH201 Curves and Surfaces</title>
-    <link href="http://sejdm.github.io/mth201//atom.xml" rel="self" />
-    <link href="http://sejdm.github.io/mth201/" />
-    <id>http://sejdm.github.io/mth201//atom.xml</id>
+    <link href="http://sejdm.github.io/mth201/atom.xml" rel="self" />
+    <link href="http://sejdm.github.io/mth201" />
+    <id>http://sejdm.github.io/mth201/atom.xml</id>
     <author>
         <name>Shane D'Mello</name>
         <email>shane@iisermohali.ac.in</email>
@@ -11,8 +11,8 @@
     <updated>05:06 PM - 17 September, 2021 </updated>
     <entry>
     <title>Exercise sheet 1</title>
-    <link href="http://sejdm.github.io/mth201//assignments/2021-09-10-exercise01.html" />
-    <id>http://sejdm.github.io/mth201//assignments/2021-09-10-exercise01.html</id>
+    <link href="http://sejdm.github.io/mth201/assignments/2021-09-10-exercise01.html" />
+    <id>http://sejdm.github.io/mth201/assignments/2021-09-10-exercise01.html</id>
     <published>2021-09-10T00:00:00Z</published>
     <updated>05:06 PM - 17 September, 2021 </updated>
     <summary type="html"><![CDATA[<article>
@@ -54,8 +54,8 @@
 </entry>
 <entry>
     <title>Exercise sheet 2</title>
-    <link href="http://sejdm.github.io/mth201//assignments/2021-09-13-exercise02.html" />
-    <id>http://sejdm.github.io/mth201//assignments/2021-09-13-exercise02.html</id>
+    <link href="http://sejdm.github.io/mth201/assignments/2021-09-13-exercise02.html" />
+    <id>http://sejdm.github.io/mth201/assignments/2021-09-13-exercise02.html</id>
     <published>2021-09-13T00:00:00Z</published>
     <updated>01:11 AM - 18 September, 2021 </updated>
     <summary type="html"><![CDATA[<article>
