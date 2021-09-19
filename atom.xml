@@ -8,8 +8,43 @@
         <name>Shane D'Mello</name>
         <email>shane@iisermohali.ac.in</email>
     </author>
-    <updated>05:06 PM - 17 September, 2021 </updated>
+    <updated>01:11 AM - 18 September, 2021 </updated>
     <entry>
+    <title>Exercise sheet 2</title>
+    <link href="http://sejdm.github.io/mth201/assignments/2021-09-13-exercise02.html" />
+    <id>http://sejdm.github.io/mth201/assignments/2021-09-13-exercise02.html</id>
+    <published>2021-09-13T00:00:00Z</published>
+    <updated>01:11 AM - 18 September, 2021 </updated>
+    <summary type="html"><![CDATA[<article>
+    <section class="header">
+        <h1>Exercise sheet 2</h1>
+    </section>
+    <section>
+<p class="date"><strong>Last modified: 01:11 AM - 18 September, 2021 </strong></p>
+	  
+	  <a href="/assignments/pdfs/2021-09-13-exercise02.pdf">PDF version</a>
+	  
+	  
+        <ol>
+<li><p>For <span class="math inline">\(\mathbf{v} : (\alpha,\beta) \to \mathbf{R}^2\)</span> and <span class="math inline">\(\mathbf{w} : (\alpha,\beta) \to \mathbf{R}^2\)</span>, show that <span class="math inline">\((\mathbf{v}(t). \mathbf{w}(t))&#39; = \mathbf{v}&#39;(t). \mathbf{w}(t) + \mathbf{v}(t). \mathbf{w}&#39;(t)\)</span>.</p></li>
+<li><p>If <span class="math inline">\(\mathbf{n} : (\alpha,\beta) \to \mathbf{R}^2\)</span> is such that <span class="math inline">\(||\mathbf{n}(t)||\)</span> is constant, then prove that <span class="math inline">\(\dot{\mathbf{n}}(t)\)</span> is either 0 or perpendicular to <span class="math inline">\(\mathbf{n}(t)\)</span>.</p></li>
+<li><p>For <span class="math inline">\(\mathbf{v} : (\alpha,\beta) \to \mathbf{R}^2\)</span> and <span class="math inline">\(\mathbf{w} : (\alpha,\beta) \to \mathbf{R}^2\)</span>, show that <span class="math inline">\((\mathbf{v}(t). \mathbf{w}(t))&#39; = \mathbf{v}&#39;(t). \mathbf{w}(t) + \mathbf{v}(t). \mathbf{w}&#39;(t)\)</span> (Assume that all the functions are smooth).</p></li>
+</ol>
+<p>To be updated...</p>
+    </section>
+</article>
+]]></summary>
+</entry>
+<entry>
+    <title>Announcement</title>
+    <link href="http://sejdm.github.io/mth201/announcements/2021-09-17-hints-and-solutions.html" />
+    <id>http://sejdm.github.io/mth201/announcements/2021-09-17-hints-and-solutions.html</id>
+    <published>2021-09-17T00:00:00Z</published>
+    <updated>05:09 PM - 17 September, 2021 </updated>
+    <summary type="html"><![CDATA[<div class="announcement"><p>Partial <span style="color:red">hints / solutions</span> have been posted for some of the exercises from exercise sheet 1. These are just some of the ways of working them out. The tutorial instructors may have used other methods, which is fine.</p></div> <br /><span class="date">Last modified: 05:09 PM - 17 September, 2021 </span>
+]]></summary>
+</entry>
+<entry>
     <title>Exercise sheet 1</title>
     <link href="http://sejdm.github.io/mth201/assignments/2021-09-10-exercise01.html" />
     <id>http://sejdm.github.io/mth201/assignments/2021-09-10-exercise01.html</id>
@@ -53,30 +88,63 @@
 ]]></summary>
 </entry>
 <entry>
-    <title>Exercise sheet 2</title>
-    <link href="http://sejdm.github.io/mth201/assignments/2021-09-13-exercise02.html" />
-    <id>http://sejdm.github.io/mth201/assignments/2021-09-13-exercise02.html</id>
-    <published>2021-09-13T00:00:00Z</published>
-    <updated>01:11 AM - 18 September, 2021 </updated>
-    <summary type="html"><![CDATA[<article>
-    <section class="header">
-        <h1>Exercise sheet 2</h1>
-    </section>
-    <section>
-<p class="date"><strong>Last modified: 01:11 AM - 18 September, 2021 </strong></p>
-	  
-	  <a href="/assignments/pdfs/2021-09-13-exercise02.pdf">PDF version</a>
-	  
-	  
-        <ol>
-<li><p>For <span class="math inline">\(\mathbf{v} : (\alpha,\beta) \to \mathbf{R}^2\)</span> and <span class="math inline">\(\mathbf{w} : (\alpha,\beta) \to \mathbf{R}^2\)</span>, show that <span class="math inline">\((\mathbf{v}(t). \mathbf{w}(t))&#39; = \mathbf{v}&#39;(t). \mathbf{w}(t) + \mathbf{v}(t). \mathbf{w}&#39;(t)\)</span>.</p></li>
-<li><p>If <span class="math inline">\(\mathbf{n} : (\alpha,\beta) \to \mathbf{R}^2\)</span> is such that <span class="math inline">\(||\mathbf{n}(t)||\)</span> is constant, then prove that <span class="math inline">\(\dot{\mathbf{n}}(t)\)</span> is either 0 or perpendicular to <span class="math inline">\(\mathbf{n}(t)\)</span>.</p></li>
-<li><p>For <span class="math inline">\(\mathbf{v} : (\alpha,\beta) \to \mathbf{R}^2\)</span> and <span class="math inline">\(\mathbf{w} : (\alpha,\beta) \to \mathbf{R}^2\)</span>, show that <span class="math inline">\((\mathbf{v}(t). \mathbf{w}(t))&#39; = \mathbf{v}&#39;(t). \mathbf{w}(t) + \mathbf{v}(t). \mathbf{w}&#39;(t)\)</span> (Assume that all the functions are smooth).</p></li>
-</ol>
-<p>To be updated...</p>
-    </section>
-</article>
+    <title>Announcement</title>
+    <link href="http://sejdm.github.io/mth201/announcements/2021-09-18-tutorial-rooms.html" />
+    <id>http://sejdm.github.io/mth201/announcements/2021-09-18-tutorial-rooms.html</id>
+    <published>2021-09-18T00:00:00Z</published>
+    <updated>03:44 PM - 17 September, 2021 </updated>
+    <summary type="html"><![CDATA[<div class="announcement"><p>Your tutorial room assignments are now posted below, on this webpage.</p></div> <br /><span class="date">Last modified: 03:44 PM - 17 September, 2021 </span>
 ]]></summary>
+</entry>
+<entry>
+    <title>Announcement</title>
+    <link href="http://sejdm.github.io/mth201/announcements/2021-09-16-quiz.html" />
+    <id>http://sejdm.github.io/mth201/announcements/2021-09-16-quiz.html</id>
+    <published>2021-09-16T00:00:00Z</published>
+    <updated>07:32 PM - 16 September, 2021 </updated>
+    <summary type="html"><![CDATA[<div class="announcement"><p><span style="color:red"><strong>Quiz</strong></span> on Friday, the 24th of September.</p></div> <br /><span class="date">Last modified: 07:32 PM - 16 September, 2021 </span>
+]]></summary>
+</entry>
+<entry>
+    <title>Announcement</title>
+    <link href="http://sejdm.github.io/mth201/announcements/2021-09-17-test.html" />
+    <id>http://sejdm.github.io/mth201/announcements/2021-09-17-test.html</id>
+    <published>2021-09-17T00:00:00Z</published>
+    <updated>07:31 PM - 16 September, 2021 </updated>
+    <summary type="html"><![CDATA[<div class="announcement"><p>Question 4 from Exercise sheet 1 has been corrected. Solutions to these exercises will be discussed during your tutorial.</p></div> <br /><span class="date">Last modified: 07:31 PM - 16 September, 2021 </span>
+]]></summary>
+</entry>
+<entry>
+    <title>Lecture slide 5</title>
+    <link href="http://sejdm.github.io/mth201/texslides/2021-09-16-lecture05.pdf" />
+    <id>http://sejdm.github.io/mth201/texslides/2021-09-16-lecture05.pdf</id>
+    <published>2021-09-16T00:00:00Z</published>
+    <updated>05:44 PM - 16 September, 2021 </updated>
+    <summary type="html"><![CDATA[Lecture slide]]></summary>
+</entry>
+<entry>
+    <title>Lecture slide 4</title>
+    <link href="http://sejdm.github.io/mth201/texslides/2021-09-13-lecture04.pdf" />
+    <id>http://sejdm.github.io/mth201/texslides/2021-09-13-lecture04.pdf</id>
+    <published>2021-09-13T00:00:00Z</published>
+    <updated>04:43 PM - 15 September, 2021 </updated>
+    <summary type="html"><![CDATA[Lecture slide]]></summary>
+</entry>
+<entry>
+    <title>Lecture slide 3</title>
+    <link href="http://sejdm.github.io/mth201/texslides/2021-09-10-lecture03.pdf" />
+    <id>http://sejdm.github.io/mth201/texslides/2021-09-10-lecture03.pdf</id>
+    <published>2021-09-10T00:00:00Z</published>
+    <updated>04:43 PM - 15 September, 2021 </updated>
+    <summary type="html"><![CDATA[Lecture slide]]></summary>
+</entry>
+<entry>
+    <title>Lecture slide 2</title>
+    <link href="http://sejdm.github.io/mth201/texslides/2021-09-09-lecture02.pdf" />
+    <id>http://sejdm.github.io/mth201/texslides/2021-09-09-lecture02.pdf</id>
+    <published>2021-09-09T00:00:00Z</published>
+    <updated>04:43 PM - 15 September, 2021 </updated>
+    <summary type="html"><![CDATA[Lecture slide]]></summary>
 </entry>
 
 </feed>
