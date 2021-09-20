@@ -7,8 +7,16 @@
         <description><![CDATA[Get exercises and announcements]]></description>
         <atom:link href="http://sejdm.github.io/mth201/rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>05:26 PM - 20 September, 2021 </lastBuildDate>
+        <lastBuildDate>01:42 AM - 21 September, 2021 </lastBuildDate>
         <item>
+    <title>Lecture slide 6</title>
+    <link>http://sejdm.github.io/mth201/texslides/2021-09-20-lecture06.pdf</link>
+    <description><![CDATA[Lecture slide]]></description>
+    <pubDate>Mon, 20 Sep 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/texslides/2021-09-20-lecture06.pdf</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
     <title>Announcement</title>
     <link>http://sejdm.github.io/mth201/announcements/2021-09-16-quiz.html</link>
     <description><![CDATA[<div class="announcement"><p><span style="color:red"><strong>Quiz</strong></span> is <span style="color:red"><strong>finalized</strong></span> for Friday, the 24th of September.</p></div> <br /><span class="date">Last modified: 05:26 PM - 20 September, 2021 </span>
@@ -142,14 +150,6 @@
     <description><![CDATA[Lecture slide]]></description>
     <pubDate>Fri, 10 Sep 2021 00:00:00 UT</pubDate>
     <guid>http://sejdm.github.io/mth201/texslides/2021-09-10-lecture03.pdf</guid>
-    <dc:creator>Shane D'Mello</dc:creator>
-</item>
-<item>
-    <title>Lecture slide 2</title>
-    <link>http://sejdm.github.io/mth201/texslides/2021-09-09-lecture02.pdf</link>
-    <description><![CDATA[Lecture slide]]></description>
-    <pubDate>Thu, 09 Sep 2021 00:00:00 UT</pubDate>
-    <guid>http://sejdm.github.io/mth201/texslides/2021-09-09-lecture02.pdf</guid>
     <dc:creator>Shane D'Mello</dc:creator>
 </item>
 
