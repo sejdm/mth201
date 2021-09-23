@@ -7,11 +7,11 @@
         <description><![CDATA[Get exercises and announcements]]></description>
         <atom:link href="http://sejdm.github.io/mth201/rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>2021-09-23T16:21:48+5:30</lastBuildDate>
+        <lastBuildDate>2021-09-23T16:31:58+5:30</lastBuildDate>
         <item>
     <title>Announcement</title>
     <link>http://sejdm.github.io/mth201/announcements/2021-09-23-playlist2.html</link>
-    <description><![CDATA[<div class="announcement"><p>Videos of the latest lecture are now available on the playlist. A network interruption split the recording in two parts.</p></div> <br /><span class="date">Last modified: 04:21 PM - 23 September, 2021 </span>
+    <description><![CDATA[<div class="announcement"><p>Videos of the latest lecture are now available on the playlist. A network interruption split the recording in two parts.</p></div> <br /><span class="date">Last modified: 04:31 PM - 23 September, 2021 </span>
 ]]></description>
     <pubDate>Thu, 23 Sep 2021 00:00:00 UT</pubDate>
     <guid>http://sejdm.github.io/mth201/announcements/2021-09-23-playlist2.html</guid>
