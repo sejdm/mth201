@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>2021-09-13-exercise02 - MTH201</title>
+  <meta charset="utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="../../css/my.css">
+<link rel="stylesheet" href="../../css/syntax.css">
+  <link rel="alternate" type="application/atom+xml" title="MTH 201" href="../../atom.xml" />
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+  <div class="navbar">
+
+    <header>
+      <hgroup>
+        <h1><a href="../../index.html" id="titlelink">Curves and Surfaces<br /> (MTH 201)</a></h1>
+      </hgroup>
+    </header>
+
+    <nav id="mainnav">
+      <div id="topmenu">
+        <menu>
+          <a href="../../index.html">Course information</a>
+	  
+          <a href="../../assignments.html">Exercise sheets</a>
+	  
+	  
+          <a href="../../slides.html">Slides</a>
+	  
+	  
+        </menu>
+	</div>
+    </nav>
+    </div>
+    <section id="pagecontent">
+        <article>
+    <section class="header">
+        <h1>Hints / Solutions to Exercise sheet 2</h1>
+    </section>
+    <section>
+<p class="date"><strong>Last modified: 05:05 PM - 24 September, 2021 </strong></p>
+	  
+	  <a href="../../assignments/solutions/pdfs/2021-09-13-exercise02.pdf">PDF version</a>
+	  
+        <p><strong>Question 1:</strong> For <span class="math inline">\(\mathbf{v} : (\alpha,\beta) \to \mathbf{R}^2\)</span> and <span class="math inline">\(\mathbf{w} : (\alpha,\beta) \to \mathbf{R}^2\)</span>, show that <span class="math inline">\((\mathbf{v}(t). \mathbf{w}(t))' = \mathbf{v}'(t). \mathbf{w}(t) + \mathbf{v}(t). \mathbf{w}'(t)\)</span>.</p>
+<p><strong>Solution 1:</strong><br />
+<span class="math inline">\(\mathbf{v}(t) = (v_1(t), v_2(t))\)</span><br />
+<span class="math inline">\(\mathbf{w}(t) = (w_1(t), w_2(t))\)</span><br />
+<span class="math inline">\(\mathbf{v}(t) . \mathbf{w}(t) = v_1(t)w_1(t) + v_2(t)w_2(t)\)</span><br />
+<span class="math inline">\((\mathbf{v}(t) . \mathbf{w}(t))' = (v_1(t)w_1(t))' + (v_2(t)w_2(t))'\)</span> (by definition of differentiating a function to <span class="math inline">\(\mathbb{R}^2\)</span>)<br />
+So,<br />
+<span class="math inline">\((\mathbf{v}(t) . \mathbf{w}(t))' = v_1'(t)w_1(t)+ v_1(t)w_1'(t) +  v_2'(t)w_2(t) + v_2(t)w_2(t)'\)</span><br />
+Rearranging,<br />
+<span class="math inline">\((\mathbf{v}(t) . \mathbf{w}(t))' = (v_1'(t)w_1(t) +  v_2'(t)w_2(t))  + (v_1(t)w_1'(t) + v_2(t)w_2(t)')\)</span><br />
+<span class="math inline">\((\mathbf{v}(t) . \mathbf{w}(t))' = (v_1'(t), v_2'(t)). (w_1(t), w_2(t))  + (v_1(t),v_2(t)). (w_1'(t) . w_2(t)')\)</span><br />
+<span class="math inline">\((\mathbf{v}(t) . \mathbf{w}(t))' = \mathbf{v}'(t) . \mathbf{w}(t) + \mathbf{v}(t) . \mathbf{w}'(t)\)</span></p>
+<hr />
+<p><strong>Question 2:</strong> If <span class="math inline">\(\mathbf{n} : (\alpha,\beta) \to \mathbf{R}^2\)</span> is such that <span class="math inline">\(||\mathbf{n}(t)||\)</span> is constant, then prove that <span class="math inline">\(\dot{\mathbf{n}}(t)\)</span> is either 0 or perpendicular to <span class="math inline">\(\mathbf{n}(t)\)</span>.</p>
+<p><strong>Solution 2:</strong><br />
+This question just generalizes what was seen <span class="math inline">\(n(t) . n(t) = C\)</span><br />
+Differentiating,<br />
+<span class="math inline">\(\dot{n}(t) . n(t) + n(t) . \dot{n}(t) = 0\)</span><br />
+so, <span class="math inline">\(2\dot{n}(t) . n(t) = 0\)</span><br />
+so, <span class="math inline">\(\dot{n}(t) . n(t) = 0\)</span><br />
+</p>
+<hr />
+<p><strong>Question 3:</strong> if we denote, <span class="math display">\[s_\alpha(t) := \int_{t_\alpha}^t| | \dot{\gamma}(u)| | \mathrm{d}u\]</span> <span class="math display">\[s_\beta(t) := \int_{t_\beta}^t| | \dot{\gamma}(u)| | \mathrm{d}u\]</span> prove that <span class="math inline">\(s_\beta(t) - s_\alpha(t)\)</span> is a constant <strong>(assume that <span class="math inline">\(t_\alpha &lt; t_\beta\)</span>)</strong>.</p>
+<p><strong>Solution 3:</strong><br />
+This exercise is just saying that if you start measuring the distance traced out by your parametrization at time <span class="math inline">\(t_\beta\)</span> rather than time <span class="math inline">\(t_\alpha\)</span>, you only need to add the distance covered from time <span class="math inline">\(t_\alpha\)</span> to time <span class="math inline">\(t_\beta\)</span> We use the rule that, <span class="math display">\[\int_a^cf(t) \mathrm{d}t =  \int_a^bf(t) \mathrm{d}t +  \int_b^cf(t) \mathrm{d}t\]</span> and therefore, <span class="math display">\[\int_a^cf(t) \mathrm{d}t -  \int_b^cf(t) \mathrm{d}t =  \int_a^bf(t) \mathrm{d}t\]</span></p>
+<p>So, <span class="math display">\[s_\alpha(t) := \int_{t_\alpha}^t| | \dot{\gamma}(u)| | \mathrm{d}u\]</span> <span class="math display">\[s_\beta(t) := \int_{t_\beta}^t| | \dot{\gamma}(u)| | \mathrm{d}u\]</span> <span class="math display">\[s_\beta(t) - s_\alpha(t)  = \int_{t_\beta}^t| | \dot{\gamma}(u)| | \mathrm{d}u - \int_{t_\alpha}^t| | \dot{\gamma}(u)| | \mathrm{d}u = \int_{t_\alpha}^{t_\beta}| | \dot{\gamma}(u)| | \mathrm{d}u\]</span> But the last integral is just a real number and does not depend on <span class="math inline">\(t\)</span> so it is constant with respect to <span class="math inline">\(t\)</span>.</p>
+<hr />
+<p><strong>Question 4:</strong> If <span class="math inline">\(\gamma : (\alpha, \beta) \to \mathbb{R}^2\)</span> is a smooth <strong>and regular</strong> parametrization, then show that <span class="math inline">\(| |\dot{\gamma}(t)| | : (\alpha, \beta) \to \mathbb{R}\)</span> is smooth.</p>
+<p><strong>Solution 4:</strong><br />
+We actually need to assume that <span class="math inline">\(\gamma\)</span> is regular. Let <span class="math inline">\(\gamma(t) = (x(t). y(t))\)</span>.<br />
+<span class="math inline">\(\dot{\gamma}(t) = (\dot{x}(t). \dot{y}(t))\)</span>.<br />
+<span class="math inline">\(\|\dot{\gamma}(t)\| = \sqrt{\dot{x}^2(t) + \dot{y}^2(t)}\)</span>.<br />
+<span class="math inline">\(x(t)\)</span> and <span class="math inline">\(y(t)\)</span> are smooth because that is the meaning of <span class="math inline">\(\gamma(t)\)</span> being smooth. Of course, even their derivatives are smooth, so <span class="math inline">\(\dot{x}(t)\)</span> and <span class="math inline">\(\dot{y}(t)\)</span> are smooth.</p>
+<p>The squares of smooth functions are smooth, so <span class="math inline">\(\dot{x}^2(t)\)</span> and <span class="math inline">\(\dot{y}^2(t)\)</span> are smooth.</p>
+<p>The sum of smooth functions is smooth, so <span class="math inline">\(\dot{x}^2(t) + \dot{y}^2(t)\)</span> is smooth.</p>
+<p>We need to be careful about the square root function. Whenever <span class="math inline">\(x&gt;0\)</span>, then if, <span class="math display">\[f(x) = \sqrt{x}\]</span> usin the rule for differentiating anything of the form <span class="math inline">\(x^n\)</span> (in this case <span class="math inline">\(x^{1/2}\)</span>), <span class="math display">\[f'(x) = \frac{1}{2\sqrt{x}}\]</span></p>
+<p>Note that at <span class="math inline">\(x = 0\)</span>, this is undefined, and indeed it is not differentiable at <span class="math inline">\(x=0\)</span>. So we need to ensure that we are taking the square root of something which is strictly positive. But <span class="math inline">\(\dot{x}^2(t) + \dot{y}^2(t)&gt;0\)</span> except when <span class="math inline">\(\dot{x}(t)\)</span> and <span class="math inline">\(\dot{y}(t)\)</span> are <em>both</em> 0, in which case <span class="math inline">\(\dot{\gamma}(t)=0\)</span> for that <span class="math inline">\(t\)</span>, but that cannot happen with a regular parametrization.</p>
+    </section>
+</article>
+
+    </section>
+
+<section id="posts" class="sidenav">
+
+    <h2>Latest exercise sheet</h2>
+<ul>
+    
+        <li>
+          <a href="../../assignments/2021-09-24-exercise03.html">Exercise sheet 3</a>
+	   /
+	  <a href="../../assignments/pdfs/2021-09-24-exercise03.pdf">PDF version</a>
+	  
+	  
+        </li>
+    
+        <li>
+          <a href="../../assignments/2021-09-13-exercise02.html">Exercise sheet 2</a>
+	   /
+	  <a href="../../assignments/pdfs/2021-09-13-exercise02.pdf">PDF version</a>
+	  
+	  <br /> 
+	   (<a href="../../assignments/solutions/2021-09-13-exercise02.html">Hints or Solutions</a> /
+	  <a href="../../assignments/solutions/pdfs/2021-09-13-exercise02.pdf">Hints or Solutions PDF</a>)
+	  
+        </li>
+    
+</ul>
+
+    <p><a href="../../assignments.html">All exercise sheets&hellip;</a></p>
+
+
+
+    <h2>Recent slides</h2>
+<ul>
+    
+        <li>
+            <a href="../../texslides/2021-09-23-lecture07.pdf">Lecture on 23 September, 2021 (Thursday)</a>
+        </li>
+    
+        <li>
+            <a href="../../texslides/2021-09-20-lecture06.pdf">Lecture on 20 September, 2021 (Monday)</a>
+        </li>
+    
+        <li>
+            <a href="../../texslides/2021-09-16-lecture05.pdf">Lecture on 16 September, 2021 (Thursday)</a>
+        </li>
+    
+</ul>
+
+    <p><a href="../../slides.html">All slides&hellip;</a></p>
+
+
+
+
+
+
+
+</section>
+</body>
+</html>
