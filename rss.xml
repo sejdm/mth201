@@ -7,11 +7,11 @@
         <description><![CDATA[Get exercises and announcements]]></description>
         <atom:link href="http://sejdm.github.io/mth201/rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>2021-09-24T17:08:23+5:30</lastBuildDate>
+        <lastBuildDate>2021-09-24T17:08:56+5:30</lastBuildDate>
         <item>
     <title>Announcement</title>
     <link>http://sejdm.github.io/mth201/announcements/2021-09-24-hints.html</link>
-    <description><![CDATA[<div class="announcement"><p>Some <strong>hints / solutions</strong> to some of the exercises of exercise sheet 2 are now available. Some corrections to the questions have been hihglighted in bold.</p></div> <br /><span class="date">Last modified: 05:08 PM - 24 September, 2021 </span>
+    <description><![CDATA[<div class="announcement"><p>Some <strong>hints / solutions</strong> to some of the exercises of exercise sheet 2 are now available. Some corrections to the questions have been highlighted in bold.</p></div> <br /><span class="date">Last modified: 05:08 PM - 24 September, 2021 </span>
 ]]></description>
     <pubDate>Fri, 24 Sep 2021 00:00:00 UT</pubDate>
     <guid>http://sejdm.github.io/mth201/announcements/2021-09-24-hints.html</guid>
