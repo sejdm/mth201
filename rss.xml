@@ -7,8 +7,16 @@
         <description><![CDATA[Get exercises and announcements]]></description>
         <atom:link href="http://sejdm.github.io/mth201/rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>2021-09-23T17:03:58+5:30</lastBuildDate>
+        <lastBuildDate>2021-09-24T11:42:10+5:30</lastBuildDate>
         <item>
+    <title>Exercise sheet 2</title>
+    <link>http://sejdm.github.io/mth201/assignments/2021-09-13-exercise02.html</link>
+    <description><![CDATA[Exercise sheet 2 has been posted.]]></description>
+    <pubDate>Mon, 13 Sep 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/assignments/2021-09-13-exercise02.html</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
     <title>Announcement</title>
     <link>http://sejdm.github.io/mth201/announcements/2021-09-23-quizcancelled.html</link>
     <description><![CDATA[<div class="announcement"><p>The <span style="color:red"><strong>quiz</strong></span> originally scheduled for Friday, the 24th of Septermber, is <span style="color:red"><strong>CANCELLED</strong></span>. I will announce the new date later.</p></div> <br /><span class="date">Last modified: 05:03 PM - 23 September, 2021 </span>
@@ -32,14 +40,6 @@
     <description><![CDATA[Lecture slide 7 has been posted.]]></description>
     <pubDate>Thu, 23 Sep 2021 00:00:00 UT</pubDate>
     <guid>http://sejdm.github.io/mth201/texslides/2021-09-23-lecture07.pdf</guid>
-    <dc:creator>Shane D'Mello</dc:creator>
-</item>
-<item>
-    <title>Exercise sheet 2</title>
-    <link>http://sejdm.github.io/mth201/assignments/2021-09-13-exercise02.html</link>
-    <description><![CDATA[Exercise sheet 2 has been posted.]]></description>
-    <pubDate>Mon, 13 Sep 2021 00:00:00 UT</pubDate>
-    <guid>http://sejdm.github.io/mth201/assignments/2021-09-13-exercise02.html</guid>
     <dc:creator>Shane D'Mello</dc:creator>
 </item>
 <item>
