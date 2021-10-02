@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Inverting the arc-length function - MTH201</title>
+  <meta charset="utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="../css/my.css">
+<link rel="stylesheet" href="../css/syntax.css">
+  <link rel="alternate" type="application/atom+xml" title="MTH 201" href="../atom.xml" />
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+  <div class="navbar">
+
+    <header>
+      <hgroup>
+        <h1><a href="../index.html" id="titlelink">Curves and Surfaces<br /> (MTH 201)</a></h1>
+      </hgroup>
+    </header>
+
+    <nav id="mainnav">
+      <div id="topmenu">
+        <menu>
+          <a href="../index.html">Course information</a>
+	  
+          <a href="../assignments.html">Exercise sheets</a>
+	  
+	  
+          <a href="../slides.html">Slides</a>
+	  
+	  
+          <a href="../posts.html">Comments</a>
+	  
+        </menu>
+	</div>
+    </nav>
+    </div>
+    <section id="pagecontent">
+        <article>
+<header>
+<h1>Inverting the arc-length function</h1>
+<p class="date"><strong> 1 October, 2021 (Friday)</strong></p>
+</header>
+
+<section>
+	  
+	  <a href="../posts/pdfs/2021-10-01-Inverting-the-arc-length-function.pdf">PDF version</a>
+	  
+<p>The arc-length function is defined as,</p>
+<p><span class="math display">\[s(t) := \int_{t_0}^t\|\dot{\gamma}(u)\|\mathrm{d}u\]</span></p>
+<p>We used the inverse of <span class="math inline">\(s(t)\)</span> to reparametrize to a unit speed parametrization. However, we can only do that if it is itself smooth, is indeed invertible, and its inverse is smooth. That <span class="math inline">\(s(t)\)</span> is smooth was already demonstrated in the lecture and in an exercise.</p>
+<p>To prove that is invertible, we need to check that it is one-one, i.e. if <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span> are different, then so is <span class="math inline">\(s(x)\)</span> and <span class="math inline">\(s(y)\)</span>. Any function with a positive derivative will be one-one, and we know that <span class="math inline">\(s'(t) = \|\gamma(t)\|\)</span>, which is positive because <span class="math inline">\(\gamma\)</span> is regular.</p>
+<p>So we know that <span class="math inline">\(s\)</span> is invertible. Now the question is, is the inverse smooth? First, observe that if the inverse is smooth, then we know that <span class="math inline">\(s'(t)\)</span> must be strictly positive for all <span class="math inline">\(t\)</span>. There is a famous and important theorem, “Inverse Function Theorem”, that among other things, guarantees the converse, i.e. if the derivative of the invertible function is always positive, then its inverse is smooth.</p>
+<p>Actually, it says more:</p>
+<p><em>If <span class="math inline">\(f : (\alpha, \beta) \to (\alpha', \beta')\)</span> is a smooth function, and <span class="math inline">\(f'(t) &gt;0\)</span> for some <span class="math inline">\(t\)</span>, then <span class="math inline">\(f\)</span> is invertible in a small open interval containing <span class="math inline">\(t\)</span>, and its inverse is smooth in that interval (and, therefore, at <span class="math inline">\(f(t)\)</span>)</em></p>
+<p>So the theorem guarentees two things: invertibility, but only guarantees invertibility in a vicinity of the point at which the derivative is non-zero. But, luckily, we know that it is invertible in the entire domain by other means. The theorem also guarantees that the inverse will be smooth at <span class="math inline">\(f(t)\)</span>. This is the part that we need.</p>
+</section>
+</article>
+
+    </section>
+
+<section id="posts" class="sidenav">
+
+    <h2>Latest exercise sheet</h2>
+<ul>
+    
+        <li>
+          <a href="../assignments/2021-10-01-exercise04.html">Exercise sheet 4</a>
+	   /
+	  <a href="../assignments/pdfs/2021-10-01-exercise04.pdf">PDF version</a>
+	  
+	  
+        </li>
+    
+        <li>
+          <a href="../assignments/2021-09-24-exercise03.html">Exercise sheet 3</a>
+	   /
+	  <a href="../assignments/pdfs/2021-09-24-exercise03.pdf">PDF version</a>
+	  
+	  
+        </li>
+    
+</ul>
+
+    <p><a href="../assignments.html">All exercise sheets&hellip;</a></p>
+
+
+
+    <h2>Recent slides</h2>
+<ul>
+    
+        <li>
+            <a href="../texslides/2021-09-30-lecture08.pdf">Lecture on 30 September, 2021 (Thursday)</a>
+        </li>
+    
+        <li>
+            <a href="../texslides/2021-09-23-lecture07.pdf">Lecture on 23 September, 2021 (Thursday)</a>
+        </li>
+    
+</ul>
+
+    <p><a href="../slides.html">All slides&hellip;</a></p>
+
+
+
+    <h2>Recent comments</h2>
+<ul>
+    
+        <li>
+            <a href="../posts/2021-10-01-Inverting-the-arc-length-function.html">Inverting the arc-length function</a> -  1 October, 2021 (Friday)
+	  
+	  (<a href="posts/pdfs/2021-10-01-Inverting-the-arc-length-function.pdf">PDF file</a>)
+	  
+        </li>
+    
+</ul>
+
+    <p><a href="../posts.html">All comments&hellip;</a></p>
+
+
+    
+
+
+
+</section>
+</body>
+</html>
