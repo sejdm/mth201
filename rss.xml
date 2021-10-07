@@ -7,8 +7,16 @@
         <description><![CDATA[Get exercises and announcements]]></description>
         <atom:link href="http://sejdm.github.io/mth201/rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>2021-10-06T11:43:25+5:30</lastBuildDate>
+        <lastBuildDate>2021-10-07T16:20:36+5:30</lastBuildDate>
         <item>
+    <title>Lecture slide 10</title>
+    <link>http://sejdm.github.io/mth201/texslides/2021-10-07-lecture10.pdf</link>
+    <description><![CDATA[Lecture slide 10 has been posted.]]></description>
+    <pubDate>Thu, 07 Oct 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/texslides/2021-10-07-lecture10.pdf</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
     <title>Announcement</title>
     <link>http://sejdm.github.io/mth201/announcements/2021-10-06-quiz.html</link>
     <description><![CDATA[<div class="announcement"><p>Our next <span style="color:red"><strong>quiz</strong></span> is on <strong>Monday</strong>, the <strong>11th of October</strong>, 2021. The quiz questions will be based on material covered until Monday, the 4th of October because you will have time to discuss them during Friday’s tutorial.</p></div> <br /><span class="date">Last modified: 11:43 AM -  6 October, 2021 </span>
