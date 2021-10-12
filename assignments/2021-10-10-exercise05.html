@@ -46,8 +46,10 @@
 	<a href="../assignments/2021-10-01-exercise04.html" class="prev"><<</a>
 	
 	
+	<a href="../assignments/2021-10-10-exercise06.html" style="float:right" class="next">>></a>
+	
       </p>
-<p class="date"><strong>Last modified: 03:13 AM - 10 October, 2021 </strong></p>
+<p class="date"><strong>Last modified: 02:24 AM - 13 October, 2021 </strong></p>
 	  
 	  <a href="../assignments/pdfs/2021-10-10-exercise05.pdf">PDF version</a>
 	  
@@ -72,6 +74,17 @@
 <li><p>Prove that no matter what <span class="math inline">\(r\)</span> is, <span class="math inline">\(d'(t_0) = 0\)</span>. (By now you should be in the habit of expressing such derivatives in terms of that orthonormal basis <span class="math inline">\(\mathbf{N}_s(t)\)</span> and <span class="math inline">\(\mathbf{T}(t)\)</span> so that you can easily identify which coefficients cancel).</p></li>
 <li><p>Remember that a function <span class="math inline">\(f\)</span> has a local maximum at <span class="math inline">\(t_0\)</span> if <span class="math inline">\(f'(t_0)=0\)</span> and <span class="math inline">\(f''(t_0)&lt;0\)</span>; it has a local minimum at <span class="math inline">\(t_0\)</span> if <span class="math inline">\(f'(t_0)=0\)</span> and <span class="math inline">\(f''(t_0)&gt;0\)</span>. Compute <span class="math inline">\(d''(t)\)</span> and use parts d) and e) above to show that <span class="math inline">\(C_r\)</span> would be too big if <span class="math inline">\(r&gt;1/\kappa(t_0)\)</span> and too small if <span class="math inline">\(r &lt; 1/\kappa(t_0)\)</span>. Therefore, a circle of radius <span class="math inline">\(1/\kappa(t_0)\)</span> may be thought of as best approximating the curve at <span class="math inline">\(p\)</span>. Such a circle is called an *osculating circle* and its radius is <span class="math inline">\(1/\kappa(t_0)\)</span> is called the radius of curvature.</p></li>
 </ol></li>
+<li><p>Let <span class="math inline">\(\gamma : (\alpha,\beta) \to \mathbb{R}^2\)</span> be a regular <em>unit speed</em> parametrization of <strong>space</strong> curves. As with plane curves, we can define <span class="math inline">\(\mathbf{T}(t):=\dot{\gamma}(t)\)</span>.</p>
+<p>For a plane curve, there are only two unit vectors normal to <span class="math inline">\(\mathbf{T}(t)\)</span> for a given <span class="math inline">\(t\)</span>, but now there are infinitely many (why?). So for space curves, we choose the “normal” in the direction of the acceleration:</p>
+<ol>
+<li><p>Assume that the (ordinary, <em>not</em> signed) curvature, <span class="math inline">\(\kappa(t) \neq 0\)</span> for all <span class="math inline">\(t\)</span>. Show that <span class="math inline">\(\mathbf{N}(t) := \frac{\ddot{\gamma}(t)}{\kappa(t)} = \frac{\dot{\mathbf{T}}}{\|\dot{\mathbf{T}}\|}\)</span> is a non-zero unit vector orthogonal to <span class="math inline">\(\mathbf{T}(t)\)</span>. Why is <span class="math inline">\(\mathbf{N}(t)\)</span> smooth?</p></li>
+<li><p>Define <span class="math inline">\(\mathbf{B}(t) := \mathbf{T}(t) \times \mathbf{N}(t)\)</span>. Prove that <span class="math inline">\(\mathbf{B}(t)\)</span> is perpendicular to both <span class="math inline">\(\mathbf{T}(t)\)</span> and <span class="math inline">\(\mathbf{N}(t)\)</span>. Why is it smooth?</p></li>
+<li><p>By the previous part, <span class="math inline">\(\{\mathbf{T}(t), \textbf{N}(t), \mathbf{B}(t)\}\)</span> form an orthonormal basis. So, <span class="math display">\[\dot{\mathbf{T}}(t) = x_T(t) \mathbf{T}(t) + y_T(t) \mathbf{N}(t) + z_T(t) \mathbf{B}(t)\]</span> for some <span class="math inline">\(x_T(t), y_T(t), z_T(t)\)</span>. What are these coefficients, <span class="math inline">\(x_T(t), y_T(t), z_T(t)\)</span>? This should be straightforward (follows from part 1).</p></li>
+<li><p>Similarly, <span class="math display">\[\dot{\mathbf{N}}(t) = x_N(t) \mathbf{T}(t) + y_N(t) \mathbf{N}(t) + z_N(t) \mathbf{B}(t)\]</span> for some <span class="math inline">\(x_N(t), y_N(t), z_N(t)\)</span>. What are the coefficients, <span class="math inline">\(x_N(t)\)</span> and <span class="math inline">\(y_N(t)\)</span>? <span class="math inline">\(z_N(t)\)</span> will need to be done later. (<em>Hint:</em> As with plane curves, figuring out the coefficient involves taking an appropriate dot product. Sometimes, product rule may help you to shift the derivative and relate it with a known dot product. Remember that unit vector fields are orthgonal to their derivatives!)</p></li>
+<li><p>Similarly, <span class="math display">\[\dot{\mathbf{B}}(t) = x_B(t) \mathbf{T}(t) + y_B(t) \mathbf{N}(t) + z_B(t) \mathbf{B}(t)\]</span> for some <span class="math inline">\(x_B(t), y_B(t), z_B(t)\)</span>. Show that <span class="math inline">\(x_B(t) = 0\)</span> and <span class="math inline">\(z_B(t) = 0\)</span>. In other words <span class="math inline">\(\dot{\mathbf{B} }(t)\)</span> is always a scalar multiple of <span class="math inline">\(\mathbf{N}(t)\)</span> (which is denoted <span class="math inline">\(y_B(t)\)</span> above).</p></li>
+<li><p>Show that <span class="math inline">\(y_B(t) = -z_N(t)\)</span>. So the only two unknown coefficients are negatives of each other! Let us denote <span class="math inline">\(-y_B(t)\)</span> by <span class="math inline">\(\tau(t)\)</span> (the negative sign is only a convention and simplifies some notation later). <span class="math inline">\(\tau(t)\)</span> is a new term that cannot be written in terms of known terms like the curvature etc and is called the “torsion” at <span class="math inline">\(t\)</span>. We have shown that the derivatives of <span class="math inline">\(\mathbf{T}(t)\)</span>, <span class="math inline">\(\mathbf{N}(t)\)</span>, and <span class="math inline">\(\mathbf{B}(t)\)</span> can be written in terms of the basis <span class="math inline">\(\{\mathbf{T}(t), \textbf{N}(t), \mathbf{B}(t)\}\)</span> and the coefficients depend only on the curvature or the torsion.</p></li>
+</ol></li>
+<li><p>Prove that the torsion <span class="math inline">\(\tau(t)\)</span>, defined in the previous question, of a curve is the constant 0 if and only if the curve lies on a plane.</p></li>
 </ol>
     </section>
 </article>
@@ -84,21 +97,18 @@
 <ul>
     
         <li>
-          <a href="../assignments/2021-10-10-exercise05.html">Exercise sheet 5</a>
+          <a href="../assignments/2021-10-10-exercise06.html">Exercise sheet 6</a>
 	   /
-	  <a href="../assignments/pdfs/2021-10-10-exercise05.pdf">PDF version</a>
+	  <a href="../assignments/pdfs/2021-10-10-exercise06.pdf">PDF version</a>
 	  
 	  
         </li>
     
         <li>
-          <a href="../assignments/2021-10-01-exercise04.html">Exercise sheet 4</a>
+          <a href="../assignments/2021-10-10-exercise05.html">Exercise sheet 5</a>
 	   /
-	  <a href="../assignments/pdfs/2021-10-01-exercise04.pdf">PDF version</a>
+	  <a href="../assignments/pdfs/2021-10-10-exercise05.pdf">PDF version</a>
 	  
-	  <br /> 
-	   (<a href="../assignments/solutions/2021-10-01-exercise04.html">Hints or Solutions</a> /
-	  <a href="../assignments/solutions/pdfs/2021-10-01-exercise04.pdf">Hints or Solutions PDF</a>)
 	  
         </li>
     

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>2021-10-10-exercise06 - MTH201</title>
+  <meta charset="utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="../css/my.css">
+<link rel="stylesheet" href="../css/syntax.css">
+  <link rel="alternate" type="application/atom+xml" title="MTH 201" href="../atom.xml" />
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+  <div class="navbar">
+
+    <header>
+      <hgroup>
+        <h1><a href="../index.html" id="titlelink">Curves and Surfaces<br /> (MTH 201)</a></h1>
+      </hgroup>
+    </header>
+
+    <nav id="mainnav">
+      <div id="topmenu">
+        <menu>
+          <a href="../index.html">Course information</a>
+	  
+          <a href="../assignments.html">Exercise sheets</a>
+	  
+	  
+          <a href="../slides.html">Slides</a>
+	  
+	  
+        </menu>
+	</div>
+    </nav>
+    </div>
+    <section id="pagecontent">
+        <article>
+    <section class="header">
+        <h1>Exercise sheet 6</h1>
+    </section>
+    <section>
+      <p>
+	
+	<a href="../assignments/2021-10-10-exercise05.html" class="prev"><<</a>
+	
+	
+      </p>
+<p class="date"><strong>Last modified: 04:05 PM - 12 October, 2021 </strong></p>
+	  
+	  <a href="../assignments/pdfs/2021-10-10-exercise06.pdf">PDF version</a>
+	  
+	  
+        <p>Let <span class="math inline">\(\gamma : (\alpha,\beta) \to \mathbb{R}^2\)</span> be a regular <em>unit speed</em> parametrization of <strong>space</strong> curves. As with plane curves, we can define <span class="math inline">\(\mathbf{T}(t):=\dot{\gamma}(t)\)</span>.</p>
+<p>For a plane curve, there are only two unit vectors normal to <span class="math inline">\(\mathbf{T}(t)\)</span> for a given <span class="math inline">\(t\)</span>, but now there are infinitely many. This is why we choose the one which is in the direction of the acceleration:</p>
+<ol>
+<li><p>Assume that the (ordinary, <em>not</em> signed) curvature, <span class="math inline">\(\kappa(t) \neq 0\)</span> for all <span class="math inline">\(t\)</span>. Show that <span class="math inline">\(\mathbf{N}(t) := \frac{\ddot{\gamma}(t)}{\kappa(t)}\)</span> is a non-zero unit vector orthogonal to <span class="math inline">\(\mathbf{T}(t)\)</span>.</p></li>
+<li><p>Prove that <span class="math inline">\(\mathbf{N}(t)\)</span> is smoothly varying.</p></li>
+<li><p>Define <span class="math inline">\(\mathbf{B}(t) := \mathbf{T}(t) \times \mathbf{N}(t)\)</span>. Show that <span class="math inline">\(\mathbf{B}(t)\)</span> is smoothly varying and that <span class="math inline">\(\mathbf{B}(t)\)</span> is perpendicular to both <span class="math inline">\(\mathbf{T}(t)\)</span> and <span class="math inline">\(\mathbf{N}(t)\)</span>.</p></li>
+<li><p>By the previous part, <span class="math inline">\(\{\mathbf{T}(t), \textbf{N}(t), \mathbf{B}(t)\}\)</span> form an orthonormal basis. So, <span class="math display">\[\dot{\mathbf{T}}(t) = x_T(t) \mathbf{T}(t) + y_T(t) \mathbf{N}(t) + z_T(t) \mathbf{B}(t)\]</span> for some <span class="math inline">\(x_T(t), y_T(t), z_T(t)\)</span>. What are these coefficients, <span class="math inline">\(x_T(t), y_T(t), z_T(t)\)</span>? This should be straightforward.</p></li>
+<li><p>Similarly, <span class="math display">\[\dot{\mathbf{N}}(t) = x_N(t) \mathbf{T}(t) + y_N(t) \mathbf{N}(t) + z_N(t) \mathbf{B}(t)\]</span> for some <span class="math inline">\(x_N(t), y_N(t), z_N(t)\)</span>. What are these coefficients, <span class="math inline">\(x_N(t)\)</span> and <span class="math inline">\(y_N(t)\)</span>? <span class="math inline">\(z_N(t)\)</span> will need to be done later.</p></li>
+<li><p>Similarly, <span class="math display">\[\dot{\mathbf{B}}(t) = x_B(t) \mathbf{T}(t) + y_B(t) \mathbf{N}(t) + z_B(t) \mathbf{B}(t)\]</span> for some <span class="math inline">\(x_B(t), y_B(t), z_B(t)\)</span>. Show that <span class="math inline">\(x_B(t) = 0\)</span> and <span class="math inline">\(z_B(t) = 0\)</span>. In other words <span class="math inline">\(\dot{\mathbf{B} }(t)\)</span> is always a scalar multiple of <span class="math inline">\(\mathbf{N}(t)\)</span>. Let us denote the <em>negative</em> of this coefficient by <span class="math inline">\(\tau(t)\)</span>. The negative sign is only a convention and simplifies some notation later. In other words, <span class="math inline">\(\tau(t) = - y_B(t)\)</span> and is called the “torsion” at <span class="math inline">\(t\)</span>.</p></li>
+<li><p>Now prove that the missing coefficient <span class="math inline">\(c(t)\)</span> in part 5. is <span class="math inline">\(-\tau(t)\)</span>.</p></li>
+</ol>
+    </section>
+</article>
+
+    </section>
+
+<section id="posts" class="sidenav">
+
+    <h2>Latest exercise sheet</h2>
+<ul>
+    
+        <li>
+          <a href="../assignments/2021-10-10-exercise06.html">Exercise sheet 6</a>
+	   /
+	  <a href="../assignments/pdfs/2021-10-10-exercise06.pdf">PDF version</a>
+	  
+	  
+        </li>
+    
+        <li>
+          <a href="../assignments/2021-10-10-exercise05.html">Exercise sheet 5</a>
+	   /
+	  <a href="../assignments/pdfs/2021-10-10-exercise05.pdf">PDF version</a>
+	  
+	  
+        </li>
+    
+</ul>
+
+    <p><a href="../assignments.html">All exercise sheets&hellip;</a></p>
+
+
+
+    <h2>Recent slides</h2>
+<ul>
+    
+        <li>
+            <a href="../texslides/2021-10-07-lecture10.pdf">Lecture on  7 October, 2021 (Thursday)</a>
+        </li>
+    
+        <li>
+            <a href="../texslides/2021-10-04-lecture09.pdf">Lecture on  4 October, 2021 (Monday)</a>
+        </li>
+    
+</ul>
+
+    <p><a href="../slides.html">All slides&hellip;</a></p>
+
+
+
+
+    
+
+
+
+</section>
+</body>
+</html>
