@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>The same point under different parametrizations. - MTH201</title>
+  <meta charset="utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="../css/my.css">
+<link rel="stylesheet" href="../css/syntax.css">
+  <link rel="alternate" type="application/atom+xml" title="MTH 201" href="../atom.xml" />
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+  <div class="navbar">
+
+    <header>
+      <hgroup>
+        <h1><a href="../index.html" id="titlelink">Curves and Surfaces<br /> (MTH 201)</a></h1>
+      </hgroup>
+    </header>
+
+    <nav id="mainnav">
+      <div id="topmenu">
+        <menu>
+          <a href="../index.html">Course information</a>
+	  
+          <a href="../assignments.html">Exercise sheets</a>
+	  
+	  
+          <a href="../slides.html">Slides</a>
+	  
+	  
+          <a href="../posts.html">Comments</a>
+	  
+        </menu>
+	</div>
+    </nav>
+    </div>
+    <section id="pagecontent">
+        <article>
+<header>
+<h1>The same point under different parametrizations.</h1>
+<p class="date"><strong>14 October, 2021 (Thursday)</strong></p>
+</header>
+
+<section>
+	  
+	  <a href="../posts/pdfs/2021-10-14-points-of-parametrizations.pdf">PDF version</a>
+	  
+<p>Since there remains confusion about viewing the same point under different parametrizations, let me clarify it with an example. The main concept is very simple.</p>
+<p>If we consider the parametrization, <span class="math display">\[\gamma : (-5,5) \to \mathbb{R}^2\]</span> <span class="math display">\[\gamma(t) = (t,t)\]</span> it traces a straight line segment. The point <span class="math inline">\((1,1)\)</span>, for instance, lies on this line segment because it is the image under <span class="math inline">\(\gamma\)</span> of 1, which belongs to the domain <span class="math inline">\(\gamma\)</span>.</p>
+<p>Consider a reparametrization tracing the same straight line segment, <span class="math display">\[\tilde{\gamma} : (-5,5) \to \mathbb{R}^2\]</span> <span class="math display">\[\gamma(t) = (-t,-t)\]</span></p>
+<p>Of course, <span class="math inline">\(\tilde{\gamma}(1)=(-1,-1)\)</span> is <em>not</em> the same point as <span class="math inline">\(\gamma(1)=(1,1)\)</span>! Different parametrizations take the same parameter <span class="math inline">\(t\)</span> to different points otherwise they would define the same function! That is why, when comparing the same point under different parametrizations, we never plug in the same <span class="math inline">\(t\)</span>. We need something to relate the parameters that are taken to the same point, and that is precisely the role of the reparametrization map, which we often denote by <span class="math inline">\(\phi\)</span> (or by <span class="math inline">\(s\)</span> if it is a unit speed one)!</p>
+<p>In this example, <span class="math display">\[(1,1) = \gamma(1) = \tilde{\gamma}(-1)\]</span></p>
+<p>In fact, for any <span class="math inline">\(a\)</span>, <span class="math display">\[(a,a) = \gamma(a) = \tilde{\gamma}(-a)\]</span></p>
+<p>So, taking <span class="math inline">\(\phi : \langle-5, 5) \to (-5,5)\)</span> to be <span class="math inline">\(\phi(\tilde{t}) = -\tilde{t}\)</span>, <span class="math display">\[\tilde{\gamma}(\tilde{t})=\gamma(\phi(\tilde{t}))\]</span></p>
+<p>In other words, if a point <span class="math inline">\(p = \tilde{\gamma}(b)\)</span> for some <span class="math inline">\(b\)</span> (in the domain of <span class="math inline">\(\tilde{\gamma}\)</span>), then the <em>same</em> point <span class="math inline">\(p = \gamma(\phi(b))\)</span>.</p>
+<p>Equivalently, if a point <span class="math inline">\(p = \gamma(c)\)</span> for some <span class="math inline">\(c\)</span> (in the domain of <span class="math inline">\(\gamma\)</span>), then the <em>same</em> point <span class="math inline">\(p = \gamma(\phi^{-1}(c))\)</span>.</p>
+<p>Note that differentiating both sides of, <span class="math display">\[\tilde{\gamma}(\tilde{t})=\gamma(\phi(\tilde{t}))\]</span> gives, by chain rule, <span class="math display">\[\dot{\tilde{\gamma}}(\tilde{t})=\dot{\gamma}(\phi(\tilde{t}))\phi'(\tilde{t})\]</span></p>
+<p>This is comparing velocity vectors of the same point <span class="math inline">\(p\)</span>. and so, on the right hand side, which is using <span class="math inline">\(\gamma\)</span> (and not <span class="math inline">\(\tilde{\gamma}\)</span>), we are applying <span class="math inline">\(\dot{\gamma}\)</span> to <span class="math inline">\(\phi(\tilde{t})\)</span> and not simply to <span class="math inline">\(\tilde{t}\)</span>).</p>
+</section>
+</article>
+
+    </section>
+
+<section id="posts" class="sidenav">
+
+    <h2>Latest exercise sheet</h2>
+<ul>
+    
+        <li>
+          <a href="../assignments/2021-10-10-exercise05.html">Exercise sheet 5</a>
+	   /
+	  <a href="../assignments/pdfs/2021-10-10-exercise05.pdf">PDF version</a>
+	  
+	  
+        </li>
+    
+        <li>
+          <a href="../assignments/2021-10-01-exercise04.html">Exercise sheet 4</a>
+	   /
+	  <a href="../assignments/pdfs/2021-10-01-exercise04.pdf">PDF version</a>
+	  
+	  <br /> 
+	   (<a href="../assignments/solutions/2021-10-01-exercise04.html">Hints or Solutions</a> /
+	  <a href="../assignments/solutions/pdfs/2021-10-01-exercise04.pdf">Hints or Solutions PDF</a>)
+	  
+        </li>
+    
+</ul>
+
+    <p><a href="../assignments.html">All exercise sheets&hellip;</a></p>
+
+
+
+    <h2>Recent slides</h2>
+<ul>
+    
+        <li>
+            <a href="../texslides/2021-10-07-lecture10.pdf">Lecture on  7 October, 2021 (Thursday)</a>
+        </li>
+    
+        <li>
+            <a href="../texslides/2021-10-04-lecture09.pdf">Lecture on  4 October, 2021 (Monday)</a>
+        </li>
+    
+</ul>
+
+    <p><a href="../slides.html">All slides&hellip;</a></p>
+
+
+
+    <h2>Recent comments</h2>
+<ul>
+    
+        <li>
+            <a href="../posts/2021-10-14-points-of-parametrizations.html">The same point under different parametrizations.</a> - 14 October, 2021 (Thursday)
+	  
+	  (<a href="posts/pdfs/2021-10-14-points-of-parametrizations.pdf">PDF file</a>)
+	  
+        </li>
+    
+</ul>
+
+    <p><a href="../posts.html">All comments&hellip;</a></p>
+
+
+
+
+    
+</section>
+</body>
+</html>
