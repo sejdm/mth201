@@ -7,7 +7,7 @@
         <description><![CDATA[Get exercises and announcements]]></description>
         <atom:link href="http://sejdm.github.io/mth201/rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>2021-10-14T15:45:05+5:30</lastBuildDate>
+        <lastBuildDate>2021-10-14T15:56:01+5:30</lastBuildDate>
         <item>
     <title>The same point under different parametrizations.</title>
     <link>http://sejdm.github.io/mth201/posts/2021-10-14-points-of-parametrizations.html</link>
