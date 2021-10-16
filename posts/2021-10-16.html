@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Signed vs unsigned curvature - MTH201</title>
+  <meta charset="utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="../css/my.css">
+<link rel="stylesheet" href="../css/syntax.css">
+  <link rel="alternate" type="application/atom+xml" title="MTH 201" href="../atom.xml" />
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+  <div class="navbar">
+
+    <header>
+      <hgroup>
+        <h1><a href="../index.html" id="titlelink">Curves and Surfaces<br /> (MTH 201)</a></h1>
+      </hgroup>
+    </header>
+
+    <nav id="mainnav">
+      <div id="topmenu">
+        <menu>
+          <a href="../index.html">Course information</a>
+	  
+          <a href="../assignments.html">Exercise sheets</a>
+	  
+	  
+          <a href="../slides.html">Slides</a>
+	  
+	  
+          <a href="../posts.html">Comments</a>
+	  
+        </menu>
+	</div>
+    </nav>
+    </div>
+    <section id="pagecontent">
+        <article>
+<header>
+<h1>Signed vs unsigned curvature</h1>
+<p class="date"><strong>16 October, 2021 (Saturday)</strong></p>
+</header>
+
+<section>
+	  
+	  <a href="../posts/pdfs/2021-10-16.pdf">PDF version</a>
+	  
+<p>First, we will note what is true for both plane curves and space curves. <span class="math inline">\(\|\ddot{\gamma}(t)\|\)</span> is the curvature of a curve defined by a unit speed parametrization <span class="math inline">\(\gamma : (\alpha,\beta) \to \mathbb{R}^n\)</span>, where <span class="math inline">\(n=2,3\)</span>. This has to be 0 or positive because it is the norm of a vector. Also, the acceleration vector <span class="math inline">\(\ddot{\gamma}(t)\)</span>, for any curve is always perpendicular to the unit tangent vector. These two are true for plane <em>and</em> space curves.</p>
+<p>For plane curves we have a nice opportunity. Consider any unit vector <span class="math inline">\(\mathbf{v}\)</span> in the plane, based at a point <span class="math inline">\(p\)</span>. There are exactly two vectors perpendicular to <span class="math inline">\(\mathbf{v}\)</span>: one obtained by rotating <span class="math inline">\(\mathbf{v}\)</span> around <span class="math inline">\(p\)</span> in the counterclockwise direction, and one obtained by rotating it in the clockwise direction. Furthermore, both these vector are negatives of each other, so if we denote one of them as <span class="math inline">\(\mathbf{w}\)</span>, the other is <span class="math inline">\(-\mathbf{w}\)</span>.</p>
+<p>Since the acceleration vector at <span class="math inline">\(t\)</span> is always perpendicular to the unit tangent vector at <span class="math inline">\(t\)</span>, it can have two possible directions which can be represented by unit vectors obtained by rotating <span class="math inline">\(\mathbf{T}(t)\)</span> counterclockwise or clockwise (around the point <span class="math inline">\(\gamma(t)\)</span>). Since they are negatives of each other, all that remains is to somehow decide on the main one. The convention is to give importance to the one that is obtained by rotating the unit tangent vector counterclockwise, and denote that by <span class="math inline">\(\mathbf{N}_s(t)\)</span>. Now, since the acceleration vector points in the direction of <span class="math inline">\(\mathbf{N}_s(t)\)</span> or its negative, <span class="math inline">\(-\mathbf{N}_s(t)\)</span>, it will always be a scalar multiple (denoted <span class="math inline">\(\kappa_s(t)\)</span>) of <span class="math inline">\(\mathbf{N}_s(t)\)</span>. Note that unlike the ordinary curvature, <span class="math inline">\(\kappa(t)\)</span>, this scalar multiple, <span class="math inline">\(\kappa_s(t)\)</span>, will have a negative sign if the acceleration vector points in the direction of <span class="math inline">\(-\mathbf{N}_s(t)\)</span> rather than <span class="math inline">\(\mathbf{N}_s(t)\)</span>. However, <span class="math inline">\(|\kappa_s(t)| = \kappa(t)\)</span>.</p>
+<p>To summarize, the curvature is merely the maginitude of the acceleration. Since the acceleration is always orthogonal to the unit tangent vector, for plane curves and <em>only</em> for plane curves, we <em>almost</em> know its direction: we know it is one of two possibilities. The signed curvature, by enhancing the curvature with a sign, tells us which of these two are possible. This is why, for plane curves, and <em>only</em> for plane curves, the signed curvature tells us the magnitude and direction of the the acceleration vector.</p>
+<p>For space curves, we cannot define a signed curvature. In space, there are infinitely many directions (unit vectors) orthogonal to a unit tangent vector (or any fixed vector, for that matter). It now makes no sense to say ``rotate the unit tangent vector’’ in the counterclockwise direction because we have to rotate about some axis but now there are infinitely many (in the case of plane curves, there was a natural axis of rotation: the one perpendicular to the plane in which the curve lies). So for space curves, we only talk about the ordinary curvature, and while that tells us the magnitude of the acceleration, it does not single out the direction.</p>
+<p>However, as we saw in one of our lectures, <span class="math inline">\(\mathbf{N}_s(t)\)</span> was also important because together with <span class="math inline">\(\mathbf{T}_s(t)\)</span> it formed a very convenient basis that helped us to figure out why constant curvature curves lie one a circle etc. Much of the power of this (moving) basis came from the fact that the derivatives of them could be written in terms of these basis again and the signed curvature.</p>
+<p>It would be nice if a similar basis exists for space curves too. Remember that just as in plane curves, it would be more powerful if their derivatives could be written in terms of the basis. We already have <span class="math inline">\(\mathbf{T}(t)\)</span>, and this time the natural normal <span class="math inline">\(\mathbf{N}(t)\)</span> is simply the direction of the accelaration. Since space is 3-dimensional, we also need one more vector which should be orthogonal to these two, but all this is discussed in the 6th question from <a href="../posts/2021-10-16.html">exercise set 5</a>.</p>
+</section>
+</article>
+
+    </section>
+
+<section id="posts" class="sidenav">
+
+    <h2>Latest exercise sheet</h2>
+<ul>
+    
+        <li>
+          <a href="../assignments/2021-10-10-exercise05.html">Exercise sheet 5</a>
+	   /
+	  <a href="../assignments/pdfs/2021-10-10-exercise05.pdf">PDF version</a>
+	  
+	  
+        </li>
+    
+        <li>
+          <a href="../assignments/2021-10-01-exercise04.html">Exercise sheet 4</a>
+	   /
+	  <a href="../assignments/pdfs/2021-10-01-exercise04.pdf">PDF version</a>
+	  
+	  <br /> 
+	   (<a href="../assignments/solutions/2021-10-01-exercise04.html">Hints or Solutions</a> /
+	  <a href="../assignments/solutions/pdfs/2021-10-01-exercise04.pdf">Hints or Solutions PDF</a>)
+	  
+        </li>
+    
+</ul>
+
+    <p><a href="../assignments.html">All exercise sheets&hellip;</a></p>
+
+
+
+    <h2>Recent slides</h2>
+<ul>
+    
+        <li>
+            <a href="../texslides/2021-10-07-lecture10.pdf">Lecture on  7 October, 2021 (Thursday)</a>
+        </li>
+    
+        <li>
+            <a href="../texslides/2021-10-04-lecture09.pdf">Lecture on  4 October, 2021 (Monday)</a>
+        </li>
+    
+</ul>
+
+    <p><a href="../slides.html">All slides&hellip;</a></p>
+
+
+
+    <h2>Recent comments</h2>
+<ul>
+    
+        <li>
+            <a href="../posts/2021-10-16.html">Signed vs unsigned curvature</a> - 16 October, 2021 (Saturday)
+	  
+	  (<a href="posts/pdfs/2021-10-16.pdf">PDF file</a>)
+	  
+        </li>
+    
+        <li>
+            <a href="../posts/2021-10-14-points-of-parametrizations.html">The same point under different parametrizations.</a> - 14 October, 2021 (Thursday)
+	  
+	  (<a href="posts/pdfs/2021-10-14-points-of-parametrizations.pdf">PDF file</a>)
+	  
+        </li>
+    
+</ul>
+
+    <p><a href="../posts.html">All comments&hellip;</a></p>
+
+
+
+
+    
+</section>
+</body>
+</html>

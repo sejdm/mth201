@@ -8,13 +8,13 @@
         <name>Shane D'Mello</name>
         <email>shane@iisermohali.ac.in</email>
     </author>
-    <updated>2021-10-14T15:56:01+5:30</updated>
+    <updated>2021-10-16T17:34:01+5:30</updated>
     <entry>
-    <title>The same point under different parametrizations.</title>
-    <link href="http://sejdm.github.io/mth201/posts/2021-10-14-points-of-parametrizations.html" />
-    <id>http://sejdm.github.io/mth201/posts/2021-10-14-points-of-parametrizations.html</id>
-    <published>2021-10-14T00:00:00Z</published>
-    <updated>2021-10-14T15:56:01+5:30</updated>
+    <title>Signed vs unsigned curvature</title>
+    <link href="http://sejdm.github.io/mth201/posts/2021-10-16.html" />
+    <id>http://sejdm.github.io/mth201/posts/2021-10-16.html</id>
+    <published>2021-10-16T00:00:00Z</published>
+    <updated>2021-10-16T17:34:01+5:30</updated>
     <summary type="html"><![CDATA[A comment  has been posted.]]></summary>
 </entry>
 <entry>
@@ -22,8 +22,16 @@
     <link href="http://sejdm.github.io/mth201/assignments/2021-10-10-exercise05.html" />
     <id>http://sejdm.github.io/mth201/assignments/2021-10-10-exercise05.html</id>
     <published>2021-10-10T00:00:00Z</published>
-    <updated>2021-10-13T15:22:39+5:30</updated>
+    <updated>2021-10-15T17:01:48+5:30</updated>
     <summary type="html"><![CDATA[Exercise sheet 5 has been posted.]]></summary>
+</entry>
+<entry>
+    <title>The same point under different parametrizations.</title>
+    <link href="http://sejdm.github.io/mth201/posts/2021-10-14-points-of-parametrizations.html" />
+    <id>http://sejdm.github.io/mth201/posts/2021-10-14-points-of-parametrizations.html</id>
+    <published>2021-10-14T00:00:00Z</published>
+    <updated>2021-10-14T15:56:01+5:30</updated>
+    <summary type="html"><![CDATA[A comment  has been posted.]]></summary>
 </entry>
 <entry>
     <title>Exercise sheet 4</title>
