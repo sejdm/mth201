@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>2021-10-10-exercise05 - MTH201</title>
+  <meta charset="utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="../../css/my.css">
+<link rel="stylesheet" href="../../css/syntax.css">
+  <link rel="alternate" type="application/atom+xml" title="MTH 201" href="../../atom.xml" />
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+  <div class="navbar">
+
+    <header>
+      <hgroup>
+        <h1><a href="../../index.html" id="titlelink">Curves and Surfaces<br /> (MTH 201)</a></h1>
+      </hgroup>
+    </header>
+
+    <nav id="mainnav">
+      <div id="topmenu">
+        <menu>
+          <a href="../../index.html">Course information</a>
+	  
+          <a href="../../assignments.html">Exercise sheets</a>
+	  
+	  
+          <a href="../../slides.html">Slides</a>
+	  
+	  
+          <a href="../../posts.html">Comments</a>
+	  
+        </menu>
+	</div>
+    </nav>
+    </div>
+    <section id="pagecontent">
+        <article>
+    <section class="header">
+        <h1>Hints / Solutions to Exercise sheet 5</h1>
+    </section>
+    <section>
+<p class="date"><strong>Last modified: 04:12 AM - 19 October, 2021 </strong></p>
+	  
+	  <a href="../../assignments/solutions/pdfs/2021-10-10-exercise05.pdf">PDF version</a>
+	  
+        <p><strong>Question 5:</strong> Consider a (plane) curve parametrized by <span class="math inline">\(\gamma : (a, b) \to \mathbf{R}^2\)</span> and a point on that curve <span class="math inline">\(p = \gamma(t_0)\)</span>. We will find a circle which best approximates the curve at <span class="math inline">\(p\)</span>, in the sense defined below. This will give another perspective on curvature. To solve this exercise, you need to be familiar with using derivatives to find out local maxima or minima.</p>
+<p><strong>Solution 5:</strong><br />
+Part 1. <span class="math inline">\(\mathbf{N}_s(t)\)</span> is orthogonal to the <span class="math inline">\(\mathbf{T}(t)\)</span> which coincides with the tangent of the circle, so <span class="math inline">\(\mathbf{N}_s(t)\)</span> is the line containing it is perpendicular to the tangent line of the circle at the same point. Such a line always contains the center of the circle.</p>
+<p>Part 2. The center of the circle is a translate of <span class="math inline">\(p\)</span> in the direction of <span class="math inline">\(\mathbf{N}_s(t)\)</span> so it is in the same direction as the normal of a circle. The circle’s tangent is perpendicular to the normal, but so is the tangent of the curve and so they coincide.</p>
+<p>Part 3. The expression in the norm is measuring the distance of <span class="math inline">\(\gamma(t)\)</span> from the center of the circle. When it is exactly the radius, it lies on the circle, when it is bigger than the radius, it lies outside the circle.</p>
+<p>Part 4. There is some <span class="math inline">\(\epsilon\)</span> so that for any <span class="math inline">\(t\in (t_0 - \epsilon, t_0 + \epsilon)\)</span>, <span class="math inline">\(d(t) \geq r^2\)</span>. However, at <span class="math inline">\(d(t_0)=r\)</span> so in this small interval, <span class="math inline">\(d\)</span> attains its minimum at <span class="math inline">\(t_0\)</span>.</p>
+<p>Part 5. Similar to part 4.</p>
+<p>Part 6. Product rule: <span class="math display">\[\begin{aligned}
+  (\|\gamma(t) - (p + r \mathbf{N}_s(t))\|^2)' &amp;=&amp; ((\gamma(t) - (p + r \mathbf{N}_s(t))) . (\gamma(t) - (p + r \mathbf{N}_s(t))))'\\
+  &amp;=&amp; 2(\gamma(t) - (p + r \mathbf{N}_s(t))) . (\gamma(t) - (p + r \mathbf{N}_s(t)))'\\
+  &amp;=&amp; 2(\gamma(t) - (p + r \mathbf{N}_s(t))) . (\dot{\gamma}(t) - r \dot{\mathbf{N}}_s(t))\\
+                                         &amp;=&amp; 2(\gamma(t) - (p + r \mathbf{N}_s(t))) . (\mathbf{T}(t) - r \kappa(t)\mathbf{T}(t))\\
+                                         &amp;=&amp; 2(\gamma(t) - (p + r \mathbf{N}_s(t))) . (1 - r \kappa(t))\mathbf{T}(t)\\\end{aligned}\]</span></p>
+<p>At <span class="math inline">\(t_0\)</span>, using <span class="math inline">\(p = \gamma(t_0)\)</span> (by definition),</p>
+<p><span class="math display">\[\begin{aligned}
+2(\gamma(t_0) - (p + r \mathbf{N}_s(t_0))) . (1 - r \kappa(t_0))\mathbf{T}(t) &amp;=&amp; -2r \mathbf{N}_s(t_0)) . (1 - r \kappa(t_0))\mathbf{T}(t_0) \\
+ &amp;=&amp; -2r (1 - r \kappa(t_0) \mathbf{N}_s(t_0)) . \mathbf{T}(t_0) \\
+ &amp;=&amp; 0 \\\end{aligned}\]</span></p>
+<p>Part 7. <span class="math display">\[\begin{aligned}
+2(\gamma(t) - (p + r \mathbf{N}_s(t))) . (1 - r \kappa(t))\mathbf{T}(t) &amp;=&amp; \\\end{aligned}\]</span></p>
+    </section>
+</article>
+
+    </section>
+
+<section id="posts" class="sidenav">
+
+    <h2>Latest exercise sheet</h2>
+<ul>
+    
+        <li>
+          <a href="../../assignments/2021-10-10-exercise05.html">Exercise sheet 5</a>
+	   /
+	  <a href="../../assignments/pdfs/2021-10-10-exercise05.pdf">PDF version</a>
+	  
+	  <br /> 
+	   (<a href="../../assignments/solutions/2021-10-10-exercise05.html">Hints or Solutions</a> /
+	  <a href="../../assignments/solutions/pdfs/2021-10-10-exercise05.pdf">Hints or Solutions PDF</a>)
+	  
+        </li>
+    
+        <li>
+          <a href="../../assignments/2021-10-01-exercise04.html">Exercise sheet 4</a>
+	   /
+	  <a href="../../assignments/pdfs/2021-10-01-exercise04.pdf">PDF version</a>
+	  
+	  <br /> 
+	   (<a href="../../assignments/solutions/2021-10-01-exercise04.html">Hints or Solutions</a> /
+	  <a href="../../assignments/solutions/pdfs/2021-10-01-exercise04.pdf">Hints or Solutions PDF</a>)
+	  
+        </li>
+    
+</ul>
+
+    <p><a href="../../assignments.html">All exercise sheets&hellip;</a></p>
+
+
+
+    <h2>Recent slides</h2>
+<ul>
+    
+        <li>
+            <a href="../../texslides/2021-10-18-lecture11.pdf">Lecture on 18 October, 2021 (Monday)</a>
+        </li>
+    
+        <li>
+            <a href="../../texslides/2021-10-07-lecture10.pdf">Lecture on  7 October, 2021 (Thursday)</a>
+        </li>
+    
+</ul>
+
+    <p><a href="../../slides.html">All slides&hellip;</a></p>
+
+
+
+    <h2>Recent comments</h2>
+<ul>
+    
+        <li>
+            <a href="../../posts/2021-10-17-orthonormal-basis.html">The importance of orthonormal basis</a> - 17 October, 2021 (Sunday)
+	  
+	  (<a href="posts/pdfs/2021-10-17-orthonormal-basis.pdf">PDF file</a>)
+	  
+        </li>
+    
+        <li>
+            <a href="../../posts/2021-10-16.html">Signed vs unsigned curvature</a> - 16 October, 2021 (Saturday)
+	  
+	  (<a href="posts/pdfs/2021-10-16.pdf">PDF file</a>)
+	  
+        </li>
+    
+</ul>
+
+    <p><a href="../../posts.html">All comments&hellip;</a></p>
+
+
+
+
+</section>
+</body>
+</html>

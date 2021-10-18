@@ -7,13 +7,45 @@
         <description><![CDATA[Get exercises and announcements]]></description>
         <atom:link href="http://sejdm.github.io/mth201/rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>2021-10-16T23:02:01+5:30</lastBuildDate>
+        <lastBuildDate>2021-10-19T04:12:40+5:30</lastBuildDate>
         <item>
-    <title>Signed vs unsigned curvature</title>
-    <link>http://sejdm.github.io/mth201/posts/2021-10-16.html</link>
+    <title>Hints / Solutions 5</title>
+    <link>http://sejdm.github.io/mth201/assignments/solutions/2021-10-10-exercise05.html</link>
+    <description><![CDATA[Hints / Solutions 5 has been posted.]]></description>
+    <pubDate>Sun, 10 Oct 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/assignments/solutions/2021-10-10-exercise05.html</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
+    <title>Lecture slide 11</title>
+    <link>http://sejdm.github.io/mth201/texslides/2021-10-18-lecture11.pdf</link>
+    <description><![CDATA[Lecture slide 11 has been posted.]]></description>
+    <pubDate>Mon, 18 Oct 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/texslides/2021-10-18-lecture11.pdf</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
+    <title>The importance of orthonormal basis</title>
+    <link>http://sejdm.github.io/mth201/posts/2021-10-17-orthonormal-basis.html</link>
     <description><![CDATA[A comment  has been posted.]]></description>
-    <pubDate>Sat, 16 Oct 2021 00:00:00 UT</pubDate>
-    <guid>http://sejdm.github.io/mth201/posts/2021-10-16.html</guid>
+    <pubDate>Sun, 17 Oct 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/posts/2021-10-17-orthonormal-basis.html</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
+    <title>Hints / Solutions 3</title>
+    <link>http://sejdm.github.io/mth201/assignments/solutions/2021-09-24-exercise03.html</link>
+    <description><![CDATA[Hints / Solutions 3 has been posted.]]></description>
+    <pubDate>Fri, 24 Sep 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/assignments/solutions/2021-09-24-exercise03.html</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
+    <title>Exercise sheet 4</title>
+    <link>http://sejdm.github.io/mth201/assignments/2021-10-01-exercise04.html</link>
+    <description><![CDATA[Exercise sheet 4 has been posted.]]></description>
+    <pubDate>Fri, 01 Oct 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/assignments/2021-10-01-exercise04.html</guid>
     <dc:creator>Shane D'Mello</dc:creator>
 </item>
 <item>
@@ -25,19 +57,19 @@
     <dc:creator>Shane D'Mello</dc:creator>
 </item>
 <item>
+    <title>Signed vs unsigned curvature</title>
+    <link>http://sejdm.github.io/mth201/posts/2021-10-16.html</link>
+    <description><![CDATA[A comment  has been posted.]]></description>
+    <pubDate>Sat, 16 Oct 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/posts/2021-10-16.html</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
     <title>The same point under different parametrizations.</title>
     <link>http://sejdm.github.io/mth201/posts/2021-10-14-points-of-parametrizations.html</link>
     <description><![CDATA[A comment  has been posted.]]></description>
     <pubDate>Thu, 14 Oct 2021 00:00:00 UT</pubDate>
     <guid>http://sejdm.github.io/mth201/posts/2021-10-14-points-of-parametrizations.html</guid>
-    <dc:creator>Shane D'Mello</dc:creator>
-</item>
-<item>
-    <title>Exercise sheet 4</title>
-    <link>http://sejdm.github.io/mth201/assignments/2021-10-01-exercise04.html</link>
-    <description><![CDATA[Exercise sheet 4 has been posted.]]></description>
-    <pubDate>Fri, 01 Oct 2021 00:00:00 UT</pubDate>
-    <guid>http://sejdm.github.io/mth201/assignments/2021-10-01-exercise04.html</guid>
     <dc:creator>Shane D'Mello</dc:creator>
 </item>
 <item>

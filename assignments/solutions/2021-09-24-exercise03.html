@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>2021-10-01-exercise04 - MTH201</title>
+  <title>2021-09-24-exercise03 - MTH201</title>
   <meta charset="utf-8" />
   <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet" type="text/css">
@@ -40,21 +40,20 @@
     <section id="pagecontent">
         <article>
     <section class="header">
-        <h1>Hints / Solutions to Exercise sheet 4</h1>
+        <h1>Hints / Solutions to Exercise sheet 3</h1>
     </section>
     <section>
-<p class="date"><strong>Last modified: 03:59 PM -  8 October, 2021 </strong></p>
+<p class="date"><strong>Last modified: 08:30 PM - 17 October, 2021 </strong></p>
 	  
-	  <a href="../../assignments/solutions/pdfs/2021-10-01-exercise04.pdf">PDF version</a>
+	  <a href="../../assignments/solutions/pdfs/2021-09-24-exercise03.pdf">PDF version</a>
 	  
-        <p><strong>Question 1:</strong> Show that the curvature at any point of a line segment is always 0.</p>
-<p><strong>Solution 1:</strong> A line segment is parametrized by <span class="math inline">\(\gamma(t) = p + \mathbf{v}t\)</span>. Note that <span class="math inline">\(\dot{\gamma}(t) = v\)</span> and so <span class="math inline">\(\|\dot{\gamma}(t)\|= \|v\|\)</span>. So a unit speed reparametrization is <span class="math inline">\(\tilde{\gamma}(\tilde{t}) = p + \frac{v}{\|v\|}\tilde{t}\)</span>. Now <span class="math inline">\(\ddot{\gamma}(\tilde{t}) = 0\)</span>.</p>
+        <p><strong>Question 1:</strong> In an earlier exercise you found the parametrization of a line segment joining two points. Use that parametrization to find the arc length of the line segment in terms of its end points. Try with some other parametrization too.</p>
+<p><strong>Solution 1:</strong> The line segment between <span class="math inline">\(p\)</span> and <span class="math inline">\(q\)</span> can be obtained by considering the displacement vector <span class="math inline">\(q-p\)</span>. The parametrization should be so that at <span class="math inline">\(t=0\)</span>, <span class="math inline">\(p\)</span> is not being displaced at all, but when <span class="math inline">\(t=1\)</span>, <span class="math inline">\(p\)</span> is displaced to <span class="math inline">\(q\)</span>:</p>
+<p><span class="math display">\[\gamma(t) = p + t(q-p)\]</span> <span class="math display">\[\dot{\gamma}(t) = (q-p)\]</span> <span class="math display">\[\|\dot{\gamma}(t)\| = \|q-p\|\]</span> <span class="math display">\[\int_0^1\|\dot{\gamma}(t)\mathrm{d}t\| = \int_0^1\|q-p\|\mathrm{d}t = \|q-p\|\]</span></p>
 <hr />
-<p><strong>Question 3:</strong> Given <em>any</em> smooth parametrization, <span class="math inline">\(\gamma : (\alpha, \beta) \to \mathbb{R}^2\)</span>, is the curvature function <span class="math inline">\(\kappa(t)\)</span> always smooth? Do you need to add some condition? What is it?</p>
-<p><strong>Hint 3:</strong> The definition of curvature involves a norm, which involves taking a square root. <span class="math inline">\(\sqrt{f(t)}\)</span> is smooth if and only if <span class="math inline">\(f(t)&gt;0\)</span>. So it is smooth only if the acceleration is not 0, which is itself equivalent to the curvature being non-zero.</p>
-<hr />
-<p><strong>Question 5:</strong> If <span class="math inline">\(\gamma : (\alpha, \beta) \to \mathbb{R}^2\)</span> parametrizes a curve, compute the curvature of the curve parametrized by <span class="math inline">\(\tilde{\gamma}(t) = \gamma(-t)\)</span> in terms of the curvature of <span class="math inline">\(\gamma\)</span>. What about the relation between the signed curvatures of <span class="math inline">\(\gamma\)</span> and <span class="math inline">\(\tilde{\gamma}\)</span>?</p>
-<p><strong>Hint 5:</strong> After computing, you will realize that they differ only by a sign. Intuitively, if you move along a curve in the opposite direction, then you “turn” in the other direction.</p>
+<p><strong>Question 2:</strong> These steps will show that the line segment joining two points is the shortest possible curve joining the two points:</p>
+<p><strong>Solution 2:</strong> Remember that <span class="math inline">\(\mathbf{v} . \mathbf{w} = \|\mathbf{v}\|\|\mathbf{w}\|\cos(\theta)\)</span> where <span class="math inline">\(\theta\)</span> is the angle between <span class="math inline">\(\mathbf{v}\)</span> and <span class="math inline">\(\mathbf{w}\)</span>. Part 1.. easily follows from <span class="math inline">\(\cos(\theta)\leq 1\)</span> for any angle <span class="math inline">\(\theta\)</span>.</p>
+<p>For part 2, <span class="math display">\[\mathbf{v}.\frac{\mathbf{v}}{\|\mathbf{v}\|}= \frac{1}{\|\mathbf{v}\|}(\mathbf{v}.\mathbf{v}) = \frac{\|\mathbf{v}\|^2}{\| \mathbf{v}\|} = \|\mathbf{v}\|\]</span> This part allows you to express the norm in a way that will allow you to use the fundamental theorem of calculus in the next part.</p>
     </section>
 </article>
 

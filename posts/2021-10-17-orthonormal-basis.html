@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>The importance of orthonormal basis - MTH201</title>
+  <meta charset="utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="../css/my.css">
+<link rel="stylesheet" href="../css/syntax.css">
+  <link rel="alternate" type="application/atom+xml" title="MTH 201" href="../atom.xml" />
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+  <div class="navbar">
+
+    <header>
+      <hgroup>
+        <h1><a href="../index.html" id="titlelink">Curves and Surfaces<br /> (MTH 201)</a></h1>
+      </hgroup>
+    </header>
+
+    <nav id="mainnav">
+      <div id="topmenu">
+        <menu>
+          <a href="../index.html">Course information</a>
+	  
+          <a href="../assignments.html">Exercise sheets</a>
+	  
+	  
+          <a href="../slides.html">Slides</a>
+	  
+	  
+          <a href="../posts.html">Comments</a>
+	  
+        </menu>
+	</div>
+    </nav>
+    </div>
+    <section id="pagecontent">
+        <article>
+<header>
+<h1>The importance of orthonormal basis</h1>
+<p class="date"><strong>17 October, 2021 (Sunday)</strong></p>
+</header>
+<section>
+      <p>
+	
+	<a href="../posts/2021-10-16.html" class="prev"><<</a>
+	
+	
+      </p>
+
+<p class="date"><strong>&nbsp;Last modified: 09:58 PM - 17 October, 2021 </strong></p>
+	  
+	  <a href="../posts/pdfs/2021-10-17-orthonormal-basis.pdf">PDF version</a>
+	  
+<h3 id="orthonormal-vectors-in-general">Orthonormal vectors in general</h3>
+<p>If we have three vectors, <span class="math inline">\(\mathbf{e_1}\)</span>, <span class="math inline">\(\mathbf{e_2}\)</span>, and <span class="math inline">\(\mathbf{e_3}\)</span> in <span class="math inline">\(\mathbb{R}^3\)</span>, they become especially useful if,</p>
+<ol type="1">
+<li>They are perpendicular to each other, i.e. <span class="math inline">\(\mathbf{e}_1 . \mathbf{e}_2 = 0\)</span> , <span class="math inline">\(\mathbf{e}_2 . \mathbf{e}_3 = 0\)</span>, and <span class="math inline">\(\mathbf{e}_1 . \mathbf{e}_3 = 0\)</span>.</li>
+<li>They have unit magnitude, which is equivalent to <span class="math inline">\(\mathbf{e}_1 . \mathbf{e}_1 = 1\)</span> , <span class="math inline">\(\mathbf{e}_2 . \mathbf{e}_2 = 1\)</span>, and <span class="math inline">\(\mathbf{e}_3 . \mathbf{e}_3 = 1\)</span>.</li>
+</ol>
+<p>In that case, they form a basis, which means that any vector can be represented in a unique way as a linear combination of <span class="math inline">\(\mathbf{e_1}\)</span>, <span class="math inline">\(\mathbf{e_2}\)</span>, and <span class="math inline">\(\mathbf{e_3}\)</span>. In other words, there are three special scalars <span class="math inline">\(\lambda_1\)</span>, <span class="math inline">\(\lambda_2\)</span>, and <span class="math inline">\(\lambda_3\)</span> (and no others that will serve the same purpose), so that <span class="math inline">\(v = \lambda_1 \mathbf{e}_1 + \lambda_2 \mathbf{e}_2 + \lambda_3 \mathbf{e}_3\)</span>.</p>
+<p>However, they form not just a basis, but an orthonormal basis, and this allows us to figure out the coefficients, <span class="math inline">\(\lambda_1\)</span>, <span class="math inline">\(\lambda_2\)</span>, and <span class="math inline">\(\lambda_3\)</span>, more easily. To see how, observe, what happens if we take the dot product of <span class="math inline">\(v = \lambda_1 \mathbf{e}_1 + \lambda_2 \mathbf{e}_2 + \lambda_3 \mathbf{e}_3\)</span> with, say, <span class="math inline">\(\mathbf{e_2}\)</span>,</p>
+<p><span class="math display">\[v . \mathbf{e}_2 = \lambda_1 (\mathbf{e}_1 . \mathbf{e}_2)   + \lambda_2 (\mathbf{e}_2 . \mathbf{e}_2)  + \lambda_3 (\mathbf{e}_3 . \mathbf{e}_2)\]</span></p>
+<p>Condition 1. above gives the 0s and condition 2, gives the 1 on the right hand side of,</p>
+<p><span class="math display">\[v . \mathbf{e}_2 = \lambda_1 0   + \lambda_2 1  + \lambda_3 0\]</span> and so , <span class="math display">\[v . \mathbf{e}_2 = \lambda_2\]</span></p>
+<p>So it tells us that <span class="math inline">\(\lambda_2 = v . \mathbf{e}_2\)</span>. In the same way, we can show that <span class="math inline">\(\lambda_1 = v . \mathbf{e}_1\)</span>, and <span class="math inline">\(\lambda_3 = v . \mathbf{e}_3\)</span>.</p>
+<p>To summarize, <em>Given an orthonormal basis <span class="math inline">\(\{\mathbf{e}_1, \mathbf{e}_2, \mathbf{e}_3\}\)</span>, any vector, <span class="math inline">\(v\)</span>, can be written as a linear combination of this basis and the coefficient of of <span class="math inline">\(\mathbf{e}_i\)</span> is simply <span class="math inline">\(\mathbf{v} . \mathbf{e}_i\)</span></em></p>
+<h3 id="applying-this-to-curves">Applying this to curves</h3>
+<p>Now in our case of curves, the vectors that we are interested in happen to be the tangent vector, acceleration vector, normal etc. and they are all based at a point <span class="math inline">\(\gamma(t)\)</span> of a curve parametrized by <span class="math inline">\(\gamma\)</span>, so they are functions of <span class="math inline">\(t\)</span>. It would be nice to have a useful orthonormal basis for each point <span class="math inline">\(\gamma(t)\)</span>.</p>
+<p>A paricularly useful orthonormal basis for each point <span class="math inline">\(\gamma(t)\)</span> is <span class="math inline">\(\{\mathbf{T}(t), \mathbf{N}(t), \mathbf{B}(t)\}\)</span>. Once we fix this, for any given <span class="math inline">\(t\)</span> we should be able to write any vector at <span class="math inline">\(\gamma(t)\)</span> in terms of this basis. This should include the derivatives <span class="math inline">\(\dot{\mathbf{T}}(t)\)</span>, <span class="math inline">\(\dot{\mathbf{N}}(t)\)</span>, and <span class="math inline">\(\dot{\mathbf{B}}(t)\)</span>. Since the basis is orthonormal we can simply use the dot product to figure out the coefficient. So, for instance, the coefficient of <span class="math inline">\(\dot{\mathbf{N}}(t)\)</span> in terms of <span class="math inline">\(\mathbf{T}(t)\)</span> is simply <span class="math inline">\(\dot{\mathbf{N}}(t).\mathbf{T}(t)\)</span>.</p>
+<h3 id="product-rule-tells-us-more">Product rule tells us more</h3>
+<p>It is a useful habit to see how product rule helps us to rewrite the coefficient, <span class="math display">\[\dot{\mathbf{N}}(t).\mathbf{T}(t) = (\mathbf{N}(t).\mathbf{T}(t))' - \mathbf{N}(t) . \dot{\mathbf{T}}(t)\]</span> Since the vectors are orthonormal, the first derivative on the right hand side is 0, and therefore, <span class="math display">\[\dot{\mathbf{N}}(t).\mathbf{T}(t) =  - \mathbf{N}(t) . \dot{\mathbf{T}}(t) = - \dot{\mathbf{T}}(t) . \mathbf{N}(t)\]</span></p>
+<p>Note that <span class="math inline">\(\dot{\mathbf{T}}(t) . \mathbf{N}(t)\)</span> is simply the coefficient of <span class="math inline">\(\dot{\mathbf{T}}(t)\)</span> in terms of <span class="math inline">\(\mathbf{N}(t)\)</span>. So product rule helps us to write a coefficient of <span class="math inline">\(\dot{\mathbf{N}}(t)\)</span> in terms of another known coefficient. This game works for any coefficient of <span class="math inline">\(\dot{\mathbf{T}}(t)\)</span>, <span class="math inline">\(\dot{\mathbf{N}}(t)\)</span>, and <span class="math inline">\(\dot{\mathbf{B}}(t)\)</span>: <em>product rule tells us that half the coefficients are negatives of others</em> and this is really the main observation that simplifies the understanding of the coefficients of <span class="math inline">\(\dot{\mathbf{T}}(t)\)</span>, <span class="math inline">\(\dot{\mathbf{N}}(t)\)</span>, and <span class="math inline">\(\dot{\mathbf{B}}(t)\)</span> when written in terms of <span class="math inline">\(\{\mathbf{T}(t), \mathbf{N}(t), \mathbf{B}(t)\}\)</span>.</p>
+<p>We still have to figure out half the coefficients but this usually follows from the definition. For instance, <span class="math inline">\(\mathbf{N}(t)\)</span> is <em>defined</em> so that <span class="math inline">\(\dot{\mathbf{T}}(t) = \kappa(t)\mathbf{N}(t)\)</span>, or to make the other coefficients explicit, <span class="math inline">\(\dot{\mathbf{T}}(t) = 0 \mathbf{T}(t) + \kappa(t)\mathbf{N}(t) + 0 \mathbf{B}(t)\)</span>. So three coefficients known in one stroke! Combined with the product rule as applied above, we now know some coefficients of <span class="math inline">\(\dot{\mathbf{N}}(t)\)</span> and <span class="math inline">\(\dot{\mathbf{B}}(t)\)</span> too. For plane curves, in fact, that is all that there is to know, but for curves in space, there remain two missing coefficients that are negatives of each other, so one of them is abstracted out as a new quantity called the torsion, and the other is simply a negative of it.</p>
+</section>
+</article>
+
+    </section>
+
+<section id="posts" class="sidenav">
+
+    <h2>Latest exercise sheet</h2>
+<ul>
+    
+        <li>
+          <a href="../assignments/2021-10-10-exercise05.html">Exercise sheet 5</a>
+	   /
+	  <a href="../assignments/pdfs/2021-10-10-exercise05.pdf">PDF version</a>
+	  
+	  <br /> 
+	   (<a href="../assignments/solutions/2021-10-10-exercise05.html">Hints or Solutions</a> /
+	  <a href="../assignments/solutions/pdfs/2021-10-10-exercise05.pdf">Hints or Solutions PDF</a>)
+	  
+        </li>
+    
+        <li>
+          <a href="../assignments/2021-10-01-exercise04.html">Exercise sheet 4</a>
+	   /
+	  <a href="../assignments/pdfs/2021-10-01-exercise04.pdf">PDF version</a>
+	  
+	  <br /> 
+	   (<a href="../assignments/solutions/2021-10-01-exercise04.html">Hints or Solutions</a> /
+	  <a href="../assignments/solutions/pdfs/2021-10-01-exercise04.pdf">Hints or Solutions PDF</a>)
+	  
+        </li>
+    
+</ul>
+
+    <p><a href="../assignments.html">All exercise sheets&hellip;</a></p>
+
+
+
+    <h2>Recent slides</h2>
+<ul>
+    
+        <li>
+            <a href="../texslides/2021-10-18-lecture11.pdf">Lecture on 18 October, 2021 (Monday)</a>
+        </li>
+    
+        <li>
+            <a href="../texslides/2021-10-07-lecture10.pdf">Lecture on  7 October, 2021 (Thursday)</a>
+        </li>
+    
+</ul>
+
+    <p><a href="../slides.html">All slides&hellip;</a></p>
+
+
+
+    <h2>Recent comments</h2>
+<ul>
+    
+        <li>
+            <a href="../posts/2021-10-17-orthonormal-basis.html">The importance of orthonormal basis</a> - 17 October, 2021 (Sunday)
+	  
+	  (<a href="posts/pdfs/2021-10-17-orthonormal-basis.pdf">PDF file</a>)
+	  
+        </li>
+    
+        <li>
+            <a href="../posts/2021-10-16.html">Signed vs unsigned curvature</a> - 16 October, 2021 (Saturday)
+	  
+	  (<a href="posts/pdfs/2021-10-16.pdf">PDF file</a>)
+	  
+        </li>
+    
+</ul>
+
+    <p><a href="../posts.html">All comments&hellip;</a></p>
+
+
+
+
+</section>
+</body>
+</html>
