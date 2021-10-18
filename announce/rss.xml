@@ -7,8 +7,17 @@
         <description><![CDATA[Get exercises and announcements]]></description>
         <atom:link href="http://sejdm.github.io/mth201/announce/rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>2021-10-06T11:43:25+5:30</lastBuildDate>
+        <lastBuildDate>2021-10-19T04:21:29+5:30</lastBuildDate>
         <item>
+    <title>2021-10-19-recording</title>
+    <link>http://sejdm.github.io/mth201/announcements/2021-10-19-recording.html</link>
+    <description><![CDATA[<div class="announcement"><p>The latest lecture recording has been updated. Some solutions to some exercises have been added but more may be added later. Do check out the “Comments” link.</p></div> <br /><span class="date">Last modified: 04:21 AM - 19 October, 2021 </span>
+]]></description>
+    <pubDate>Tue, 19 Oct 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/announcements/2021-10-19-recording.html</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
     <title>2021-10-06-quiz</title>
     <link>http://sejdm.github.io/mth201/announcements/2021-10-06-quiz.html</link>
     <description><![CDATA[<div class="announcement"><p>Our next <span style="color:red"><strong>quiz</strong></span> is on <strong>Monday</strong>, the <strong>11th of October</strong>, 2021. The quiz questions will be based on material covered until Monday, the 4th of October because you will have time to discuss them during Friday’s tutorial.</p></div> <br /><span class="date">Last modified: 11:43 AM -  6 October, 2021 </span>
@@ -87,15 +96,6 @@
 ]]></description>
     <pubDate>Sat, 18 Sep 2021 00:00:00 UT</pubDate>
     <guid>http://sejdm.github.io/mth201/announcements/2021-09-18-tutorial-rooms.html</guid>
-    <dc:creator>Shane D'Mello</dc:creator>
-</item>
-<item>
-    <title>2021-09-17-test</title>
-    <link>http://sejdm.github.io/mth201/announcements/2021-09-17-test.html</link>
-    <description><![CDATA[<div class="announcement"><p>Question 4 from Exercise sheet 1 has been corrected. Solutions to these exercises will be discussed during your tutorial.</p></div> <br /><span class="date">Last modified: 07:31 PM - 16 September, 2021 </span>
-]]></description>
-    <pubDate>Fri, 17 Sep 2021 00:00:00 UT</pubDate>
-    <guid>http://sejdm.github.io/mth201/announcements/2021-09-17-test.html</guid>
     <dc:creator>Shane D'Mello</dc:creator>
 </item>
 
