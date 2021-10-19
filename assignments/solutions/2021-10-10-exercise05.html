@@ -43,27 +43,28 @@
         <h1>Hints / Solutions to Exercise sheet 5</h1>
     </section>
     <section>
-<p class="date"><strong>Last modified: 02:52 PM - 19 October, 2021 </strong></p>
+<p class="date"><strong>Last modified: 03:22 PM - 19 October, 2021 </strong></p>
 	  
 	  <a href="../../assignments/solutions/pdfs/2021-10-10-exercise05.pdf">PDF version</a>
 	  
-        <p><strong>Question 5:</strong> Consider a (plane) curve parametrized by <span class="math inline">\(\gamma : (a, b) \to \mathbf{R}^2\)</span> and a point on that curve <span class="math inline">\(p = \gamma(t_0)\)</span>. We will find a circle which best approximates the curve at <span class="math inline">\(p\)</span>, in the sense defined below. This will give another perspective on curvature. To solve this exercise, you need to be familiar with using derivatives to find out local maxima or minima.</p>
+        <p><strong>Question 5:</strong> Consider a (plane) curve parametrized by a unit speed parametrization <span class="math inline">\(\gamma : (a, b) \to \mathbf{R}^2\)</span> and a point on that curve <span class="math inline">\(p = \gamma(t_0)\)</span>. We will find a circle which best approximates the curve at <span class="math inline">\(p\)</span>, in the sense defined below. This will give another perspective on curvature. To solve this exercise, you need to be familiar with using derivatives to find out local maxima or minima.</p>
 <p><strong>Solution 5:</strong><br />
-Part 1. <span class="math inline">\(\mathbf{N}_s(t)\)</span> is orthogonal to the <span class="math inline">\(\mathbf{T}(t)\)</span> which coincides with the tangent of the circle, so <span class="math inline">\(\mathbf{N}_s(t)\)</span> is the line containing it is perpendicular to the tangent line of the circle at the same point. Such a line always contains the center of the circle.</p>
+Part 1. <span class="math inline">\(\mathbf{N}_s(t)\)</span> is perpendicular to <span class="math inline">\(\mathbf{T}(t)\)</span> which coincides with the tangent of the circle, so <span class="math inline">\(\mathbf{N}_s(t)\)</span> is the line containing it is perpendicular to the tangent line of the circle at the same point. Such a line always contains the center of the circle.</p>
 <p>Part 2. The center of the circle is a translate of <span class="math inline">\(p\)</span> in the direction of <span class="math inline">\(\mathbf{N}_s(t)\)</span> so it is in the same direction as the normal of a circle. The circle’s tangent is perpendicular to the normal, but so is the tangent of the curve and so they coincide.</p>
 <p>Part 3. The expression in the norm is measuring the distance of <span class="math inline">\(\gamma(t)\)</span> from the center of the circle. When it is exactly the radius, it lies on the circle, when it is bigger than the radius, it lies outside the circle.</p>
 <p>Part 4. There is some <span class="math inline">\(\epsilon\)</span> so that for any <span class="math inline">\(t\in (t_0 - \epsilon, t_0 + \epsilon)\)</span>, <span class="math inline">\(d(t) \geq r^2\)</span>. However, at <span class="math inline">\(d(t_0)=r\)</span> so in this small interval, <span class="math inline">\(d\)</span> attains its minimum at <span class="math inline">\(t_0\)</span>.</p>
 <p>Part 5. Similar to part 4.</p>
-<p>Part 6. Product rule: <span class="math display">\[\begin{aligned}
+<p>Part 6. Although the computations are long, the idea is pretty simple. We use rules such as product rule etc to reduce the derivative of the expression to the derivatives of the individual terms, including <span class="math inline">\(\mathbf{T}(t)\)</span> and <span class="math inline">\(\mathbf{N}_s(t)\)</span>. We know what the derivatives of <span class="math inline">\(\mathbf{T}(t)\)</span> and <span class="math inline">\(\mathbf{N}_s(t)\)</span> are in terms of the basis, <span class="math inline">\(\{\mathbf{T}(t),\mathbf{N}_s(t)\}\)</span>, so we write them in terms of <span class="math inline">\(\mathbf{T}\)</span> and <span class="math inline">\(\mathbf{N}_s(t)\)</span>, to allow some crucial cancellations.</p>
+<p><span class="math display">\[\begin{aligned}
   (\|\gamma(t) - (p + r \mathbf{N}_s(t))\|^2)' &amp;=&amp; ((\gamma(t) - (p + r \mathbf{N}_s(t))) . (\gamma(t) - (p + r \mathbf{N}_s(t))))'\\
   &amp;=&amp; 2(\gamma(t) - (p + r \mathbf{N}_s(t))) . (\gamma(t) - (p + r \mathbf{N}_s(t)))'\\
   &amp;=&amp; 2(\gamma(t) - (p + r \mathbf{N}_s(t))) . (\dot{\gamma}(t) - r \dot{\mathbf{N}}_s(t))\\
                                          &amp;=&amp; 2(\gamma(t) - (p + r \mathbf{N}_s(t))) . (\mathbf{T}(t) + r \kappa(t)\mathbf{T}(t))\\
                                          &amp;=&amp; 2(\gamma(t) - (p + r \mathbf{N}_s(t))) . (1 + r \kappa(t))\mathbf{T}(t)\\\end{aligned}\]</span></p>
-<p>At <span class="math inline">\(t_0\)</span>, using <span class="math inline">\(p = \gamma(t_0)\)</span> (by definition),</p>
+<p>At <span class="math inline">\(t_0\)</span>, using <span class="math inline">\(p = \gamma(t_0)\)</span> (by definition), and that <span class="math inline">\(\mathbf{T}(t_0)\)</span> and <span class="math inline">\(\mathbf{N}_s(t_0)\)</span> are orthogonal.</p>
 <p><span class="math display">\[\begin{aligned}
 2(\gamma(t_0) - (p + r \mathbf{N}_s(t_0))) . (1 + r \kappa(t_0))\mathbf{T}(t) &amp;=&amp; -2r \mathbf{N}_s(t_0)) . (1 + r \kappa(t_0))\mathbf{T}(t_0) \\
- &amp;=&amp; -2r (1 + r \kappa(t_0) \mathbf{N}_s(t_0)) . \mathbf{T}(t_0) \\
+ &amp;=&amp; -2r (1 + r \kappa(t_0)) \mathbf{N}_s(t_0) . \mathbf{T}(t_0) \\
  &amp;=&amp; 0 \\\end{aligned}\]</span></p>
 <p>Part 7. <span class="math display">\[\begin{aligned}
 d''(t) &amp;=&amp; &amp; &amp; (2(\gamma(t) - (p + r \mathbf{N}_s(t))) . (1 + r \kappa(t))\mathbf{T}(t))'\\
@@ -86,7 +87,7 @@ d''(t) &amp;=&amp; &amp; &amp; (2(\gamma(t) - (p + r \mathbf{N}_s(t))) . (1 + r 
 &amp; &amp; &amp;+&amp; 2(- r \mathbf{N}_s(t_0))) . ((1 + r \kappa(t_0))\kappa(t_0)\mathbf{N}_s(t_0))\\
                &amp;=&amp; &amp; &amp; 2(1 + r \kappa(t_0))^2 + 2(- r (1 + r \kappa(t_0))\kappa(t_0))\\
                &amp;=&amp; &amp; &amp; 2(1 + r \kappa(t_0)(1 + r \kappa(t_0)  - r \kappa(t_0)\\
-               &amp;=&amp; &amp; &amp; 2(1 + r \kappa(t_0)1\end{aligned}\]</span></p>
+               &amp;=&amp; &amp; &amp; 2(1 + r \kappa(t_0))1\end{aligned}\]</span></p>
 <p>So <span class="math inline">\(d''(t_0) &lt; 0\)</span> whenever <span class="math inline">\(r &lt; -\frac{1}{\kappa(t_0)}\)</span><br />
 and <span class="math inline">\(d''(t_0) &gt; 0\)</span> whenever <span class="math inline">\(r &gt; -\frac{1}{\kappa(t_0)}\)</span><br />
 By the previous parts, the (tangential) circle would be too big or too small unless <span class="math inline">\(r = -\frac{1}{\kappa(t_0)}\)</span>.</p>
