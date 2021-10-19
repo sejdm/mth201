@@ -43,7 +43,7 @@
         <h1>Hints / Solutions to Exercise sheet 5</h1>
     </section>
     <section>
-<p class="date"><strong>Last modified: 04:15 AM - 19 October, 2021 </strong></p>
+<p class="date"><strong>Last modified: 02:52 PM - 19 October, 2021 </strong></p>
 	  
 	  <a href="../../assignments/solutions/pdfs/2021-10-10-exercise05.pdf">PDF version</a>
 	  
@@ -58,13 +58,38 @@ Part 1. <span class="math inline">\(\mathbf{N}_s(t)\)</span> is orthogonal to th
   (\|\gamma(t) - (p + r \mathbf{N}_s(t))\|^2)' &amp;=&amp; ((\gamma(t) - (p + r \mathbf{N}_s(t))) . (\gamma(t) - (p + r \mathbf{N}_s(t))))'\\
   &amp;=&amp; 2(\gamma(t) - (p + r \mathbf{N}_s(t))) . (\gamma(t) - (p + r \mathbf{N}_s(t)))'\\
   &amp;=&amp; 2(\gamma(t) - (p + r \mathbf{N}_s(t))) . (\dot{\gamma}(t) - r \dot{\mathbf{N}}_s(t))\\
-                                         &amp;=&amp; 2(\gamma(t) - (p + r \mathbf{N}_s(t))) . (\mathbf{T}(t) - r \kappa(t)\mathbf{T}(t))\\
-                                         &amp;=&amp; 2(\gamma(t) - (p + r \mathbf{N}_s(t))) . (1 - r \kappa(t))\mathbf{T}(t)\\\end{aligned}\]</span></p>
+                                         &amp;=&amp; 2(\gamma(t) - (p + r \mathbf{N}_s(t))) . (\mathbf{T}(t) + r \kappa(t)\mathbf{T}(t))\\
+                                         &amp;=&amp; 2(\gamma(t) - (p + r \mathbf{N}_s(t))) . (1 + r \kappa(t))\mathbf{T}(t)\\\end{aligned}\]</span></p>
 <p>At <span class="math inline">\(t_0\)</span>, using <span class="math inline">\(p = \gamma(t_0)\)</span> (by definition),</p>
 <p><span class="math display">\[\begin{aligned}
-2(\gamma(t_0) - (p + r \mathbf{N}_s(t_0))) . (1 - r \kappa(t_0))\mathbf{T}(t) &amp;=&amp; -2r \mathbf{N}_s(t_0)) . (1 - r \kappa(t_0))\mathbf{T}(t_0) \\
- &amp;=&amp; -2r (1 - r \kappa(t_0) \mathbf{N}_s(t_0)) . \mathbf{T}(t_0) \\
+2(\gamma(t_0) - (p + r \mathbf{N}_s(t_0))) . (1 + r \kappa(t_0))\mathbf{T}(t) &amp;=&amp; -2r \mathbf{N}_s(t_0)) . (1 + r \kappa(t_0))\mathbf{T}(t_0) \\
+ &amp;=&amp; -2r (1 + r \kappa(t_0) \mathbf{N}_s(t_0)) . \mathbf{T}(t_0) \\
  &amp;=&amp; 0 \\\end{aligned}\]</span></p>
+<p>Part 7. <span class="math display">\[\begin{aligned}
+d''(t) &amp;=&amp; &amp; &amp; (2(\gamma(t) - (p + r \mathbf{N}_s(t))) . (1 + r \kappa(t))\mathbf{T}(t))'\\
+&amp;=&amp; &amp; &amp; 2(\gamma(t) - (p + r \mathbf{N}_s(t)))' . (1 + r \kappa(t))\mathbf{T}(t)\\
+&amp; &amp; &amp;+&amp; 2(\gamma(t) - (p + r \mathbf{N}_s(t))) . ((1 + r \kappa(t))\mathbf{T}(t))'\\
+       &amp;=&amp; &amp; &amp; 2(1 - r \kappa(t))\mathbf{T}(t) . (1 + r \kappa(t))\mathbf{T}(t)\\
+&amp; &amp; &amp;+&amp; 2(\gamma(t) - (p + r \mathbf{N}_s(t))) . ((1 + r \kappa(t))\mathbf{T}(t))'\\
+       &amp;=&amp; &amp; &amp; 2(1 - r \kappa(t))\mathbf{T}(t) . (1 + r \kappa(t))\mathbf{T}(t)\\
+&amp; &amp; &amp;+&amp; 2(\gamma(t) - (p + r \mathbf{N}_s(t))) . ((1 + r \kappa(t))'\mathbf{T}(t) + (1 + r \kappa(t))\dot{\mathbf{T}}(t))\\
+       &amp;=&amp; &amp; &amp; 2(1 + r \kappa(t))^2\\
+&amp; &amp; &amp;+&amp; 2(\gamma(t) - (p + r \mathbf{N}_s(t))) . (r \kappa'(t)\mathbf{T}(t) + (1 + r \kappa(t))\kappa(t)\mathbf{N}_s(t))\\
+       &amp;=&amp; &amp; &amp; 2(1 + r \kappa(t))^2\\
+&amp; &amp; &amp;+&amp; 2((\gamma(t) - p) - r \mathbf{N}_s(t))) . (r \kappa'(t)\mathbf{T}(t) + (1 + r \kappa(t))\kappa(t)\mathbf{N}_s(t))\\\end{aligned}\]</span></p>
+<p>Now checking at the point, <span class="math inline">\(t_0\)</span>, and using <span class="math inline">\(p = \gamma(t_0)\)</span> <span class="math display">\[\begin{aligned}
+ d''(t_0)      &amp;=&amp; &amp; &amp; 2(1 + r \kappa(t_0))^2\\
+&amp; &amp; &amp;+&amp; 2((\gamma(t_0) - p) - r \mathbf{N}_s(t_0))) . ( r \kappa'(t_0)\mathbf{T}(t_0) + (1 + r \kappa(t_0))\kappa(t_0)\mathbf{N}_s(t_0))\\
+               &amp;=&amp; &amp; &amp; 2(1 + r \kappa(t_0))^2\\
+&amp; &amp; &amp;+&amp; 2(- r \mathbf{N}_s(t_0))) . ( r \kappa'(t_0)\mathbf{T}(t_0) + (1 + r \kappa(t_0))\kappa(t_0)\mathbf{N}_s(t_0))\\
+               &amp;=&amp; &amp; &amp; 2(1 + r \kappa(t_0))^2\\
+&amp; &amp; &amp;+&amp; 2(- r \mathbf{N}_s(t_0))) . ((1 + r \kappa(t_0))\kappa(t_0)\mathbf{N}_s(t_0))\\
+               &amp;=&amp; &amp; &amp; 2(1 + r \kappa(t_0))^2 + 2(- r (1 + r \kappa(t_0))\kappa(t_0))\\
+               &amp;=&amp; &amp; &amp; 2(1 + r \kappa(t_0)(1 + r \kappa(t_0)  - r \kappa(t_0)\\
+               &amp;=&amp; &amp; &amp; 2(1 + r \kappa(t_0)1\end{aligned}\]</span></p>
+<p>So <span class="math inline">\(d''(t_0) &lt; 0\)</span> whenever <span class="math inline">\(r &lt; -\frac{1}{\kappa(t_0)}\)</span><br />
+and <span class="math inline">\(d''(t_0) &gt; 0\)</span> whenever <span class="math inline">\(r &gt; -\frac{1}{\kappa(t_0)}\)</span><br />
+By the previous parts, the (tangential) circle would be too big or too small unless <span class="math inline">\(r = -\frac{1}{\kappa(t_0)}\)</span>.</p>
     </section>
 </article>
 

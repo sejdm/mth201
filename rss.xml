@@ -7,22 +7,22 @@
         <description><![CDATA[Get exercises and announcements]]></description>
         <atom:link href="http://sejdm.github.io/mth201/rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>2021-10-19T04:21:29+5:30</lastBuildDate>
+        <lastBuildDate>2021-10-19T14:52:27+5:30</lastBuildDate>
         <item>
+    <title>Hints / Solutions 5</title>
+    <link>http://sejdm.github.io/mth201/assignments/solutions/2021-10-10-exercise05.html</link>
+    <description><![CDATA[Hints / Solutions 5 has been posted.]]></description>
+    <pubDate>Sun, 10 Oct 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/assignments/solutions/2021-10-10-exercise05.html</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
     <title>Announcement</title>
     <link>http://sejdm.github.io/mth201/announcements/2021-10-19-recording.html</link>
     <description><![CDATA[<div class="announcement"><p>The latest lecture recording has been updated. Some solutions to some exercises have been added but more may be added later. Do check out the “Comments” link.</p></div> <br /><span class="date">Last modified: 04:21 AM - 19 October, 2021 </span>
 ]]></description>
     <pubDate>Tue, 19 Oct 2021 00:00:00 UT</pubDate>
     <guid>http://sejdm.github.io/mth201/announcements/2021-10-19-recording.html</guid>
-    <dc:creator>Shane D'Mello</dc:creator>
-</item>
-<item>
-    <title>Hints / Solutions 5</title>
-    <link>http://sejdm.github.io/mth201/assignments/solutions/2021-10-10-exercise05.html</link>
-    <description><![CDATA[Hints / Solutions 5 has been posted.]]></description>
-    <pubDate>Sun, 10 Oct 2021 00:00:00 UT</pubDate>
-    <guid>http://sejdm.github.io/mth201/assignments/solutions/2021-10-10-exercise05.html</guid>
     <dc:creator>Shane D'Mello</dc:creator>
 </item>
 <item>
