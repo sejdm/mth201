@@ -7,21 +7,29 @@
         <description><![CDATA[Get exercises and announcements]]></description>
         <atom:link href="http://sejdm.github.io/mth201/rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>2021-10-19T15:25:56+5:30</lastBuildDate>
+        <lastBuildDate>2021-10-19T16:51:25+5:30</lastBuildDate>
         <item>
-    <title>Exercise sheet 5</title>
-    <link>http://sejdm.github.io/mth201/assignments/2021-10-10-exercise05.html</link>
-    <description><![CDATA[Exercise sheet 5 has been posted.]]></description>
-    <pubDate>Sun, 10 Oct 2021 00:00:00 UT</pubDate>
-    <guid>http://sejdm.github.io/mth201/assignments/2021-10-10-exercise05.html</guid>
-    <dc:creator>Shane D'Mello</dc:creator>
-</item>
-<item>
     <title>Hints / Solutions 5</title>
     <link>http://sejdm.github.io/mth201/assignments/solutions/2021-10-10-exercise05.html</link>
     <description><![CDATA[Hints / Solutions 5 has been posted.]]></description>
     <pubDate>Sun, 10 Oct 2021 00:00:00 UT</pubDate>
     <guid>http://sejdm.github.io/mth201/assignments/solutions/2021-10-10-exercise05.html</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
+    <title>Osculating circles</title>
+    <link>http://sejdm.github.io/mth201/posts/2021-10-19-osculating.html</link>
+    <description><![CDATA[A comment  has been posted.]]></description>
+    <pubDate>Tue, 19 Oct 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/posts/2021-10-19-osculating.html</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
+    <title>Exercise sheet 5</title>
+    <link>http://sejdm.github.io/mth201/assignments/2021-10-10-exercise05.html</link>
+    <description><![CDATA[Exercise sheet 5 has been posted.]]></description>
+    <pubDate>Sun, 10 Oct 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/assignments/2021-10-10-exercise05.html</guid>
     <dc:creator>Shane D'Mello</dc:creator>
 </item>
 <item>
