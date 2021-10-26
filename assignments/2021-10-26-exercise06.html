@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>2021-09-13-exercise02 - MTH201</title>
+  <title>2021-10-26-exercise06 - MTH201</title>
   <meta charset="utf-8" />
   <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet" type="text/css">
@@ -40,35 +40,29 @@
     <section id="pagecontent">
         <article>
     <section class="header">
-        <h1>Exercise sheet 2</h1>
+        <h1>Exercise sheet 6</h1>
     </section>
     <section>
       <p>
 	
-	<a href="../assignments/2021-09-10-exercise01.html" class="prev"><<</a>
+	<a href="../assignments/2021-10-10-exercise05.html" class="prev"><<</a>
 	
-	
-	<a href="../assignments/2021-09-24-exercise03.html" style="float:right" class="next">>></a>
 	
       </p>
-<p class="date"><strong>&nbsp;Last modified: 05:01 PM - 24 September, 2021 </strong></p>
+<p class="date"><strong>&nbsp;Last modified: 03:48 PM - 26 October, 2021 </strong></p>
 	  
-	  <a href="../assignments/pdfs/2021-09-13-exercise02.pdf">PDF version</a>
+	  <a href="../assignments/pdfs/2021-10-26-exercise06.pdf">PDF version</a>
 	  
-	  
-	  <br />
-	  <a href="../assignments/solutions/2021-09-13-exercise02.html">Hints or Solutions</a> / 
-	  <a href="../assignments/solutions/pdfs/2021-09-13-exercise02.pdf">Hints or Solutions PDF</a>
 	  
         <ol>
-<li><p>For <span class="math inline">\(\mathbf{v} : (\alpha,\beta) \to \mathbf{R}^2\)</span> and <span class="math inline">\(\mathbf{w} : (\alpha,\beta) \to \mathbf{R}^2\)</span>, show that <span class="math inline">\((\mathbf{v}(t). \mathbf{w}(t))' = \mathbf{v}'(t). \mathbf{w}(t) + \mathbf{v}(t). \mathbf{w}'(t)\)</span>.</p></li>
-<li><p>If <span class="math inline">\(\mathbf{n} : (\alpha,\beta) \to \mathbf{R}^2\)</span> is such that <span class="math inline">\(||\mathbf{n}(t)||\)</span> is constant, then prove that <span class="math inline">\(\dot{\mathbf{n}}(t)\)</span> is either 0 or perpendicular to <span class="math inline">\(\mathbf{n}(t)\)</span>.</p></li>
-<li><p>if we denote, <span class="math display">\[s_\alpha(t) := \int_{t_\alpha}^t| | \dot{\gamma}(u)| | \mathrm{d}u\]</span> <span class="math display">\[s_\beta(t) := \int_{t_\beta}^t| | \dot{\gamma}(u)| | \mathrm{d}u\]</span> prove that <span class="math inline">\(s_\beta(t) - s_\alpha(t)\)</span> is a constant <strong>(assume that <span class="math inline">\(t_\alpha &lt; t_\beta\)</span>)</strong>.</p></li>
-<li><p>If <span class="math inline">\(\gamma : (\alpha, \beta) \to \mathbb{R}^2\)</span> is a smooth <strong>and regular</strong> parametrization, then show that <span class="math inline">\(| |\dot{\gamma}(t)| | : (\alpha, \beta) \to \mathbb{R}\)</span> is smooth.</p></li>
-<li><p>For the parametrization <span class="math inline">\(\gamma : (-\pi/2, \pi/2) \to \mathbb{R}^2\)</span> given by <span class="math inline">\(\gamma(t) = (5\cos(t), 5\sin(t))\)</span>,</p>
+<li><p>If <span class="math inline">\(\mathbf{v}_1(t), \mathbf{v}_2(t)\)</span>, and <span class="math inline">\(\mathbf{v}_3(t)\)</span>, unit vector fields which are <em>not necessarily</em> <span class="math inline">\(\mathbf{T}(t), \mathbf{N}(t), \mathbf{B}(t)\)</span>, but nevertheless satisfy the same equations: <span class="math display">\[\begin{aligned}
+  \dot{\mathbf{v}_1}&amp;= \kappa(t) \mathbf{v}_2(t) \\
+    \dot{\mathbf{v}_2} &amp;=  -\kappa(t) \mathbf{v}_1(t) +  \tau(t) \mathbf{v}_3(t)  \\
+    \dot{\mathbf{v}_3} &amp;=  -\tau(t) \mathbf{v}_2(t)  \\
+  \end{aligned}\]</span> This exercise will show that if <span class="math inline">\(\mathbf{v}_1\)</span>, <span class="math inline">\(\mathbf{v}_2\)</span>, and <span class="math inline">\(\mathbf{v}_3\)</span> are equal to <span class="math inline">\(\mathbf{T}\)</span>, <span class="math inline">\(\mathbf{N}\)</span>, and <span class="math inline">\(\mathbf{B}\)</span>, respectively, for one <span class="math inline">\(t_0\)</span>, then they are equal for all <span class="math inline">\(t\)</span>, but in a slightly less straightforward manner than you may expect to work out.</p>
 <ol>
-<li><p>Find the arc-length function <span class="math inline">\(s(t)\)</span> (starting at, say, 0)</p></li>
-<li><p>Find a reparametrization map <span class="math inline">\(\phi\)</span> so that <span class="math inline">\(\gamma(\phi(t))\)</span> is a unit-speed parametrization.</p></li>
+<li><p>Show that <span class="math inline">\(f(t) = \mathbf{v}_1(t) . \mathbf{T}(t) + \mathbf{v}_2(t) . \mathbf{N}(t) + \mathbf{v}_3(t) . \mathbf{B}(t)\)</span> is constant. Note that we are not saying that the individual terms themselves are constant, so this exercise is not saying, for instance, that the the dot products, <span class="math inline">\(\mathbf{v}_1(t) . \mathbf{T}(t)\)</span>, <span class="math inline">\(\mathbf{v}_2(t) . \mathbf{N}(t)\)</span>, or <span class="math inline">\(\mathbf{v}_3(t) . \mathbf{B}(t)\)</span>, are individually constant; it is only when we take their sum that we can ensure the resulting sum is constant. Luckily, this will be sufficient to prove the next part.</p></li>
+<li><p>Show that if <span class="math inline">\(\mathbf{v}_1(t_0)= \mathbf{T}(t_0)\)</span>, <span class="math inline">\(\mathbf{v}_2(t_0)= \mathbf{N}(t_0)\)</span>, or <span class="math inline">\(\mathbf{v}_3(t_0)= \mathbf{B}(t_0)\)</span>, for some <span class="math inline">\(t_0\)</span>, then the equalities hold for all <span class="math inline">\(t\)</span>. (<em>Hint:</em> What is an equivalent condition, in terms of dot products, for two vectors being equal? Remember, these are unit vectors! Note that the previous part was only useful because we had equality of the corresponding vectors at <span class="math inline">\(t_0\)</span>.)</p></li>
 </ol></li>
 </ol>
     </section>
