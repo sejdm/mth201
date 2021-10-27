@@ -49,7 +49,7 @@
 	
 	
       </p>
-<p class="date"><strong>&nbsp;Last modified: 03:48 PM - 26 October, 2021 </strong></p>
+<p class="date"><strong>&nbsp;Last modified: 12:33 PM - 27 October, 2021 </strong></p>
 	  
 	  <a href="../assignments/pdfs/2021-10-26-exercise06.pdf">PDF version</a>
 	  
@@ -63,6 +63,18 @@
 <ol>
 <li><p>Show that <span class="math inline">\(f(t) = \mathbf{v}_1(t) . \mathbf{T}(t) + \mathbf{v}_2(t) . \mathbf{N}(t) + \mathbf{v}_3(t) . \mathbf{B}(t)\)</span> is constant. Note that we are not saying that the individual terms themselves are constant, so this exercise is not saying, for instance, that the the dot products, <span class="math inline">\(\mathbf{v}_1(t) . \mathbf{T}(t)\)</span>, <span class="math inline">\(\mathbf{v}_2(t) . \mathbf{N}(t)\)</span>, or <span class="math inline">\(\mathbf{v}_3(t) . \mathbf{B}(t)\)</span>, are individually constant; it is only when we take their sum that we can ensure the resulting sum is constant. Luckily, this will be sufficient to prove the next part.</p></li>
 <li><p>Show that if <span class="math inline">\(\mathbf{v}_1(t_0)= \mathbf{T}(t_0)\)</span>, <span class="math inline">\(\mathbf{v}_2(t_0)= \mathbf{N}(t_0)\)</span>, or <span class="math inline">\(\mathbf{v}_3(t_0)= \mathbf{B}(t_0)\)</span>, for some <span class="math inline">\(t_0\)</span>, then the equalities hold for all <span class="math inline">\(t\)</span>. (<em>Hint:</em> What is an equivalent condition, in terms of dot products, for two vectors being equal? Remember, these are unit vectors! Note that the previous part was only useful because we had equality of the corresponding vectors at <span class="math inline">\(t_0\)</span>.)</p></li>
+</ol></li>
+<li><p>For any curve parametrized by a unit speed parametrization <span class="math inline">\(\gamma : (\alpha, \beta) \to \mathbb{R}^3\)</span>, let <span class="math inline">\(\delta(t) = \gamma(t) + \mathbf{v}\)</span> for some vector <span class="math inline">\(\mathbf{v}\)</span> (i.e. each point of the curve is being translated by the same <span class="math inline">\(\mathbf{v}\)</span>). Prove that,</p>
+<ol>
+<li><p><span class="math inline">\(\delta\)</span> is also unit speed</p></li>
+<li><p>The curvature, torsion, unit tangent, normal, and binormal of <span class="math inline">\(\delta\)</span> is the same as the curvature and torsion of <span class="math inline">\(\gamma\)</span> at <span class="math inline">\(t\)</span>.</p></li>
+</ol></li>
+<li><p>Consider a <span class="math inline">\(3\times 3-\)</span> matrix <span class="math inline">\(A\)</span> with the property that <span class="math inline">\(A \mathbf{v} . A \mathbf{w} = \mathbf{v} . \mathbf{w}\)</span> for any two vectors, <span class="math inline">\(\mathbf{v}, \mathbf{w}\in \mathbb{R}^3\)</span> (recall, that such matrices are called orthogonal; if you transform two vectors by the same orthgonal transformation, the dot product will remain the same as before the transformation, so the norm of ). For any curve parametrized by a unit speed parametrization <span class="math inline">\(\gamma : (\alpha, \beta) \to \mathbb{R}^3\)</span>, let <span class="math inline">\(\delta(t) = A\gamma(t)\)</span> (i.e. each point of the curve is being transformed by the same matrix <span class="math inline">\(A\)</span>). Prove that,</p>
+<ol>
+<li><p><span class="math inline">\(\delta\)</span> is also unit speed</p></li>
+<li><p>The curvature and torsion of <span class="math inline">\(\delta\)</span> is the same as the curvature and torsion of <span class="math inline">\(\gamma\)</span> at <span class="math inline">\(t\)</span>.</p></li>
+<li><p>The curvature and torsion of <span class="math inline">\(\delta\)</span> is the same as the curvature and torsion of <span class="math inline">\(\gamma\)</span> at <span class="math inline">\(t\)</span>.</p></li>
+<li><p>If <span class="math inline">\(\mathbf{T}_1(t)\)</span>, <span class="math inline">\(\mathbf{N}_1(t)\)</span> and <span class="math inline">\(\mathbf{B}_1(t)\)</span> denote the unit tangent, unit normal, and unit binormal of <span class="math inline">\(\gamma\)</span> at <span class="math inline">\(t\)</span>, while <span class="math inline">\(\mathbf{T}_2(t)\)</span>, <span class="math inline">\(\mathbf{N}_2(t)\)</span> and <span class="math inline">\(\mathbf{B}_2(t)\)</span> denote the unit tangent, unit normal of <span class="math inline">\(\delta\)</span> at <span class="math inline">\(t\)</span>, then prove that, <span class="math display">\[\mathbf{T}_2(t) = A (\mathbf{T}_1(t))\]</span> <span class="math display">\[\mathbf{N}_2(t) = A (\mathbf{N}_1(t))\]</span> <span class="math display">\[\mathbf{B}_2(t) = A (\mathbf{B}_1(t))\]</span></p></li>
 </ol></li>
 </ol>
     </section>
