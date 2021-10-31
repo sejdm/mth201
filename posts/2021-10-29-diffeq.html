@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Differential equations - MTH201</title>
+  <meta charset="utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="../css/my.css">
+<link rel="stylesheet" href="../css/syntax.css">
+  <link rel="alternate" type="application/atom+xml" title="MTH 201" href="../atom.xml" />
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+  <div class="navbar">
+
+    <header>
+      <hgroup>
+        <h1><a href="../index.html" id="titlelink">Curves and Surfaces<br /> (MTH 201)</a></h1>
+      </hgroup>
+    </header>
+
+    <nav id="mainnav">
+      <div id="topmenu">
+        <menu>
+          <a href="../index.html">Course information</a>
+	  
+          <a href="../assignments.html">Exercise sheets</a>
+	  
+	  
+          <a href="../slides.html">Slides</a>
+	  
+	  
+          <a href="../posts.html">Comments</a>
+	  
+        </menu>
+	</div>
+    </nav>
+    </div>
+    <section id="pagecontent">
+        <article>
+<header>
+<h1>Differential equations</h1>
+<p class="date"><strong>29 October, 2021 (Friday)</strong></p>
+</header>
+<section>
+      <p>
+	
+	<a href="../posts/2021-10-19-osculating.html" class="prev"><<</a>
+	
+	
+      </p>
+
+<p class="date"><strong>&nbsp;Last modified: 03:03 AM -  1 November, 2021 </strong></p>
+	  
+	  <a href="../posts/pdfs/2021-10-29-diffeq.pdf">PDF version</a>
+	  
+<p>Frenet-Serret equations express the derivatives of a certain set of functions in terms of themselves. They are an example of ``solutions of a system of linear differential equations’’. This shift in viewpoint from the functions themselves to the kind of relationships their derivatives satisfy, proves, thanks to a theorem from the theory of differential equations, to be surprisingly useful.</p>
+<p>First let us clarify what we mean by ``a system of first order linear differential equations’’. If we fix some functions <span class="math inline">\(a_{ij}(t)\)</span> (called the coefficient functions), we may ask, do there exist some functions <span class="math inline">\(y_1(t), y_2(t),\ldots y_n(t)\)</span> whose derivatives satisfy the following relationships,</p>
+<p><span class="math display">\[\begin{align*}
+y_1'(t) &amp;= a_{11}(t)y_1(t) + a_{12}(t) y_2(t) + \cdots + a_{1n}y_n(t)\\
+y_2'(t) &amp;= a_{21}(t)y_1(t) + a_{22}(t) y_2(t) + \cdots + a_{2n}y_n(t)\\
+  &amp; \cdots  \\
+y_m'(t) &amp;= a_{m1}(t)y_1(t) + a_{m2}(t) y_2(t) + \cdots + a_{mn}y_n(t)
+\end{align*}\]</span></p>
+<p>The above equations involving as yet unknown functions <span class="math inline">\(y_i(t)\)</span>s and their derivatives, is called a <em>system of first order linear differential equations</em>. Since we will only be dealing with this kind of a system in this article we will simply call it a system of differential equations. If we can find such functions <span class="math inline">\(y_i(t)\)</span> that do satisfy those equations, we will call them <em>solutions</em> of that system of differential equations.</p>
+<p>Here is an example of a differential equation involving just one function and whose coefficient function is constant, <span class="math display">\[y'(t) = 5y(t)\]</span> It is easy to check that <span class="math inline">\(y(t) = e^{5t}\)</span> is a solution to it.</p>
+<p>Here is another example,</p>
+<p><span class="math display">\[y_1'(t) = \cos(t) y_1(t) + \sin(t)y_2(t)\]</span> <span class="math display">\[y_2'(t) = \tan(t) y_1(t) + \sec(t)y_2(t)\]</span> and we may ask if there exists two functions <span class="math inline">\(y_1(t)\)</span> and <span class="math inline">\(y_2(t)\)</span> that will satisfy both equations simultaneously.</p>
+<p>The theorem we care about asserts that differential equations of that type always have a solution.</p>
+<p>There can be many solutions to the same system of differential equations. But if we fix the output of each <span class="math inline">\(y_i\)</span> for some <span class="math inline">\(t_0\)</span>, i.e. <span class="math inline">\(y_i(t_0) = c_0\)</span> for some <span class="math inline">\(c_0\)</span>, then there is a <em>unique</em> solution. The specification of the differential equations that the solutions <span class="math inline">\(y_i\)</span> must satisfy along with their specified values at some so called initial point <span class="math inline">\(t_0\)</span>, is called an <em>initial value problem</em>. So the theorem states that an initial value problem of the above kind always has a solution and that solution is unique.</p>
+<p><em>Note:</em> The above theorem also holds if <span class="math inline">\(y_i\)</span> are vector valued functions.</p>
+<h2 id="applications">Applications</h2>
+<h3 id="obtaining-a-curve-with-specified-curvature-and-torsion-functions">Obtaining a curve with specified curvature and torsion functions</h3>
+<p>From this point of view, <span class="math inline">\(\mathbf{T}(t)\)</span>, <span class="math inline">\(\mathbf{N}(t)\)</span> and <span class="math inline">\(\mathbf{B}(t)\)</span> are solutions of this system of differential equations,</p>
+<p><span class="math display">\[\begin{align*}
+y_1'(t) &amp;= &amp; \kappa(t) y_2(t) &amp; \\
+y_2'(t) &amp;= -\kappa(t)y_1(t) &amp; + &amp; \tau(t)y_3(t) \\
+y_3'(t) &amp;= &amp; -\tau(t)y_2(t) &amp; 
+\end{align*}\]</span></p>
+<p>This will help us answer the questions, <em>Given any two functions, <span class="math inline">\(\kappa(t)\)</span> and <span class="math inline">\(\tau(t)\)</span>, is there a curve parametrized by a unit speed parametrization <span class="math inline">\(\gamma(t)\)</span> whose curvature function is <span class="math inline">\(\kappa(t)\)</span> and torsion function is <span class="math inline">\(\tau(t)\)</span>? Under what circumstances is it unique?</em></p>
+<p>The general idea, which was worked out during the lecture was this: <em>If</em> there is a <span class="math inline">\(\gamma(t)\)</span> with curvature <span class="math inline">\(\kappa(t)\)</span> and torsion <span class="math inline">\(\tau(t)\)</span>, then its <span class="math inline">\(\mathbf{T}(t)\)</span>, <span class="math inline">\(\mathbf{N}(t)\)</span>, and <span class="math inline">\(\mathbf{B}(t)\)</span> would have to be solutions of those differential equations. So to find a curve with the given curvature and torsion functions, the idea is to work backward: find a solution to the above differential equation first, in the hope that the three solutions <span class="math inline">\(y_1\)</span>, <span class="math inline">\(y_2\)</span>, and <span class="math inline">\(y_3\)</span> are <span class="math inline">\(\mathbf{T}(t)\)</span>, <span class="math inline">\(\mathbf{N}(t)\)</span>, and <span class="math inline">\(\mathbf{B}(t)\)</span>, of some <span class="math inline">\(\gamma\)</span>. If that hope is true, we have little choice in what <span class="math inline">\(\gamma\)</span> should be: it has to be an antiderivative of <span class="math inline">\(\mathbf{T}(t)\)</span>. So we now check if our plan has worked by confirming that <span class="math inline">\(\mathbf{N}\)</span> and <span class="math inline">\(\mathbf{B}\)</span> of <span class="math inline">\(\gamma\)</span> are indeed <span class="math inline">\(y_2\)</span> and <span class="math inline">\(y_3\)</span>. All this was done during a lecture, but the orthonormality of the solutions was left as an exercise. We will now use the uniqueness of a solution of a system of differential equations to tackle that.</p>
+<h3 id="checking-orthonormality">Checking orthonormality</h3>
+<p>We will now prove that if the solutions <span class="math inline">\(y_1(t)\)</span>, <span class="math inline">\(y_2(t)\)</span>, and <span class="math inline">\(y_3(t)\)</span> of the following differential equations are orthonormal for some <span class="math inline">\(t_0\)</span>, they are orthonormal for all <span class="math inline">\(t\)</span>.</p>
+<p><span class="math display">\[\begin{align*}
+y_1'(t) &amp;= &amp; \kappa(t) y_2(t) &amp; \\
+y_2'(t) &amp;= -\kappa(t)y_1(t) &amp; + &amp; \tau(t)y_3(t) \\
+y_3'(t) &amp;= &amp; -\tau(t)y_2(t) &amp; 
+\end{align*}\]</span></p>
+<p>Differential equations makes this really easy. You are trying to show a set of equalities. The trick is to show that the left hand sides and the right hand sides are both solutions of <em>some</em> (not the above one!) initial value problem (i.e. system of linear differential equations with a specified initial value). What differential equations are they? First, let us see what are trying to show:</p>
+<p><span class="math display">\[y_1 . y_1 = 1\]</span> <span class="math display">\[y_1 . y_2 = 0\]</span> <span class="math display">\[y_1 . y_3 = 0\]</span> <span class="math display">\[y_2 . y_1 = 0\]</span> <span class="math display">\[y_2 . y_2 = 1\]</span> <span class="math display">\[y_2 . y_3 = 0\]</span> <span class="math display">\[y_3 . y_1 = 0\]</span> <span class="math display">\[y_3 . y_2 = 0\]</span> <span class="math display">\[y_3 . y_3 = 1\]</span></p>
+<p>Let <span class="math inline">\(f_{ij} = y_i . y_j\)</span>. The crucial observation is this: <span class="math inline">\(f_{ij}\)</span>’s satisfy a a system of linear differential equations! This is possible because product rule and the differential equations that <span class="math inline">\(y_i\)</span>s satisfy. For instance, product rule tells us that,</p>
+<p><span class="math display">\[f_{12}'(t) = (y_i(t). y_2(t))' = y_1'(t) . y_2(t) + y_1(t) . y_2'(t) \]</span></p>
+<p>but then the differntial equations themselves help us to write the derivatives in terms of the <span class="math inline">\(y_i\)</span>s.</p>
+<p><span class="math display">\[\begin{align*}
+f_{12}'(t) &amp;= (\kappa(t)y_2(t)) . y_2(t) + y_1(t) . (-\kappa(t)y_1(t)  + \tau(t)y_3(t))\\
+           &amp;= \kappa(t)(y_2(t) . y_2(t))  -\kappa(t)(y_1(t) . y_1(t))  + \tau(t)(y_1(t) . y_3(t)))\\
+           &amp;= \kappa(t)f_{22}  -\kappa(t)f_{11}  + \tau(t)f_{13}\\
+\end{align*}\]</span> Observe that we have shown that the derivative of <span class="math inline">\(f_{12}\)</span> can be written in terms of the <span class="math inline">\(f_{ij}\)</span>s, and we can do the same for the derivatives of the other <span class="math inline">\(f_{ij}\)</span>s too. We have shown that the <span class="math inline">\(f_{ij}\)</span>s satisfy a linear differential equation. Also, since at <span class="math inline">\(t_0\)</span> the <span class="math inline">\(y_i\)</span>s are given to be orthonormal, we know that <span class="math inline">\(f_{ij}(t_0) = 0\)</span> if <span class="math inline">\(i \neq j\)</span> but 1 if <span class="math inline">\(i=j\)</span>. We have to show this for all <span class="math inline">\(t\)</span>. Let us define the constant functions, <span class="math inline">\(\delta_{ij} = 0\)</span> for <span class="math inline">\(i \neq j\)</span> and 1 if <span class="math inline">\(i = j\)</span>. Notice that,</p>
+<p><span class="math display">\[\begin{align*}
+\kappa(t)\delta_{22}   -\kappa(t)\delta_{11}  + \tau(t)\delta_{13} &amp;= \kappa(t)\delta_{22}   -\kappa(t)\delta_{11}  + \tau(t)\delta_{13}\\
+           &amp;= \kappa(t)1   -\kappa(t)1  + \tau(t)0\\
+          &amp;= 0
+\end{align*}\]</span> and since <span class="math inline">\(\delta_{12}\)</span> is a constant function, <span class="math inline">\(\delta_{12}'(t)=0\)</span>, so, <span class="math inline">\(\delta_{12}'(t)= 0 = \kappa(t)\delta_{22} -\kappa(t)\delta_{11} + \tau(t)\delta_{13}\)</span>. In other words, <span class="math inline">\(\delta_{12}\)</span> satisfies the same differential equation as <span class="math inline">\(f_{12}\)</span>.</p>
+<p>The same is true of the other <span class="math inline">\(\delta_{ij}\)</span>s and so they satisfy the same system of differential equations as <span class="math inline">\(f_{ij}\)</span>s. In fact, <span class="math inline">\(\delta_{ij}\)</span>s were chosen to satisfy the same initial condition, i.e. the same values at <span class="math inline">\(t_0\)</span> as <span class="math inline">\(f_{ij}\)</span>. By the theory of differential equations, since <span class="math inline">\(\delta_{ij}\)</span>s and <span class="math inline">\(f_{ij}\)</span>s are solutions of the same initial value problem they are equal and so,</p>
+<p>Whenever <span class="math inline">\(i\neq j\)</span>, <span class="math display">\[y(t)_i . y_j(t) = f_{ij}(t) = \delta_{ij}(t) = 0\]</span> and <span class="math display">\[y(t)_i . y_i(t) = f_{ii}(t) = \delta_{ii}(t) = 1\]</span></p>
+</section>
+</article>
+
+    </section>
+
+<section id="posts" class="sidenav">
+
+    <h2>Latest exercise sheet</h2>
+<ul>
+    
+        <li>
+          <a href="../assignments/2021-10-26-exercise06.html">Exercise sheet 6</a>
+	   /
+	  <a href="../assignments/pdfs/2021-10-26-exercise06.pdf">PDF version</a>
+	  
+	  
+        </li>
+    
+        <li>
+          <a href="../assignments/2021-10-10-exercise05.html">Exercise sheet 5</a>
+	   /
+	  <a href="../assignments/pdfs/2021-10-10-exercise05.pdf">PDF version</a>
+	  
+	  <br /> 
+	   (<a href="../assignments/solutions/2021-10-10-exercise05.html">Hints or Solutions</a> /
+	  <a href="../assignments/solutions/pdfs/2021-10-10-exercise05.pdf">Hints or Solutions PDF</a>)
+	  
+        </li>
+    
+</ul>
+
+    <p><a href="../assignments.html">All exercise sheets&hellip;</a></p>
+
+
+
+    <h2>Recent slides</h2>
+<ul>
+    
+        <li>
+            <a href="../texslides/2021-10-25-lecture12.pdf">Lecture on 25 October, 2021 (Monday)</a>
+        </li>
+    
+        <li>
+            <a href="../texslides/2021-10-18-lecture11.pdf">Lecture on 18 October, 2021 (Monday)</a>
+        </li>
+    
+</ul>
+
+    <p><a href="../slides.html">All slides&hellip;</a></p>
+
+
+
+    <h2>Recent comments</h2>
+<ul>
+    
+        <li>
+            <a href="../posts/2021-10-29-diffeq.html">Differential equations</a> - 29 October, 2021 (Friday)
+	  
+	  (<a href="../posts/pdfs/2021-10-29-diffeq.pdf">PDF file</a>)
+	  
+        </li>
+    
+        <li>
+            <a href="../posts/2021-10-19-osculating.html">Osculating circles</a> - 19 October, 2021 (Tuesday)
+	  
+	  (<a href="../posts/pdfs/2021-10-19-osculating.pdf">PDF file</a>)
+	  
+        </li>
+    
+</ul>
+
+    <p><a href="../posts.html">All comments&hellip;</a></p>
+
+
+
+
+</section>
+</body>
+</html>
