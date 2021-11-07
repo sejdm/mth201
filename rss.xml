@@ -7,11 +7,11 @@
         <description><![CDATA[Get exercises and announcements]]></description>
         <atom:link href="http://sejdm.github.io/mth201/rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>2021-11-07T12:28:11+5:30</lastBuildDate>
+        <lastBuildDate>2021-11-07T12:38:29+5:30</lastBuildDate>
         <item>
     <title>Announcement</title>
     <link>http://sejdm.github.io/mth201/announcements/2021-11-07-updated-slide.html</link>
-    <description><![CDATA[<div class="announcement"><p>Since there was confusion about curves on a surface patch, the <a href="/texslides/2021-11-01-lecture14.pdf">slides for the lecture</a> delivered on the 1st of November have been updated with diagrams to explain it.</p></div> <br /><span class="date">Last modified: 12:28 PM -  7 November, 2021 </span>
+    <description><![CDATA[<div class="announcement"><p>Since there was confusion about curves on a surface patch, the <a href="texslides/2021-11-01-lecture14.pdf">slides for the lecture</a> delivered on the 1st of November have been updated with diagrams to explain it.</p></div> <br /><span class="date">Last modified: 12:38 PM -  7 November, 2021 </span>
 ]]></description>
     <pubDate>Sun, 07 Nov 2021 00:00:00 UT</pubDate>
     <guid>http://sejdm.github.io/mth201/announcements/2021-11-07-updated-slide.html</guid>
