@@ -8,8 +8,17 @@
         <name>Shane D'Mello</name>
         <email>shane@iisermohali.ac.in</email>
     </author>
-    <updated>2021-11-05T17:52:48+5:30</updated>
+    <updated>2021-11-07T12:26:43+5:30</updated>
     <entry>
+    <title>2021-11-07-updated-slide</title>
+    <link href="http://sejdm.github.io/mth201/announcements/2021-11-07-updated-slide.html" />
+    <id>http://sejdm.github.io/mth201/announcements/2021-11-07-updated-slide.html</id>
+    <published>2021-11-07T00:00:00Z</published>
+    <updated>2021-11-07T12:26:43+5:30</updated>
+    <summary type="html"><![CDATA[<div class="announcement"><p>Since there was confusion about curves on a surface patch, the <a href="/texslides/2021-11-01-lecture14.pdf">slides for the lecture</a> delivered on the 1st of November have been updated with a diagrams to explain it.</p></div> <br /><span class="date">Last modified: 12:26 PM -  7 November, 2021 </span>
+]]></summary>
+</entry>
+<entry>
     <title>2021-11-05-exercises-added</title>
     <link href="http://sejdm.github.io/mth201/announcements/2021-11-05-exercises-added.html" />
     <id>http://sejdm.github.io/mth201/announcements/2021-11-05-exercises-added.html</id>
@@ -88,15 +97,6 @@
     <published>2021-09-21T00:00:00Z</published>
     <updated>2021-09-21T15:29:08+5:30</updated>
     <summary type="html"><![CDATA[<div class="announcement"><p>The playlist has been updated with the latest lecture.</p></div> <br /><span class="date">Last modified: 03:29 PM - 21 September, 2021 </span>
-]]></summary>
-</entry>
-<entry>
-    <title>2021-09-17-hints-and-solutions</title>
-    <link href="http://sejdm.github.io/mth201/announcements/2021-09-17-hints-and-solutions.html" />
-    <id>http://sejdm.github.io/mth201/announcements/2021-09-17-hints-and-solutions.html</id>
-    <published>2021-09-17T00:00:00Z</published>
-    <updated>2021-09-17T17:09:54+5:30</updated>
-    <summary type="html"><![CDATA[<div class="announcement"><p>Partial <span style="color:red">hints / solutions</span> have been posted for some of the exercises from exercise sheet 1. These are just some of the ways of working them out. The tutorial instructors may have used other methods, which is fine.</p></div> <br /><span class="date">Last modified: 05:09 PM - 17 September, 2021 </span>
 ]]></summary>
 </entry>
 
