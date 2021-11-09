@@ -7,8 +7,17 @@
         <description><![CDATA[Get exercises and announcements]]></description>
         <atom:link href="http://sejdm.github.io/mth201/rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>2021-11-08T23:40:50+5:30</lastBuildDate>
+        <lastBuildDate>2021-11-09T01:51:44+5:30</lastBuildDate>
         <item>
+    <title>Announcement</title>
+    <link>http://sejdm.github.io/mth201/announcements/2021-11-09-midsem-grades.html</link>
+    <description><![CDATA[<div class="announcement"><p>View your <strong>mid-semester examination scores</strong> via <a href="https://script.google.com/a/macros/iisermohali.ac.in/s/AKfycbxiYhUAypHvIZxmzwAtgN4z3q9RlBBQ-PmVk0G7qox2V1x8wdT9zwrmkHxeJp5-xI7m/exec">this link</a>. You will need to login using your institute id.</p></div> <br /><span class="date">Last modified: 01:51 AM -  9 November, 2021 </span>
+]]></description>
+    <pubDate>Tue, 09 Nov 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/announcements/2021-11-09-midsem-grades.html</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
     <title>Lecture slide 15</title>
     <link>http://sejdm.github.io/mth201/texslides/2021-11-08-lecture15.pdf</link>
     <description><![CDATA[Lecture slide 15 has been posted.]]></description>
