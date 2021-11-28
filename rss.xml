@@ -7,8 +7,16 @@
         <description><![CDATA[Get exercises and announcements]]></description>
         <atom:link href="http://sejdm.github.io/mth201/rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>2021-11-24T13:08:37+5:30</lastBuildDate>
+        <lastBuildDate>2021-11-28T10:54:46+5:30</lastBuildDate>
         <item>
+    <title>Lecture slide 20</title>
+    <link>http://sejdm.github.io/mth201/texslides/2021-11-25-lecture20.pdf</link>
+    <description><![CDATA[Lecture slide 20 has been posted.]]></description>
+    <pubDate>Thu, 25 Nov 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/texslides/2021-11-25-lecture20.pdf</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
     <title>Lecture slide 19</title>
     <link>http://sejdm.github.io/mth201/texslides/2021-11-22-lecture19.pdf</link>
     <description><![CDATA[Lecture slide 19 has been posted.]]></description>
