@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>2021-11-30-exercises08 - MTH201</title>
+  <meta charset="utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="../../css/my.css">
+<link rel="stylesheet" href="../../css/syntax.css">
+  <link rel="alternate" type="application/atom+xml" title="MTH 201" href="../../atom.xml" />
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+  <div class="navbar">
+
+    <header>
+      <hgroup>
+        <h1><a href="../../index.html" id="titlelink">Curves and Surfaces<br /> (MTH 201)</a></h1>
+      </hgroup>
+    </header>
+
+    <nav id="mainnav">
+      <div id="topmenu">
+        <menu>
+          <a href="../../index.html">Course information</a>
+	  
+          <a href="../../assignments.html">Exercise sheets</a>
+	  
+	  
+          <a href="../../slides.html">Slides</a>
+	  
+	  
+          <a href="../../posts.html">Comments</a>
+	  
+        </menu>
+	</div>
+    </nav>
+    </div>
+    <section id="pagecontent">
+        <article>
+    <section class="header">
+        <h1>Hints / Solutions to Exercise sheet 8</h1>
+    </section>
+    <section>
+<p class="date"><strong>Last modified: 03:16 AM -  6 December, 2021 </strong></p>
+	  
+	  <a href="../../assignments/solutions/pdfs/2021-11-30-exercises08.pdf">PDF version</a>
+	  
+        <p><strong>Question 2:</strong> Prove that the geodesic curvature of a curve in a plane (treated as a surface in <span class="math inline">\(\mathbb{R}^3\)</span>) is equal to the plane curvature.</p>
+<p><strong>Solution 2:</strong><br />
+The main idea is to show that the acceleration vector will point in the tangent plane, therefore, the normal component of the acceleration is 0 (that is the component used to compute the normal curvature). The other component, whose magnitude is the geodesic curvarure, is the same as the acceleration itself, whose magnitude is the usual curvature.</p>
+<p>Consider a plane <span class="math inline">\(a(x-x_0) + b (y-y_0) + c(z-z_0) = 0\)</span>. We can give it a surface patch by <span class="math inline">\(\sigma(x,y) = (x, y, -\frac{a(x - x_0) + b(y-y_0)}{c} + z_0)\)</span>. The idea behind this surface patch is to solve for <span class="math inline">\(z\)</span>, in terms of <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span>, which is only possible if <span class="math inline">\(c\neq 0\)</span> but if not, one can solve for <span class="math inline">\(y\)</span> or <span class="math inline">\(x\)</span> instead).</p>
+<p><span class="math display">\[\sigma_x = (1, 0, -\frac{a}{c})\]</span> <span class="math display">\[\sigma_y = (0, 1, -\frac{b}{c})\]</span></p>
+<p>Note that <span class="math inline">\(\sigma_x \times \sigma_y = (a/c, b/c, 1)\)</span> is parallel to <span class="math inline">\((a, b, c)\)</span>.</p>
+<p>Any curve is of the form,<br />
+<span class="math inline">\(\gamma(t) = \sigma(x(t), y(t)) = (x(t), y(t), -\frac{a(x(t) - x_0) + b(y(t)-y_0)}{c} + z_0)\)</span><br />
+<span class="math inline">\(\dot{\gamma}(t) =  (x'(t), y'(t), -\frac{ax'(t) + by'(t)}{c})\)</span><br />
+Note, <span class="math inline">\((a,b,c) . \dot{\gamma}(t) =  0\)</span></p>
+<p>The crucial observation is that,<br />
+<span class="math inline">\(\ddot{\gamma}(t) =  (x''(t), y''(t), -\frac{ax''(t) + by''(t)}{c})\)</span><br />
+and so, <span class="math inline">\((a/c,b/c,1) . \ddot{\gamma}(t) =  0\)</span>. The acceleration is also perpendicular to <span class="math inline">\(\sigma_x \times \sigma_y\)</span>, so is perpendicular to the unit normal. Therefore, the normal component is 0, and the geodesic component is the entire acceleration vector.</p>
+<p><strong>Question 3:</strong> Compute the normal curvature of any curve on the sphere at a point in the region covered by the surface patch, <span class="math inline">\(\sigma(x,y) = (x, y, \sqrt{1 - x^2 - y^2})\)</span>. Can you interpret the answer physically? Using this, prove that curves on the sphere that have constant geodesic curvature are circles.</p>
+<p><strong>Solution 3:</strong><br />
+This may be solved without using the surface patch.</p>
+<p>We know that any curve with the same velocity vector at <span class="math inline">\(p\)</span> will have the same normal curvature at <span class="math inline">\(p\)</span>. We can find a great circle (i.e. a circle obtained by intersecting the sphere with a plane passing through the center) passing through <span class="math inline">\(p\)</span> with velocity vector in any given direction. The acceleration vector of a circle points toward the center and has magniture 1/radius. Since this is a great circle, its center is the center of the sphere and radius is the radius of the sphere which is 1. So the normal curvature at any point and for any curve given by a unit speed parametrization is 1.</p>
+<p>Since <span class="math inline">\(\kappa^2 = \kappa^2_n + \kappa^2_g\)</span>, if the curve also has constant geodesic curvature, it will also have constant curvature.</p>
+<p>To prove that it is part of a circle, would be then equivalent to showing that it lies on a plane. That in turn, is equivalent to showing that the torsion is 0. Torsion first appeared in Frenet-Serret, so let us keep that as a guide.</p>
+<p>Until now, we know two facts about the curve: it lies on the sphere, and it has constant curvature.</p>
+<p>The fact that curve lies on the sphere tells us, <span class="math inline">\(\|\gamma(t)\|^2 = 1\)</span><br />
+<span class="math inline">\(\mathrm{d}{dt}(\gamma(t) . \gamma(t)) = 0\)</span><br />
+<span class="math inline">\(2 \mathbf{T}(t) . \gamma(t) = 0\)</span><br />
+If we differentiate it again, it will involve the curvature and we can incorporate the fact that the curvature is constant: <span class="math inline">\(\dot{\mathbf{T}}(t) . \gamma(t) +  \mathbf{T}(t) . \mathbf{T}(t)= 0\)</span><br />
+<span class="math inline">\(cN(t) . \gamma(t) +  1= 0\)</span><br />
+If we differentiate again, we will get some relation involving the torsion. <span class="math inline">\((-c \mathbf{T} + \tau(t) \mathbf{B}(t)) . \gamma(t) +  \mathbf{N}(t) . \mathbf{T}(t)= 0\)</span><br />
+<span class="math inline">\(-c \mathbf{T} . \gamma(t) + \tau(t) \mathbf{B}(t) . \gamma(t) +  \mathbf{N}(t) . \mathbf{T}(t)= 0\)</span><br />
+<span class="math inline">\(-c 0 + \tau(t) \mathbf{B}(t) . \gamma(t) +  0= 0\)</span><br />
+<span class="math inline">\(\tau(t) \mathbf{B}(t) . \gamma(t)= 0\)</span><br />
+Now if <span class="math inline">\(\mathbf{B}(t) . \gamma(t)\neq 0\)</span> for any <span class="math inline">\(t\)</span>, then the <span class="math inline">\(\tau(t)=0\)</span> and we are done. If not, differentiating both sides of <span class="math inline">\(\mathbf{B}(t) . \gamma(t) = 0\)</span> and using Frenet-Serret will impose a relationship between <span class="math inline">\(\mathbf{T}\)</span>, <span class="math inline">\(\mathbf{N}\)</span>, and <span class="math inline">\(\gamma\)</span>:<br />
+<span class="math inline">\(\mathbf{B}(t) . \gamma(t) = 0\)</span><br />
+<span class="math inline">\(\dot{\mathbf{B}}(t) . \gamma(t)  + \mathbf{B}(t) . \mathbf{T}(t)= 0\)</span><br />
+<span class="math inline">\(-\tau(t)\mathbf{N}(t) . \gamma(t)  + \mathbf{B}(t) . \mathbf{T}(t)= 0\)</span><br />
+<span class="math inline">\(-\tau(t)\mathbf{N}(t) . \gamma(t)  = 0\)</span><br />
+Once again, either <span class="math inline">\(\tau(t)=0\)</span> or <span class="math inline">\(\mathbf{N}(t) . \gamma(t) =0\)</span> but the latter cannot happen because <span class="math inline">\(cN(t) . \gamma(t) =  -1\)</span>.</p>
+    </section>
+</article>
+
+    </section>
+
+<section id="posts" class="sidenav">
+
+    <h2>Latest exercise sheet</h2>
+<ul>
+    
+        <li>
+          <a href="../../assignments/2021-11-30-exercises08.html">Exercise sheet 8</a>
+	   /
+	  <a href="../../assignments/pdfs/2021-11-30-exercises08.pdf">PDF version</a>
+	  
+	  <br /> 
+	   (<a href="../../assignments/solutions/2021-11-30-exercises08.html">Hints or Solutions</a> /
+	  <a href="../../assignments/solutions/pdfs/2021-11-30-exercises08.pdf">Hints or Solutions PDF</a>)
+	  
+        </li>
+    
+        <li>
+          <a href="../../assignments/2021-11-13-exercises07.html">Exercise sheet 7</a>
+	   /
+	  <a href="../../assignments/pdfs/2021-11-13-exercises07.pdf">PDF version</a>
+	  
+	  
+        </li>
+    
+</ul>
+
+    <p><a href="../../assignments.html">All exercise sheets&hellip;</a></p>
+
+
+
+    <h2>Recent slides</h2>
+<ul>
+    
+        <li>
+            <a href="../../texslides/2021-11-29-lecture21.pdf">Lecture on 29 November, 2021 (Monday)</a>
+        </li>
+    
+        <li>
+            <a href="../../texslides/2021-11-25-lecture20.pdf">Lecture on 25 November, 2021 (Thursday)</a>
+        </li>
+    
+</ul>
+
+    <p><a href="../../slides.html">All slides&hellip;</a></p>
+
+
+
+    <h2>Recent comments</h2>
+<ul>
+    
+        <li>
+            <a href="../../posts/2021-10-29-diffeq.html">Differential equations</a> - 29 October, 2021 (Friday)
+	  
+	  (<a href="../../posts/pdfs/2021-10-29-diffeq.pdf">PDF file</a>)
+	  
+        </li>
+    
+        <li>
+            <a href="../../posts/2021-10-19-osculating.html">Osculating circles</a> - 19 October, 2021 (Tuesday)
+	  
+	  (<a href="../../posts/pdfs/2021-10-19-osculating.pdf">PDF file</a>)
+	  
+        </li>
+    
+</ul>
+
+    <p><a href="../../posts.html">All comments&hellip;</a></p>
+
+
+
+
+</section>
+</body>
+</html>
