@@ -28,11 +28,6 @@
           <a href="../assignments.html">Exercise sheets</a>
 	  
 	  
-          <a href="../slides.html">Slides</a>
-	  
-	  
-          <a href="../posts.html">Comments</a>
-	  
         </menu>
 	</div>
     </nav>
@@ -46,28 +41,24 @@
       <p>
 	
 	
-	<a href="../assignments/2021-09-13-exercise02.html" style="float:right" class="next">>></a>
-	
       </p>
-<p class="date"><strong>&nbsp;Last modified: 05:06 PM - 17 September, 2021 </strong></p>
+<p class="date"><strong>&nbsp;Last modified: 05:42 PM - 29 August, 2022 </strong></p>
 	  
 	  <a href="../assignments/pdfs/2021-09-10-exercise01.pdf">PDF version</a>
 	  
-	  
-	  <br />
-	  <a href="../assignments/solutions/2021-09-10-exercise01.html">Hints or Solutions</a> / 
-	  <a href="../assignments/solutions/pdfs/2021-09-10-exercise01.pdf">Hints or Solutions PDF</a>
 	  
         <ol>
 <li><p>Find a parametrization <span class="math inline">\(\gamma(t)\)</span> for a line segment joining two given points <span class="math inline">\((x_1. y_1)\)</span> and <span class="math inline">\((x_2. y_2)\)</span>. Find <span class="math inline">\(\dot{\gamma}(t)\)</span>.</p></li>
 <li><p>What does the parametrization trace out <span class="math inline">\(\gamma(t) = (\frac{2t}{1+t^2}, \frac{1-t^2}{1+t^2})\)</span>?</p></li>
 <li><p>Show that the parametrization <span class="math inline">\(\gamma(t) := (t^2 - 1, t(t^2 - 1))\)</span> is not injective, i.e. there are two <em>distinct</em> real numbers <span class="math inline">\(t_1\)</span> and <span class="math inline">\(t_2\)</span> so that <span class="math inline">\(\gamma(t_1) = \gamma(t_2)\)</span>. Can you deduce the shape<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> of this curve? Can you express the set of points defined by this curve as the zero set<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> of some function <span class="math inline">\(f(x,y)\)</span>?</p></li>
-<li><p>Remember that <span class="math inline">\(\mathbb{R}^2\)</span> can be given the structure of a vector space by defining, <span class="math inline">\((x_1,y_1) + (x_2,y_2) := (x_1+x_2, y_1 + y_2)\)</span> (vector addition) and <span class="math inline">\(c(x,y) := (cx, cy)\)</span> (scalar multiplication) for some real number <span class="math inline">\(c\)</span>. Let <span class="math inline">\(\mathbf{v}_1 : (\alpha, \beta) \to \mathbb{R}^2\)</span> and <span class="math inline">\(\mathbf{v}_2 : (\alpha, \beta) \to \mathbb{R}^2\)</span> be smooth “vector valued” functions. Show that,</p>
+<li><p>For <span class="math inline">\(\mathbf{v} : (\alpha,\beta) \to \mathbf{R}^2\)</span> and <span class="math inline">\(\mathbf{w} : (\alpha,\beta) \to \mathbf{R}^2\)</span>, show that <span class="math inline">\((\mathbf{v}(t). \mathbf{w}(t))' = \mathbf{v}'(t). \mathbf{w}(t) + \mathbf{v}(t). \mathbf{w}'(t)\)</span>.</p></li>
+<li><p>If <span class="math inline">\(\mathbf{n} : (\alpha,\beta) \to \mathbf{R}^2\)</span> is such that <span class="math inline">\(||\mathbf{n}(t)||\)</span> is constant, then prove that <span class="math inline">\(\dot{\mathbf{n}}(t)\)</span> is either 0 or perpendicular to <span class="math inline">\(\mathbf{n}(t)\)</span>.</p></li>
+<li><p>if we denote, <span class="math display">\[s_\alpha(t) := \int_{t_\alpha}^t| | \dot{\gamma}(u)| | \mathrm{d}u\]</span> <span class="math display">\[s_\beta(t) := \int_{t_\beta}^t| | \dot{\gamma}(u)| | \mathrm{d}u\]</span> prove that <span class="math inline">\(s_\beta(t) - s_\alpha(t)\)</span> is a constant <strong>(assume that <span class="math inline">\(t_\alpha &lt; t_\beta\)</span>)</strong>.</p></li>
+<li><p>If <span class="math inline">\(\gamma : (\alpha, \beta) \to \mathbb{R}^2\)</span> is a smooth <strong>and regular</strong> parametrization, then show that <span class="math inline">\(| |\dot{\gamma}(t)| | : (\alpha, \beta) \to \mathbb{R}\)</span> is smooth.</p></li>
+<li><p>For the parametrization <span class="math inline">\(\gamma : (-\pi/2, \pi/2) \to \mathbb{R}^2\)</span> given by <span class="math inline">\(\gamma(t) = (5\cos(t), 5\sin(t))\)</span>,</p>
 <ol>
-<li><p><span class="math inline">\((\mathbf{v}_1(t) + \mathbf{v}_2(t))' = \mathbf{v}_1'(t) + \mathbf{v}_2'(t)\)</span></p></li>
-<li><p><span class="math inline">\((\mathbf{v}_1(t) - \mathbf{v}_2(t))' = \mathbf{v}_1'(t) - \mathbf{v}_2'(t)\)</span></p></li>
-<li><p><span class="math inline">\(\mathbf{v}(\phi(t))' = \mathbf{v}'(\phi(t))\phi'(t)\)</span>, where <span class="math inline">\(\phi : (\alpha', \beta') \to (\alpha, \beta)\)</span> is a smooth function.</p></li>
-<li><p>During the lecture we defined <span class="math inline">\(\mathbf{v}'(t)\)</span>, where <span class="math inline">\(\mathbf{v}(t) = (f(t), g(t))\)</span> to be <span class="math inline">\((f'(t), g'(t))\)</span>. Show that, <span class="math display">\[\mathbf{v}'(t) = \lim_{h\to 0} 1/h (\mathbf{v}(t+h) - \mathbf{v}(t))\]</span> Remember that the subtraction above is vector subtraction and the multiplication by <span class="math inline">\(1/h\)</span> is scalar multiplication.</p></li>
+<li><p>Find the arc-length function <span class="math inline">\(s(t)\)</span> (starting at, say, 0)</p></li>
+<li><p>Find a reparametrization map <span class="math inline">\(\phi\)</span> so that <span class="math inline">\(\gamma(\phi(t))\)</span> is a unit-speed parametrization.</p></li>
 </ol></li>
 </ol>
 <section class="footnotes" role="doc-endnotes">
@@ -88,20 +79,9 @@
 <ul>
     
         <li>
-          <a href="../assignments/2021-11-30-exercises08.html">Exercise sheet 8</a>
+          <a href="../assignments/2021-09-10-exercise01.html">Exercise sheet 1</a>
 	   /
-	  <a href="../assignments/pdfs/2021-11-30-exercises08.pdf">PDF version</a>
-	  
-	  <br /> 
-	   (<a href="../assignments/solutions/2021-11-30-exercises08.html">Hints or Solutions</a> /
-	  <a href="../assignments/solutions/pdfs/2021-11-30-exercises08.pdf">Hints or Solutions PDF</a>)
-	  
-        </li>
-    
-        <li>
-          <a href="../assignments/2021-11-13-exercises07.html">Exercise sheet 7</a>
-	   /
-	  <a href="../assignments/pdfs/2021-11-13-exercises07.pdf">PDF version</a>
+	  <a href="../assignments/pdfs/2021-09-10-exercise01.pdf">PDF version</a>
 	  
 	  
         </li>
@@ -112,43 +92,6 @@
 
 
 
-    <h2>Recent slides</h2>
-<ul>
-    
-        <li>
-            <a href="../texslides/2021-11-29-lecture21.pdf">Lecture on 29 November, 2021 (Monday)</a>
-        </li>
-    
-        <li>
-            <a href="../texslides/2021-11-25-lecture20.pdf">Lecture on 25 November, 2021 (Thursday)</a>
-        </li>
-    
-</ul>
-
-    <p><a href="../slides.html">All slides&hellip;</a></p>
-
-
-
-    <h2>Recent comments</h2>
-<ul>
-    
-        <li>
-            <a href="../posts/2021-10-29-diffeq.html">Differential equations</a> - 29 October, 2021 (Friday)
-	  
-	  (<a href="../posts/pdfs/2021-10-29-diffeq.pdf">PDF file</a>)
-	  
-        </li>
-    
-        <li>
-            <a href="../posts/2021-10-19-osculating.html">Osculating circles</a> - 19 October, 2021 (Tuesday)
-	  
-	  (<a href="../posts/pdfs/2021-10-19-osculating.pdf">PDF file</a>)
-	  
-        </li>
-    
-</ul>
-
-    <p><a href="../posts.html">All comments&hellip;</a></p>
 
 
 
