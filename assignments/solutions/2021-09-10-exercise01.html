@@ -28,11 +28,6 @@
           <a href="../../assignments.html">Exercise sheets</a>
 	  
 	  
-          <a href="../../slides.html">Slides</a>
-	  
-	  
-          <a href="../../posts.html">Comments</a>
-	  
         </menu>
 	</div>
     </nav>
@@ -43,7 +38,7 @@
         <h1>Hints / Solutions to Exercise sheet 1</h1>
     </section>
     <section>
-<p class="date"><strong>Last modified: 05:05 PM - 17 September, 2021 </strong></p>
+<p class="date"><strong>Last modified: 12:04 PM - 13 September, 2022 </strong></p>
 	  
 	  <a href="../../assignments/solutions/pdfs/2021-09-10-exercise01.pdf">PDF version</a>
 	  
@@ -59,6 +54,43 @@
 <p><strong>Question 3:</strong> Express the curve traced out by the parametrization <span class="math inline">\(\gamma(t) := (t^2 - 1, t(t^2 - 1))\)</span> as the zero set of some function.<br />
 <strong>Solution 3:</strong> We will try to “eliminate the variable” <span class="math inline">\(t\)</span>, which in this case is doable (but not always!)<br />
 <span class="math inline">\(x = t^2 - 1\)</span> and <span class="math inline">\(y = t(t^2 - 1)\)</span>, so <span class="math inline">\(y/x = t\)</span> as long as <span class="math inline">\(t \neq \pm 1\)</span> (because we cannot divide by 0!). Now, plugging in <span class="math inline">\(t = y/x\)</span> in <span class="math inline">\(x = t^2 - 1\)</span>, we get <span class="math inline">\(x = (y/x)^2 - 1\)</span>, and so <span class="math inline">\(x^3 = y^2 - x^2\)</span>. We know this holds for all <span class="math inline">\(t\)</span> except <span class="math inline">\(\pm 1\)</span>, but for <span class="math inline">\(t=\pm 1\)</span> we get the point <span class="math inline">\((0,0)\)</span>. We can easily check that this also satisfies <span class="math inline">\(x^3 = y^2 - x^2\)</span>.</p>
+<p><strong>Question 4:</strong> For <span class="math inline">\(\mathbf{v} : (\alpha,\beta) \to \mathbf{R}^2\)</span> and <span class="math inline">\(\mathbf{w} : (\alpha,\beta) \to \mathbf{R}^2\)</span>, show that <span class="math inline">\((\mathbf{v}(t). \mathbf{w}(t))' = \mathbf{v}'(t). \mathbf{w}(t) + \mathbf{v}(t). \mathbf{w}'(t)\)</span>.</p>
+<p><strong>Solution 4:</strong><br />
+<span class="math inline">\(\mathbf{v}(t) = (v_1(t), v_2(t))\)</span><br />
+<span class="math inline">\(\mathbf{w}(t) = (w_1(t), w_2(t))\)</span><br />
+<span class="math inline">\(\mathbf{v}(t) . \mathbf{w}(t) = v_1(t)w_1(t) + v_2(t)w_2(t)\)</span><br />
+<span class="math inline">\((\mathbf{v}(t) . \mathbf{w}(t))' = (v_1(t)w_1(t))' + (v_2(t)w_2(t))'\)</span> (by definition of differentiating a function to <span class="math inline">\(\mathbb{R}^2\)</span>)<br />
+So,<br />
+<span class="math inline">\((\mathbf{v}(t) . \mathbf{w}(t))' = v_1'(t)w_1(t)+ v_1(t)w_1'(t) +  v_2'(t)w_2(t) + v_2(t)w_2(t)'\)</span><br />
+Rearranging,<br />
+<span class="math inline">\((\mathbf{v}(t) . \mathbf{w}(t))' = (v_1'(t)w_1(t) +  v_2'(t)w_2(t))  + (v_1(t)w_1'(t) + v_2(t)w_2(t)')\)</span><br />
+<span class="math inline">\((\mathbf{v}(t) . \mathbf{w}(t))' = (v_1'(t), v_2'(t)). (w_1(t), w_2(t))  + (v_1(t),v_2(t)). (w_1'(t) . w_2(t)')\)</span><br />
+<span class="math inline">\((\mathbf{v}(t) . \mathbf{w}(t))' = \mathbf{v}'(t) . \mathbf{w}(t) + \mathbf{v}(t) . \mathbf{w}'(t)\)</span></p>
+<hr />
+<p><strong>Question 5:</strong> If <span class="math inline">\(\mathbf{n} : (\alpha,\beta) \to \mathbf{R}^2\)</span> is such that <span class="math inline">\(||\mathbf{n}(t)||\)</span> is constant, then prove that <span class="math inline">\(\dot{\mathbf{n}}(t)\)</span> is either 0 or perpendicular to <span class="math inline">\(\mathbf{n}(t)\)</span>.</p>
+<p><strong>Solution 5:</strong><br />
+This question just generalizes what was seen <span class="math inline">\(n(t) . n(t) = C\)</span><br />
+Differentiating,<br />
+<span class="math inline">\(\dot{n}(t) . n(t) + n(t) . \dot{n}(t) = 0\)</span><br />
+so, <span class="math inline">\(2\dot{n}(t) . n(t) = 0\)</span><br />
+so, <span class="math inline">\(\dot{n}(t) . n(t) = 0\)</span><br />
+</p>
+<hr />
+<p><strong>Question 6:</strong> if we denote, <span class="math display">\[s_\alpha(t) := \int_{t_\alpha}^t| | \dot{\gamma}(u)| | \mathrm{d}u\]</span> <span class="math display">\[s_\beta(t) := \int_{t_\beta}^t| | \dot{\gamma}(u)| | \mathrm{d}u\]</span> prove that <span class="math inline">\(s_\beta(t) - s_\alpha(t)\)</span> is a constant <strong>(assume that <span class="math inline">\(t_\alpha &lt; t_\beta\)</span>)</strong>.</p>
+<p><strong>Solution 6:</strong><br />
+This exercise is just saying that if you start measuring the distance traced out by your parametrization at time <span class="math inline">\(t_\beta\)</span> rather than time <span class="math inline">\(t_\alpha\)</span>, you only need to add the distance covered from time <span class="math inline">\(t_\alpha\)</span> to time <span class="math inline">\(t_\beta\)</span> We use the rule that, <span class="math display">\[\int_a^cf(t) \mathrm{d}t =  \int_a^bf(t) \mathrm{d}t +  \int_b^cf(t) \mathrm{d}t\]</span> and therefore, <span class="math display">\[\int_a^cf(t) \mathrm{d}t -  \int_b^cf(t) \mathrm{d}t =  \int_a^bf(t) \mathrm{d}t\]</span></p>
+<p>So, <span class="math display">\[s_\alpha(t) := \int_{t_\alpha}^t| | \dot{\gamma}(u)| | \mathrm{d}u\]</span> <span class="math display">\[s_\beta(t) := \int_{t_\beta}^t| | \dot{\gamma}(u)| | \mathrm{d}u\]</span> <span class="math display">\[s_\beta(t) - s_\alpha(t)  = \int_{t_\beta}^t| | \dot{\gamma}(u)| | \mathrm{d}u - \int_{t_\alpha}^t| | \dot{\gamma}(u)| | \mathrm{d}u = \int_{t_\alpha}^{t_\beta}| | \dot{\gamma}(u)| | \mathrm{d}u\]</span> But the last integral is just a real number and does not depend on <span class="math inline">\(t\)</span> so it is constant with respect to <span class="math inline">\(t\)</span>.</p>
+<hr />
+<p><strong>Question 7:</strong> If <span class="math inline">\(\gamma : (\alpha, \beta) \to \mathbb{R}^2\)</span> is a smooth <strong>and regular</strong> parametrization, then show that <span class="math inline">\(| |\dot{\gamma}(t)| | : (\alpha, \beta) \to \mathbb{R}\)</span> is smooth.</p>
+<p><strong>Solution 7:</strong><br />
+We actually need to assume that <span class="math inline">\(\gamma\)</span> is regular. Let <span class="math inline">\(\gamma(t) = (x(t). y(t))\)</span>.<br />
+<span class="math inline">\(\dot{\gamma}(t) = (\dot{x}(t). \dot{y}(t))\)</span>.<br />
+<span class="math inline">\(\|\dot{\gamma}(t)\| = \sqrt{\dot{x}^2(t) + \dot{y}^2(t)}\)</span>.<br />
+<span class="math inline">\(x(t)\)</span> and <span class="math inline">\(y(t)\)</span> are smooth because that is the meaning of <span class="math inline">\(\gamma(t)\)</span> being smooth. Of course, even their derivatives are smooth, so <span class="math inline">\(\dot{x}(t)\)</span> and <span class="math inline">\(\dot{y}(t)\)</span> are smooth.</p>
+<p>The squares of smooth functions are smooth, so <span class="math inline">\(\dot{x}^2(t)\)</span> and <span class="math inline">\(\dot{y}^2(t)\)</span> are smooth.</p>
+<p>The sum of smooth functions is smooth, so <span class="math inline">\(\dot{x}^2(t) + \dot{y}^2(t)\)</span> is smooth.</p>
+<p>We need to be careful about the square root function. Whenever <span class="math inline">\(x&gt;0\)</span>, then if, <span class="math display">\[f(x) = \sqrt{x}\]</span> usin the rule for differentiating anything of the form <span class="math inline">\(x^n\)</span> (in this case <span class="math inline">\(x^{1/2}\)</span>), <span class="math display">\[f'(x) = \frac{1}{2\sqrt{x}}\]</span></p>
+<p>Note that at <span class="math inline">\(x = 0\)</span>, this is undefined, and indeed it is not differentiable at <span class="math inline">\(x=0\)</span>. So we need to ensure that we are taking the square root of something which is strictly positive. But <span class="math inline">\(\dot{x}^2(t) + \dot{y}^2(t)&gt;0\)</span> except when <span class="math inline">\(\dot{x}(t)\)</span> and <span class="math inline">\(\dot{y}(t)\)</span> are <em>both</em> 0, in which case <span class="math inline">\(\dot{\gamma}(t)=0\)</span> for that <span class="math inline">\(t\)</span>, but that cannot happen with a regular parametrization.</p>
     </section>
 </article>
 
@@ -70,21 +102,21 @@
 <ul>
     
         <li>
-          <a href="../../assignments/2021-11-30-exercises08.html">Exercise sheet 8</a>
+          <a href="../../assignments/2022-09-12-exercise02.html">Exercise sheet 2</a>
 	   /
-	  <a href="../../assignments/pdfs/2021-11-30-exercises08.pdf">PDF version</a>
+	  <a href="../../assignments/pdfs/2022-09-12-exercise02.pdf">PDF version</a>
 	  
-	  <br /> 
-	   (<a href="../../assignments/solutions/2021-11-30-exercises08.html">Hints or Solutions</a> /
-	  <a href="../../assignments/solutions/pdfs/2021-11-30-exercises08.pdf">Hints or Solutions PDF</a>)
 	  
         </li>
     
         <li>
-          <a href="../../assignments/2021-11-13-exercises07.html">Exercise sheet 7</a>
+          <a href="../../assignments/2021-09-10-exercise01.html">Exercise sheet 1</a>
 	   /
-	  <a href="../../assignments/pdfs/2021-11-13-exercises07.pdf">PDF version</a>
+	  <a href="../../assignments/pdfs/2021-09-10-exercise01.pdf">PDF version</a>
 	  
+	  <br /> 
+	   (<a href="../../assignments/solutions/2021-09-10-exercise01.html">Hints or Solutions</a> /
+	  <a href="../../assignments/solutions/pdfs/2021-09-10-exercise01.pdf">Hints or Solutions PDF</a>)
 	  
         </li>
     
@@ -94,43 +126,6 @@
 
 
 
-    <h2>Recent slides</h2>
-<ul>
-    
-        <li>
-            <a href="../../texslides/2021-11-29-lecture21.pdf">Lecture on 29 November, 2021 (Monday)</a>
-        </li>
-    
-        <li>
-            <a href="../../texslides/2021-11-25-lecture20.pdf">Lecture on 25 November, 2021 (Thursday)</a>
-        </li>
-    
-</ul>
-
-    <p><a href="../../slides.html">All slides&hellip;</a></p>
-
-
-
-    <h2>Recent comments</h2>
-<ul>
-    
-        <li>
-            <a href="../../posts/2021-10-29-diffeq.html">Differential equations</a> - 29 October, 2021 (Friday)
-	  
-	  (<a href="../../posts/pdfs/2021-10-29-diffeq.pdf">PDF file</a>)
-	  
-        </li>
-    
-        <li>
-            <a href="../../posts/2021-10-19-osculating.html">Osculating circles</a> - 19 October, 2021 (Tuesday)
-	  
-	  (<a href="../../posts/pdfs/2021-10-19-osculating.pdf">PDF file</a>)
-	  
-        </li>
-    
-</ul>
-
-    <p><a href="../../posts.html">All comments&hellip;</a></p>
 
 
 
