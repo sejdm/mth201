@@ -7,11 +7,11 @@
         <description><![CDATA[Get exercises and announcements]]></description>
         <atom:link href="http://sejdm.github.io/mth201/rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>2022-09-15T01:28:51+5:30</lastBuildDate>
+        <lastBuildDate>2022-09-15T01:33:25+5:30</lastBuildDate>
         <item>
     <title>Announcement</title>
     <link>http://sejdm.github.io/mth201/announcements/2022-09-15-slides.html</link>
-    <description><![CDATA[<div class="announcement">Last year’s slides are now available via the “Last year’s slides” link above. I am not using these slides this year, but you may find in them many of the topics that we are covering this year.</div> <br /><span class="date">Last modified: 01:28 AM - 15 September, 2022 </span>
+    <description><![CDATA[<div class="announcement">The slides that were used to teach this course in 2021 are now available via the “Last year’s slides” link above. I am not using these slides this year, but you may find in them many of the topics that we are covering this year.</div> <br /><span class="date">Last modified: 01:33 AM - 15 September, 2022 </span>
 ]]></description>
     <pubDate>Thu, 15 Sep 2022 00:00:00 UT</pubDate>
     <guid>http://sejdm.github.io/mth201/announcements/2022-09-15-slides.html</guid>
