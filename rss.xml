@@ -7,8 +7,185 @@
         <description><![CDATA[Get exercises and announcements]]></description>
         <atom:link href="http://sejdm.github.io/mth201/rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>2022-09-13T12:04:41+5:30</lastBuildDate>
+        <lastBuildDate>2022-09-15T01:28:51+5:30</lastBuildDate>
         <item>
+    <title>Announcement</title>
+    <link>http://sejdm.github.io/mth201/announcements/2022-09-15-slides.html</link>
+    <description><![CDATA[<div class="announcement">Last year’s slides are now available via the “Last year’s slides” link above. I am not using these slides this year, but you may find in them many of the topics that we are covering this year.</div> <br /><span class="date">Last modified: 01:28 AM - 15 September, 2022 </span>
+]]></description>
+    <pubDate>Thu, 15 Sep 2022 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/announcements/2022-09-15-slides.html</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
+    <title>Lecture slide 21</title>
+    <link>http://sejdm.github.io/mth201/texslides/2021-11-29-lecture21.pdf</link>
+    <description><![CDATA[Lecture slide 21 has been posted.]]></description>
+    <pubDate>Mon, 29 Nov 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/texslides/2021-11-29-lecture21.pdf</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
+    <title>Lecture slide 20</title>
+    <link>http://sejdm.github.io/mth201/texslides/2021-11-25-lecture20.pdf</link>
+    <description><![CDATA[Lecture slide 20 has been posted.]]></description>
+    <pubDate>Thu, 25 Nov 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/texslides/2021-11-25-lecture20.pdf</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
+    <title>Lecture slide 19</title>
+    <link>http://sejdm.github.io/mth201/texslides/2021-11-22-lecture19.pdf</link>
+    <description><![CDATA[Lecture slide 19 has been posted.]]></description>
+    <pubDate>Mon, 22 Nov 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/texslides/2021-11-22-lecture19.pdf</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
+    <title>Lecture slide 18</title>
+    <link>http://sejdm.github.io/mth201/texslides/2021-11-18-lecture18.pdf</link>
+    <description><![CDATA[Lecture slide 18 has been posted.]]></description>
+    <pubDate>Thu, 18 Nov 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/texslides/2021-11-18-lecture18.pdf</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
+    <title>Lecture slide 17</title>
+    <link>http://sejdm.github.io/mth201/texslides/2021-11-15-lecture17.pdf</link>
+    <description><![CDATA[Lecture slide 17 has been posted.]]></description>
+    <pubDate>Mon, 15 Nov 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/texslides/2021-11-15-lecture17.pdf</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
+    <title>Lecture slide 16</title>
+    <link>http://sejdm.github.io/mth201/texslides/2021-11-12-lecture16.pdf</link>
+    <description><![CDATA[Lecture slide 16 has been posted.]]></description>
+    <pubDate>Fri, 12 Nov 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/texslides/2021-11-12-lecture16.pdf</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
+    <title>Lecture slide 15</title>
+    <link>http://sejdm.github.io/mth201/texslides/2021-11-08-lecture15.pdf</link>
+    <description><![CDATA[Lecture slide 15 has been posted.]]></description>
+    <pubDate>Mon, 08 Nov 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/texslides/2021-11-08-lecture15.pdf</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
+    <title>Lecture slide 14</title>
+    <link>http://sejdm.github.io/mth201/texslides/2021-11-01-lecture14.pdf</link>
+    <description><![CDATA[Lecture slide 14 has been posted.]]></description>
+    <pubDate>Mon, 01 Nov 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/texslides/2021-11-01-lecture14.pdf</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
+    <title>Lecture slide 13</title>
+    <link>http://sejdm.github.io/mth201/texslides/2021-10-28-lecture13.pdf</link>
+    <description><![CDATA[Lecture slide 13 has been posted.]]></description>
+    <pubDate>Thu, 28 Oct 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/texslides/2021-10-28-lecture13.pdf</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
+    <title>Lecture slide 12</title>
+    <link>http://sejdm.github.io/mth201/texslides/2021-10-25-lecture12.pdf</link>
+    <description><![CDATA[Lecture slide 12 has been posted.]]></description>
+    <pubDate>Mon, 25 Oct 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/texslides/2021-10-25-lecture12.pdf</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
+    <title>Lecture slide 11</title>
+    <link>http://sejdm.github.io/mth201/texslides/2021-10-18-lecture11.pdf</link>
+    <description><![CDATA[Lecture slide 11 has been posted.]]></description>
+    <pubDate>Mon, 18 Oct 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/texslides/2021-10-18-lecture11.pdf</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
+    <title>Lecture slide 10</title>
+    <link>http://sejdm.github.io/mth201/texslides/2021-10-07-lecture10.pdf</link>
+    <description><![CDATA[Lecture slide 10 has been posted.]]></description>
+    <pubDate>Thu, 07 Oct 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/texslides/2021-10-07-lecture10.pdf</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
+    <title>Lecture slide 9</title>
+    <link>http://sejdm.github.io/mth201/texslides/2021-10-04-lecture09.pdf</link>
+    <description><![CDATA[Lecture slide 9 has been posted.]]></description>
+    <pubDate>Mon, 04 Oct 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/texslides/2021-10-04-lecture09.pdf</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
+    <title>Lecture slide 8</title>
+    <link>http://sejdm.github.io/mth201/texslides/2021-09-30-lecture08.pdf</link>
+    <description><![CDATA[Lecture slide 8 has been posted.]]></description>
+    <pubDate>Thu, 30 Sep 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/texslides/2021-09-30-lecture08.pdf</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
+    <title>Lecture slide 7</title>
+    <link>http://sejdm.github.io/mth201/texslides/2021-09-23-lecture07.pdf</link>
+    <description><![CDATA[Lecture slide 7 has been posted.]]></description>
+    <pubDate>Thu, 23 Sep 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/texslides/2021-09-23-lecture07.pdf</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
+    <title>Lecture slide 6</title>
+    <link>http://sejdm.github.io/mth201/texslides/2021-09-20-lecture06.pdf</link>
+    <description><![CDATA[Lecture slide 6 has been posted.]]></description>
+    <pubDate>Mon, 20 Sep 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/texslides/2021-09-20-lecture06.pdf</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
+    <title>Lecture slide 5</title>
+    <link>http://sejdm.github.io/mth201/texslides/2021-09-16-lecture05.pdf</link>
+    <description><![CDATA[Lecture slide 5 has been posted.]]></description>
+    <pubDate>Thu, 16 Sep 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/texslides/2021-09-16-lecture05.pdf</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
+    <title>Lecture slide 4</title>
+    <link>http://sejdm.github.io/mth201/texslides/2021-09-13-lecture04.pdf</link>
+    <description><![CDATA[Lecture slide 4 has been posted.]]></description>
+    <pubDate>Mon, 13 Sep 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/texslides/2021-09-13-lecture04.pdf</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
+    <title>Lecture slide 3</title>
+    <link>http://sejdm.github.io/mth201/texslides/2021-09-10-lecture03.pdf</link>
+    <description><![CDATA[Lecture slide 3 has been posted.]]></description>
+    <pubDate>Fri, 10 Sep 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/texslides/2021-09-10-lecture03.pdf</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
+    <title>Lecture slide 2</title>
+    <link>http://sejdm.github.io/mth201/texslides/2021-09-09-lecture02.pdf</link>
+    <description><![CDATA[Lecture slide 2 has been posted.]]></description>
+    <pubDate>Thu, 09 Sep 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/texslides/2021-09-09-lecture02.pdf</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
+    <title>Lecture slide 1</title>
+    <link>http://sejdm.github.io/mth201/texslides/2021-09-06-lecture01.pdf</link>
+    <description><![CDATA[Lecture slide 1 has been posted.]]></description>
+    <pubDate>Mon, 06 Sep 2021 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/texslides/2021-09-06-lecture01.pdf</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
     <title>Hints / Solutions 1</title>
     <link>http://sejdm.github.io/mth201/assignments/solutions/2021-09-10-exercise01.html</link>
     <description><![CDATA[Hints / Solutions 1 has been posted.]]></description>
