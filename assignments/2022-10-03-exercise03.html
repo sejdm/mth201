@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>2022-10-03-exercise03 - MTH201</title>
+  <meta charset="utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="../css/my.css">
+<link rel="stylesheet" href="../css/syntax.css">
+  <link rel="alternate" type="application/atom+xml" title="MTH 201" href="../atom.xml" />
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+  <div class="navbar">
+
+    <header>
+      <hgroup>
+        <h1><a href="../index.html" id="titlelink">Curves and Surfaces<br /> (MTH 201)</a></h1>
+      </hgroup>
+    </header>
+
+    <nav id="mainnav">
+      <div id="topmenu">
+        <menu>
+          <a href="../index.html">Course information</a>
+	  
+          <a href="../assignments.html">Exercise sheets</a>
+	  
+	  
+	  
+          <a href="../slides.html">Last year's slides</a>
+	  
+        </menu>
+	</div>
+    </nav>
+    </div>
+    <section id="pagecontent">
+        <article>
+    <section class="header">
+        <h1>Exercise sheet 3</h1>
+    </section>
+    <section>
+      <p>
+	
+	<a href="../assignments/2022-09-12-exercise02.html" class="prev"><<</a>
+	
+	
+      </p>
+<p class="date"><strong>&nbsp;Last modified: 09:26 AM -  4 October, 2022 </strong></p>
+	  
+	  <a href="../assignments/pdfs/2022-10-03-exercise03.pdf">PDF version</a>
+	  
+	  
+        <h2 id="extra-questions-on-curves">Extra questions on curves</h2>
+<p><em>The questions here are are aimed at those who want to see the some interesting applications of differential equations. If you are more concerned about the quiz, skip these questions for now and try the ones on surfaces below.</em></p>
+<ol>
+<li><p>If <span class="math inline">\(\mathbf{v}_1(t), \mathbf{v}_2(t)\)</span>, and <span class="math inline">\(\mathbf{v}_3(t)\)</span>, unit vector fields which are <em>not necessarily</em> <span class="math inline">\(\mathbf{T}(t), \mathbf{N}(t), \mathbf{B}(t)\)</span>, but nevertheless satisfy the same equations: <span class="math display">\[\begin{aligned}
+  \dot{\mathbf{v}_1}&amp;= \kappa(t) \mathbf{v}_2(t) \\
+    \dot{\mathbf{v}_2} &amp;=  -\kappa(t) \mathbf{v}_1(t) +  \tau(t) \mathbf{v}_3(t)  \\
+    \dot{\mathbf{v}_3} &amp;=  -\tau(t) \mathbf{v}_2(t)  \\
+  \end{aligned}\]</span> This exercise will show that if <span class="math inline">\(\mathbf{v}_1\)</span>, <span class="math inline">\(\mathbf{v}_2\)</span>, and <span class="math inline">\(\mathbf{v}_3\)</span> are equal to <span class="math inline">\(\mathbf{T}\)</span>, <span class="math inline">\(\mathbf{N}\)</span>, and <span class="math inline">\(\mathbf{B}\)</span>, respectively, for one <span class="math inline">\(t_0\)</span>, then they are equal for all <span class="math inline">\(t\)</span>, but in a slightly less straightforward manner than you may expect to work out.</p>
+<ol>
+<li><p>Show that <span class="math inline">\(f(t) = \mathbf{v}_1(t) . \mathbf{T}(t) + \mathbf{v}_2(t) . \mathbf{N}(t) + \mathbf{v}_3(t) . \mathbf{B}(t)\)</span> is constant. Note that we are not saying that the individual terms themselves are constant, so this exercise is not saying, for instance, that the the dot products, <span class="math inline">\(\mathbf{v}_1(t) . \mathbf{T}(t)\)</span>, <span class="math inline">\(\mathbf{v}_2(t) . \mathbf{N}(t)\)</span>, or <span class="math inline">\(\mathbf{v}_3(t) . \mathbf{B}(t)\)</span>, are individually constant; it is only when we take their sum that we can ensure the resulting sum is constant. Luckily, this will be sufficient to prove the next part.</p></li>
+<li><p>Show that if <span class="math inline">\(\mathbf{v}_1(t_0)= \mathbf{T}(t_0)\)</span>, <span class="math inline">\(\mathbf{v}_2(t_0)= \mathbf{N}(t_0)\)</span>, or <span class="math inline">\(\mathbf{v}_3(t_0)= \mathbf{B}(t_0)\)</span>, for some <span class="math inline">\(t_0\)</span>, then the equalities hold for all <span class="math inline">\(t\)</span>. (<em>Hint:</em> What is an equivalent condition, in terms of dot products, for two vectors being equal? Remember, these are unit vectors! Note that the previous part was only useful because we had equality of the corresponding vectors at <span class="math inline">\(t_0\)</span>.)</p></li>
+</ol></li>
+<li><p>For any curve parametrized by a unit speed parametrization <span class="math inline">\(\gamma : (\alpha, \beta) \to \mathbb{R}^3\)</span>, let <span class="math inline">\(\delta(t) = \gamma(t) + \mathbf{v}\)</span> for some vector <span class="math inline">\(\mathbf{v}\)</span> (i.e. each point of the curve is being translated by the same <span class="math inline">\(\mathbf{v}\)</span>). Prove that,</p>
+<ol>
+<li><p><span class="math inline">\(\delta\)</span> is also unit speed</p></li>
+<li><p>The curvature, torsion, unit tangent, normal, and binormal of <span class="math inline">\(\delta\)</span> is the same as the curvature and torsion of <span class="math inline">\(\gamma\)</span> at <span class="math inline">\(t\)</span>.</p></li>
+</ol></li>
+<li><p>Consider a <span class="math inline">\(3\times 3-\)</span> matrix <span class="math inline">\(A\)</span> with the property that <span class="math inline">\(A \mathbf{v} . A \mathbf{w} = \mathbf{v} . \mathbf{w}\)</span> for any two vectors, <span class="math inline">\(\mathbf{v}, \mathbf{w}\in \mathbb{R}^3\)</span> (recall, that such matrices are called orthogonal; if you transform two vectors by the same orthgonal transformation, the dot product will remain the same as before the transformation, so the norm of ). For any curve parametrized by a unit speed parametrization <span class="math inline">\(\gamma : (\alpha, \beta) \to \mathbb{R}^3\)</span>, let <span class="math inline">\(\delta(t) = A\gamma(t)\)</span> (i.e. each point of the curve is being transformed by the same matrix <span class="math inline">\(A\)</span>). Prove that,</p>
+<ol>
+<li><p><span class="math inline">\(\delta\)</span> is also unit speed</p></li>
+<li><p>The curvature and torsion of <span class="math inline">\(\delta\)</span> is the same as the curvature and torsion of <span class="math inline">\(\gamma\)</span> at <span class="math inline">\(t\)</span>.</p></li>
+<li><p>The curvature and torsion of <span class="math inline">\(\delta\)</span> is the same as the curvature and torsion of <span class="math inline">\(\gamma\)</span> at <span class="math inline">\(t\)</span>.</p></li>
+<li><p>If <span class="math inline">\(\mathbf{T}_1(t)\)</span>, <span class="math inline">\(\mathbf{N}_1(t)\)</span> and <span class="math inline">\(\mathbf{B}_1(t)\)</span> denote the unit tangent, unit normal, and unit binormal of <span class="math inline">\(\gamma\)</span> at <span class="math inline">\(t\)</span>, while <span class="math inline">\(\mathbf{T}_2(t)\)</span>, <span class="math inline">\(\mathbf{N}_2(t)\)</span> and <span class="math inline">\(\mathbf{B}_2(t)\)</span> denote the unit tangent, unit normal of <span class="math inline">\(\delta\)</span> at <span class="math inline">\(t\)</span>, then prove that, <span class="math display">\[\mathbf{T}_2(t) = A (\mathbf{T}_1(t))\]</span> <span class="math display">\[\mathbf{N}_2(t) = A (\mathbf{N}_1(t))\]</span> <span class="math display">\[\mathbf{B}_2(t) = A (\mathbf{B}_1(t))\]</span></p></li>
+</ol></li>
+</ol>
+<h2 id="surfaces">Surfaces</h2>
+<p><em>The first quiz on surfaces will be be based on material covered in this these exercises</em></p>
+<ol>
+<li><p>If <span class="math inline">\(\sigma : U \to \mathbb{R}^3\)</span> is a surface patch, and <span class="math inline">\(p \in \mathbb{R}^3\)</span> lies on its image, then prove that any linear combination of the vectors <span class="math inline">\(\sigma_x(p)\)</span> and <span class="math inline">\(\sigma_y(p)\)</span> is a tangent vector, i.e. show that it is the velocity vector of some curve on the surface.</p></li>
+<li><p>Prove that if a surface is regular, then the space of tangent vectors is 2-dimensional.</p></li>
+<li><p>Let <span class="math inline">\(f(x, y) = x\mathrm{sin}(x+2y)\)</span>. Find <span class="math inline">\(f_x\)</span>, <span class="math inline">\(f_y\)</span>, <span class="math inline">\(f_{xy}\)</span>, and <span class="math inline">\(f_{yx}\)</span>.</p></li>
+<li><p>Use the chain rule of partial derivatives to show that if <span class="math inline">\(f :\mathbb{R} \to \mathbb{R}\)</span> is a smooth function such that <span class="math inline">\(y= f(x)\)</span> satisfies <span class="math inline">\(F(x, y) = 0\)</span>, where <span class="math inline">\(F:\mathbb{R}^2 \to \mathbb{R}\)</span> is also a smooth function, then <span class="math inline">\(\frac{\mathrm{d}y}{\mathrm{d}x}= -\frac{F_x}{F_y}\)</span>. This is called implicit differentiation.</p></li>
+<li><p>Let <span class="math inline">\(f : \mathbb{R}^2 \to \mathbb{R}\)</span> be a smooth function and let <span class="math inline">\((x_0, y_0)\)</span> be a point in <span class="math inline">\(\mathbb{R}^2\)</span> and <span class="math inline">\(\mathbf{v} = (v_1, v_2)\)</span> a vector. Define <span class="math inline">\(F = f(x_0+v_1t, y_0+v_2t)\)</span>. Use the chain rule for partial derivatives to show that <span class="math inline">\(F'(0)= f_x(x_0,y_0)v_1 + f_y(x_0, y_0)v_2 = (f_x(x_0,y_0), f_y(x_0, y_0)) \cdot \mathbf{v}\)</span>. Note that <span class="math inline">\(F'(0)= \displaystyle\lim_{t \to 0}\frac{f(x_0 + tv_1, y_0 + tv_2) -f(x_0, y_0)}{t}\)</span>; it is called the directional derivative of <span class="math inline">\(f\)</span> in the direction of <span class="math inline">\(\mathbf{v}\)</span> and is denoted by <span class="math inline">\(f_\mathbf{v}\)</span>. This exercise shows that one can compute the directional derivative of <span class="math inline">\(f\)</span> in the direction of any vector <span class="math inline">\(\mathbf{v}\)</span> if one knows the partial derivatives of <span class="math inline">\(f\)</span>.</p></li>
+<li><p>Which of the following surface patches are regular?</p>
+<ol>
+<li><p><span class="math inline">\(\sigma: \mathbb{R}^2 \to \mathbb{R}^3\)</span>, <span class="math inline">\(\sigma(x,y) = (x, y, x+y)\)</span></p></li>
+<li><p><span class="math inline">\(\sigma: \mathbb{R}^2 \to \mathbb{R}^3\)</span>, <span class="math inline">\(\sigma(x,y) = (x, x^2, y^3)\)</span></p></li>
+</ol></li>
+<li><p>For an open subset <span class="math inline">\(U\)</span> of <span class="math inline">\(\mathbb{R}^2\)</span>, and a smooth map <span class="math inline">\(f: U \to \mathbb{R}^3\)</span>, show that around any point in the set <span class="math inline">\(S:=\{(x, y, f(x, y)) \ |\ (x, y) \in \mathbb{R}^2\}\)</span>, we can find a smooth and regular surface patch.</p></li>
+</ol>
+    </section>
+</article>
+
+    </section>
+
+<section id="posts" class="sidenav">
+
+    <h2>Latest exercise sheet</h2>
+<ul>
+    
+        <li>
+          <a href="../assignments/2022-10-03-exercise03.html">Exercise sheet 3</a>
+	   /
+	  <a href="../assignments/pdfs/2022-10-03-exercise03.pdf">PDF version</a>
+	  
+	  
+        </li>
+    
+        <li>
+          <a href="../assignments/2022-09-12-exercise02.html">Exercise sheet 2</a>
+	   /
+	  <a href="../assignments/pdfs/2022-09-12-exercise02.pdf">PDF version</a>
+	  
+	  
+        </li>
+    
+</ul>
+
+    <p><a href="../assignments.html">All exercise sheets&hellip;</a></p>
+
+
+
+
+
+
+
+</section>
+</body>
+</html>
