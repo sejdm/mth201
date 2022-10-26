@@ -47,13 +47,14 @@
 	
 	
       </p>
-<p class="date"><strong>&nbsp;Last modified: 01:23 AM - 27 October, 2022 </strong></p>
+<p class="date"><strong>&nbsp;Last modified: 02:00 AM - 27 October, 2022 </strong></p>
 	  
 	  <a href="../assignments/pdfs/2022-10-26-exercise05.pdf">PDF version</a>
 	  
 	  
         <h1 id="additional-exercises">Additional exercises</h1>
 <p><strong>NOTE:</strong> These exercises repeat many of the concepts / exrecises covered earlier and are meant for you to identify gaps in your understanding. They are not exhaustive and the mid-semester examination will not be restricted to these questions.</p>
+<h2 id="curves-on-surfaces">Curves on surfaces</h2>
 <p>Let <span class="math inline">\(S \subset \mathbb{R}^3\)</span> be a part of a surface and <span class="math inline">\(\sigma : U \to S\)</span> be a regular surface patch.</p>
 <ol>
 <li><p>For each of the surface patches below, identify the surface that they (partially) cover:</p>
@@ -88,6 +89,18 @@
 <li><p>From now on, we will assume that <span class="math inline">\(\gamma\)</span> is a unit speed parametrization. Show that <span class="math inline">\(\ddot{\gamma}(t_0) . \hat{n}(\gamma(t_0)) = - \dot{\gamma}(t_0) . \frac{\mathrm{d}}{\mathrm{d}t}|_{t=t_0}\hat{n}(\gamma(t))\)</span>. Along with the previous exercise, this shows that the component of the acceleration in the direction of the normal, (denoted <span class="math inline">\(\kappa_n(t_0)\)</span>) depends only on the normal to the surface and the direction of a unit speed parametrization.</p></li>
 <li><p>Consider the other component of the acceleration, <span class="math inline">\(\ddot{\gamma}(t_0) - \ddot{\gamma}(t_0) . \hat{n}(\gamma(t_0))\)</span>. Why is <span class="math inline">\(\ddot{\gamma}(t_0)\)</span> perpendicular to <span class="math inline">\(\hat{n}(\gamma(t_0))\)</span>? Why is <span class="math inline">\(\ddot{\gamma}(t_0)\)</span> parallel to <span class="math inline">\(\mathbf{T}(t_0) \times \hat{n}(\gamma(t_0))\)</span>? Let the magnitude be denoted by <span class="math inline">\(\kappa_g(t_0)\)</span></p></li>
 <li><p>Show that <span class="math inline">\(\kappa^2(t_0) = \kappa_n^2(t_0) + \kappa_g^2(t_0)\)</span>.</p></li>
+</ol>
+<h2 id="applications-of-the-inverse-function-theorem">Applications of the Inverse Function Theorem</h2>
+<p><strong>NOTE:</strong> This topic is a bit more advanced, however, luckily, you should be able to follow the rest of the course even if you do not understand the concepts covered in this section of the exercise set. In this course, the inverse function theorem is used only to justify smoothness of certain functions so that we are permitted to differentiate as much as we like. While it is certainly in the syllabus, since it is a an isolated and more difficult topic, it is better to worry about it only if you have understood the other more basic and more widely used concepts that are covered in the previous section of this exercise set.</p>
+<ol>
+<li><p>Let <span class="math inline">\(\sigma_1: U_1 \to S\)</span> and <span class="math inline">\(\sigma_2 : U_2 \to S\)</span> denote two regular surface patches that cover exactly the same part of the surface.</p>
+<ol>
+<li><p>Let <span class="math inline">\(\pi_{xy}(x, y, z) = (x, y)\)</span>, <span class="math inline">\(\pi_{yz}(y, z) = (x, y)\)</span>, and <span class="math inline">\(\pi_{xz}(x, z) = (x, y)\)</span> denote the three projections obtained by dropping one of the coordinates. Show that the regularity of <span class="math inline">\(\sigma_1\)</span> at some point <span class="math inline">\(p\)</span> implies that the Jacobian of <span class="math inline">\(F_1(x,y) := \pi(\sigma_1(x,y))\)</span> is invertible, where <span class="math inline">\(\pi\)</span> denotes one of these three projections.</p></li>
+<li><p>Show that the projection, <span class="math inline">\(\pi\)</span>, from the previous exercise is injective when restricted to small enough neighbourhood of <span class="math inline">\(p\)</span>.</p></li>
+<li><p>Let <span class="math inline">\(F_2(x,y) := \pi(\sigma_2(x,y))\)</span>. Show that <span class="math inline">\(\Phi(x,y) = \sigma_1^{-1} (\sigma_2(x,y)) = F_1^{-1} (F_2(x,y))\)</span>.</p></li>
+<li><p>Why is <span class="math inline">\(F_1^{-1}\)</span> smooth? Therefore, why is <span class="math inline">\(\Phi\)</span> smooth?</p></li>
+</ol></li>
+<li><p>We have already discussed that for a parametrization, <span class="math inline">\(\gamma\)</span>, of a curve on a surface, <span class="math inline">\(\gamma(t) = \sigma(x(t), y(t))\)</span>. Show that <span class="math inline">\(x(t)\)</span> and <span class="math inline">\(y(t)\)</span> are smooth functions. (<em>Hint:</em> Observe that <span class="math inline">\((x(t), y(t)) = \sigma^{-1}(\gamma(t))\)</span>. Use the “right” projection just as in the previous exercise to express this composition as a more convenient composition.)</p></li>
 </ol>
     </section>
 </article>
