@@ -7,8 +7,25 @@
         <description><![CDATA[Get exercises and announcements]]></description>
         <atom:link href="http://sejdm.github.io/mth201/rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>2022-10-17T16:01:35+5:30</lastBuildDate>
+        <lastBuildDate>2022-10-26T17:43:18+5:30</lastBuildDate>
         <item>
+    <title>Exercise sheet 5</title>
+    <link>http://sejdm.github.io/mth201/assignments/2022-10-26-exercise05.html</link>
+    <description><![CDATA[Exercise sheet 5 has been posted.]]></description>
+    <pubDate>Wed, 26 Oct 2022 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/assignments/2022-10-26-exercise05.html</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
+    <title>Announcement</title>
+    <link>http://sejdm.github.io/mth201/announcements/2022-10-22-quiz2.html</link>
+    <description><![CDATA[<div class="announcement"><p>There will be a <strong>QUIZ</strong> during your tutorial on Wednesday, the 26th of October, on the material taught after the last quiz.</p></div> <br /><span class="date">Last modified: 12:40 PM - 22 October, 2022 </span>
+]]></description>
+    <pubDate>Sat, 22 Oct 2022 00:00:00 UT</pubDate>
+    <guid>http://sejdm.github.io/mth201/announcements/2022-10-22-quiz2.html</guid>
+    <dc:creator>Shane D'Mello</dc:creator>
+</item>
+<item>
     <title>Exercise sheet 4</title>
     <link>http://sejdm.github.io/mth201/assignments/2022-10-11-exercise04.html</link>
     <description><![CDATA[Exercise sheet 4 has been posted.]]></description>

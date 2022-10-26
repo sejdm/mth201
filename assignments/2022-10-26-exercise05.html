@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>2022-10-26-exercise05 - MTH201</title>
+  <meta charset="utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="../css/my.css">
+<link rel="stylesheet" href="../css/syntax.css">
+  <link rel="alternate" type="application/atom+xml" title="MTH 201" href="../atom.xml" />
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+  <div class="navbar">
+
+    <header>
+      <hgroup>
+        <h1><a href="../index.html" id="titlelink">Curves and Surfaces<br /> (MTH 201)</a></h1>
+      </hgroup>
+    </header>
+
+    <nav id="mainnav">
+      <div id="topmenu">
+        <menu>
+          <a href="../index.html">Course information</a>
+	  
+          <a href="../assignments.html">Exercise sheets</a>
+	  
+	  
+	  
+          <a href="../slides.html">Last year's slides</a>
+	  
+        </menu>
+	</div>
+    </nav>
+    </div>
+    <section id="pagecontent">
+        <article>
+    <section class="header">
+        <h1>Exercise sheet 5</h1>
+    </section>
+    <section>
+      <p>
+	
+	<a href="../assignments/2022-10-11-exercise04.html" class="prev"><<</a>
+	
+	
+      </p>
+<p class="date"><strong>&nbsp;Last modified: 05:43 PM - 26 October, 2022 </strong></p>
+	  
+	  <a href="../assignments/pdfs/2022-10-26-exercise05.pdf">PDF version</a>
+	  
+	  
+        <h1 id="additional-exercises">Additional exercises</h1>
+<p><strong>NOTE:</strong> These exercises repeat many of the concepts / exrecises covered earlier and are meant for you to identify gaps in your understanding. They are not exhaustive and the mid-semester examination will not be restricted to these questions.</p>
+<p>Let <span class="math inline">\(S \subset \mathbb{R}^3\)</span> be a part of a surface and <span class="math inline">\(\sigma : U \to S\)</span> be a regular surface patch.</p>
+<ol>
+<li><p>For each of the surface patches below, identify the surface that they (partially) cover:</p>
+<ol>
+<li><p><span class="math inline">\(\sigma : \mathbb{R}^2 \to \mathbb{R}^3\)</span>, <span class="math inline">\(\sigma(x,y) = (x, y, 0)\)</span>.</p></li>
+<li><p><span class="math inline">\(\sigma : \mathbb{R}^2 \to \mathbb{R}^3\)</span>, <span class="math inline">\(\sigma(x,y) = (x, y, x+y)\)</span>.</p></li>
+<li><p><span class="math inline">\(\sigma : \mathbb{R}^2 \to \mathbb{R}^3\)</span>, <span class="math inline">\(\sigma(x,y) = (\cos(x), \sin(x), y)\)</span>.</p></li>
+<li><p><span class="math inline">\(\sigma : \mathbb{R}^2 \to \mathbb{R}^3\)</span>, <span class="math inline">\(\sigma(x,y) = (x, y, \sqrt{r^2 - x^2 - y^2})\)</span>.</p></li>
+<li><p><span class="math inline">\(\sigma : \mathbb{R}^2 \to \mathbb{R}^3\)</span>, <span class="math inline">\(\sigma(x,y) = (x, y, \sqrt{r^2 - x^2 + y^2})\)</span>.</p></li>
+</ol></li>
+<li><p>Consider a <span class="math inline">\(\gamma : (a, b) \to S \subset \mathbb{R}^3\)</span> parametrizing a curve that lies on the part of the surface covered by the surface patch. In other words, for each <span class="math inline">\(t\)</span>, <span class="math inline">\(\gamma(t)\)</span> must, be in the image of <span class="math inline">\(\sigma\)</span>, i.e. there is some <span class="math inline">\(x(t)\)</span>, and <span class="math inline">\(y(t)\)</span> in <span class="math inline">\(U\)</span>, so that <span class="math inline">\(\gamma(t) = \sigma(x(t), y(t))\)</span>. Assuming that <span class="math inline">\(x(t)\)</span> and <span class="math inline">\(y(t)\)</span> are smooth,</p>
+<ol>
+<li><p>Consider the part of the surface covered by <span class="math inline">\(\sigma : \mathbb{R}^2 \to \mathbb{R}^3\)</span>, <span class="math inline">\(\sigma(x,y) = (\cos(x), \sin(x), y)\)</span> and consider the curve <span class="math inline">\(\gamma(t)=(0, 0, t)\)</span>. Note that it lies on the surface. Write it in the form, <span class="math inline">\(\gamma(t) = \sigma(x(t), y(t))\)</span> by finding suitable functions <span class="math inline">\(x(t)\)</span> and <span class="math inline">\(y(t)\)</span>. Do the same for the curve <span class="math inline">\(\gamma_2(t) = (\cos(t), -\sin(t), 0)\)</span> which also lies on the surface.</p></li>
+<li><p>Show that <span class="math display">\[\dot{\gamma}(t_0) = x'(t_0)\sigma_x(x(t_0), y(t_0)) + y'(t_0)\sigma_y(x(t_0), y(t_0))\]</span></p></li>
+</ol></li>
+<li><p>Show that <span class="math inline">\(\sigma_x(x_0,y_0)\)</span> and <span class="math inline">\(\sigma_y(x_0,y_0)\)</span> are each velocity vectors of curves that lie on the surface. Why are they linearly independent?</p></li>
+<li><p>Why do the previous two exercises show that <span class="math inline">\(\sigma_x(x_0,y_0)\)</span> and <span class="math inline">\(\sigma_y(x_0,y_0)\)</span> are a basis for the tangent vectors?</p></li>
+<li><p>Consider a point <span class="math inline">\(p\)</span> on the part of the surface covered by a surface patch. Therefore, it is of the form <span class="math inline">\(p = \sigma(x_0, y_0)\)</span> for some <span class="math inline">\(x_0\)</span> an <span class="math inline">\(y_0\)</span>. Consider <span class="math inline">\(\hat{n}(p) = \sigma_x(x_0,y_0) \times \sigma_y(x_0,y_0)\)</span>. Why is its dot product with <span class="math inline">\(\sigma_x(x_0,y_0)\)</span> and <span class="math inline">\(\sigma_y(x_0,y_0)\)</span> zero? Why is its dot product with <em>any</em> tangent vector (of the surface at <span class="math inline">\(p\)</span>) zero?</p></li>
+<li><p>Compute <span class="math inline">\(\hat{n}(p)\)</span> for any point <span class="math inline">\(p\)</span> on a sphere.</p></li>
+</ol>
+    </section>
+</article>
+
+    </section>
+
+<section id="posts" class="sidenav">
+
+    <h2>Latest exercise sheet</h2>
+<ul>
+    
+        <li>
+          <a href="../assignments/2022-10-26-exercise05.html">Exercise sheet 5</a>
+	   /
+	  <a href="../assignments/pdfs/2022-10-26-exercise05.pdf">PDF version</a>
+	  
+	  
+        </li>
+    
+        <li>
+          <a href="../assignments/2022-10-11-exercise04.html">Exercise sheet 4</a>
+	   /
+	  <a href="../assignments/pdfs/2022-10-11-exercise04.pdf">PDF version</a>
+	  
+	  
+        </li>
+    
+</ul>
+
+    <p><a href="../assignments.html">All exercise sheets&hellip;</a></p>
+
+
+
+
+
+
+
+</section>
+</body>
+</html>
