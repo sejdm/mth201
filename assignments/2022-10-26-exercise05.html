@@ -47,7 +47,7 @@
 	
 	
       </p>
-<p class="date"><strong>&nbsp;Last modified: 05:46 PM - 26 October, 2022 </strong></p>
+<p class="date"><strong>&nbsp;Last modified: 01:23 AM - 27 October, 2022 </strong></p>
 	  
 	  <a href="../assignments/pdfs/2022-10-26-exercise05.pdf">PDF version</a>
 	  
@@ -64,6 +64,7 @@
 <li><p><span class="math inline">\(\sigma : \mathbb{R}^2 \to \mathbb{R}^3\)</span>, <span class="math inline">\(\sigma(x,y) = (x, y, \sqrt{r^2 - x^2 - y^2})\)</span>.</p></li>
 <li><p><span class="math inline">\(\sigma : \mathbb{R}^2 \to \mathbb{R}^3\)</span>, <span class="math inline">\(\sigma(x,y) = (x, y, \sqrt{r^2 - x^2 + y^2})\)</span>.</p></li>
 </ol></li>
+<li><p>If <span class="math inline">\(U\)</span> is an open subset in <span class="math inline">\(\mathbb{R}^2\)</span> and <span class="math inline">\(f : U \to \mathbb{R}\)</span> is a smooth function, then show that <span class="math inline">\(\sigma(x, y) := (x, y, f(x,y))\)</span> is a regular surface patch.</p></li>
 <li><p>Consider a <span class="math inline">\(\gamma : (a, b) \to S \subset \mathbb{R}^3\)</span> parametrizing a curve that lies on the part of the surface covered by the surface patch. In other words, for each <span class="math inline">\(t\)</span>, <span class="math inline">\(\gamma(t)\)</span> must, be in the image of <span class="math inline">\(\sigma\)</span>, i.e. there is some <span class="math inline">\(x(t)\)</span>, and <span class="math inline">\(y(t)\)</span> in <span class="math inline">\(U\)</span>, so that <span class="math inline">\(\gamma(t) = \sigma(x(t), y(t))\)</span>. Assuming that <span class="math inline">\(x(t)\)</span> and <span class="math inline">\(y(t)\)</span> are smooth,</p>
 <ol>
 <li><p>Consider the part of the surface covered by <span class="math inline">\(\sigma : \mathbb{R}^2 \to \mathbb{R}^3\)</span>, <span class="math inline">\(\sigma(x,y) = (\cos(x), \sin(x), y)\)</span> and consider the curve <span class="math inline">\(\gamma(t)=(0, 0, t)\)</span>. Note that it lies on the surface. Write it in the form, <span class="math inline">\(\gamma(t) = \sigma(x(t), y(t))\)</span> by finding suitable functions <span class="math inline">\(x(t)\)</span> and <span class="math inline">\(y(t)\)</span>. Do the same for the curve <span class="math inline">\(\gamma_2(t) = (\cos(t), -\sin(t), 0)\)</span> which also lies on the surface.</p></li>
@@ -71,13 +72,22 @@
 </ol></li>
 <li><p>Show that <span class="math inline">\(\sigma_x(x_0,y_0)\)</span> and <span class="math inline">\(\sigma_y(x_0,y_0)\)</span> are each velocity vectors of curves that lie on the surface. Why are they linearly independent?</p></li>
 <li><p>Why do the previous two exercises show that <span class="math inline">\(\sigma_x(x_0,y_0)\)</span> and <span class="math inline">\(\sigma_y(x_0,y_0)\)</span> are a basis for the tangent vectors?</p></li>
+<li><p>Compute <span class="math inline">\(\hat{n}(p)\)</span> for any point <span class="math inline">\(p\)</span> on a plane. Show that it is constant.</p></li>
+<li><p>Compute <span class="math inline">\(\hat{n}(p)\)</span> for any point <span class="math inline">\(p\)</span> on a sphere.</p></li>
 <li><p>Consider a point <span class="math inline">\(p\)</span> on the part of the surface covered by a surface patch. Therefore, it is of the form <span class="math inline">\(p = \sigma(x_0, y_0)\)</span> for some <span class="math inline">\(x_0\)</span> an <span class="math inline">\(y_0\)</span>. Consider <span class="math inline">\(\hat{n}(p) = \sigma_x(x_0,y_0) \times \sigma_y(x_0,y_0)\)</span> which is a vector in <span class="math inline">\(\mathbb{R}^3\)</span> based at <span class="math inline">\(p\)</span>.</p>
 <ol>
 <li><p>Is it a tangent vector? Why or why not?</p></li>
 <li><p>Why is its dot product with <span class="math inline">\(\sigma_x(x_0,y_0)\)</span> and <span class="math inline">\(\sigma_y(x_0,y_0)\)</span> zero?</p></li>
 <li><p>Why is its dot product with <em>any</em> tangent vector (of the surface at <span class="math inline">\(p\)</span>) zero?</p></li>
 </ol></li>
-<li><p>Compute <span class="math inline">\(\hat{n}(p)\)</span> for any point <span class="math inline">\(p\)</span> on a sphere.</p></li>
+<li><p>Consider a smooth function from the surface to <span class="math inline">\(\mathbb{R}\)</span>, <span class="math inline">\(f : S \to \mathbb{R}\)</span>. Show that the rate of change along any parametrization <span class="math inline">\(\gamma\)</span>, i.e. <span class="math inline">\(\frac{\mathrm{d}}{\mathrm{d}t}|_{t=t_0}f(\gamma(t)))\)</span> depends on the partial derivatives of <span class="math inline">\(f\)</span> at the point <span class="math inline">\(\gamma(t_0)\)</span> and the velocity of <span class="math inline">\(\gamma\)</span> at <span class="math inline">\(t_0\)</span>. (<em>Hint:</em> This is just a way of interpreting chain rule)</p></li>
+<li><p>Consider <span class="math inline">\(\hat{\tilde{n}}(x,y) = \hat{n}(\sigma(x,y))\)</span>. Note that if <span class="math inline">\(p = \sigma(x,y)\)</span>, then <span class="math inline">\(\hat{\tilde{n}}(x,y) = \hat{n}(p)\)</span>, i.e. <span class="math inline">\(\hat{\tilde{n}}\)</span> is simply <span class="math inline">\(\hat{n}\)</span> written in terms of the coordinates provided by <span class="math inline">\(\sigma\)</span>. Note also that if <span class="math inline">\(\gamma(t) = \sigma(x(t), y(t))\)</span>, then <span class="math inline">\(\hat{\tilde{n}}(x(t),y(t)) = \hat{n}(\gamma(t))\)</span>.</p>
+<ol>
+<li><p>Show that the rate of change of <span class="math inline">\(\hat{n}\)</span> along a parametrization <span class="math inline">\(\gamma\)</span> of a curve on the surface (i.e. <span class="math inline">\(\frac{\mathrm{d}}{\mathrm{d}t}|_{t=t_0}\hat{n}(\gamma(t)))\)</span>) depends only on <span class="math inline">\(\hat{n}\)</span> at the point <span class="math inline">\(\gamma(t_0)\)</span> and the velocity of <span class="math inline">\(\gamma\)</span> at <span class="math inline">\(t_0\)</span>. (<em>Hint:</em> Apply the previous exercise to each coordinate of the function <span class="math inline">\(\hat{\tilde{n}}\)</span>. Why is it important to use <span class="math inline">\(\hat{\tilde{n}}\)</span> and not <span class="math inline">\(\hat{n}\)</span>?)</p></li>
+</ol></li>
+<li><p>From now on, we will assume that <span class="math inline">\(\gamma\)</span> is a unit speed parametrization. Show that <span class="math inline">\(\ddot{\gamma}(t_0) . \hat{n}(\gamma(t_0)) = - \dot{\gamma}(t_0) . \frac{\mathrm{d}}{\mathrm{d}t}|_{t=t_0}\hat{n}(\gamma(t))\)</span>. Along with the previous exercise, this shows that the component of the acceleration in the direction of the normal, (denoted <span class="math inline">\(\kappa_n(t_0)\)</span>) depends only on the normal to the surface and the direction of a unit speed parametrization.</p></li>
+<li><p>Consider the other component of the acceleration, <span class="math inline">\(\ddot{\gamma}(t_0) - \ddot{\gamma}(t_0) . \hat{n}(\gamma(t_0))\)</span>. Why is <span class="math inline">\(\ddot{\gamma}(t_0)\)</span> perpendicular to <span class="math inline">\(\hat{n}(\gamma(t_0))\)</span>? Why is <span class="math inline">\(\ddot{\gamma}(t_0)\)</span> parallel to <span class="math inline">\(\mathbf{T}(t_0) \times \hat{n}(\gamma(t_0))\)</span>? Let the magnitude be denoted by <span class="math inline">\(\kappa_g(t_0)\)</span></p></li>
+<li><p>Show that <span class="math inline">\(\kappa^2(t_0) = \kappa_n^2(t_0) + \kappa_g^2(t_0)\)</span>.</p></li>
 </ol>
     </section>
 </article>
