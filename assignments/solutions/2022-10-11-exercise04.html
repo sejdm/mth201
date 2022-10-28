@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>2022-10-11-exercise04 - MTH201</title>
+  <meta charset="utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="../../css/my.css">
+<link rel="stylesheet" href="../../css/syntax.css">
+  <link rel="alternate" type="application/atom+xml" title="MTH 201" href="../../atom.xml" />
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+  <div class="navbar">
+
+    <header>
+      <hgroup>
+        <h1><a href="../../index.html" id="titlelink">Curves and Surfaces<br /> (MTH 201)</a></h1>
+      </hgroup>
+    </header>
+
+    <nav id="mainnav">
+      <div id="topmenu">
+        <menu>
+          <a href="../../index.html">Course information</a>
+	  
+          <a href="../../assignments.html">Exercise sheets</a>
+	  
+	  
+	  
+          <a href="../../slides.html">Last year's slides</a>
+	  
+        </menu>
+	</div>
+    </nav>
+    </div>
+    <section id="pagecontent">
+        <article>
+    <section class="header">
+        <h1>Hints / Solutions to Exercise sheet 4</h1>
+    </section>
+    <section>
+<p class="date"><strong>Last modified: 08:53 PM - 28 October, 2022 </strong></p>
+	  
+	  <a href="../../assignments/solutions/pdfs/2022-10-11-exercise04.pdf">PDF version</a>
+	  
+        <p><strong>Question 1:</strong> Prove that <span class="math inline">\(\ddot{\gamma}(t).\mathbf{\hat{n}}(\gamma(t)) = -\dot{\gamma}(t).\frac{\mathrm{d}}{\mathrm{d}t}\mathbf{\hat{n}}(\gamma(t))\)</span>. Here <span class="math inline">\(\mathbb{\hat{n}}\)</span> denotes the normal to a surface. (<em>Hint</em>: You have done similar things many times before. Which rule helps you?)</p>
+<p><strong>Solution 1:</strong> Note that <span class="math inline">\(\dot{\gamma}(t)\)</span> is tangent to the surface because because it is the velocity vector of a curve, namely <span class="math inline">\(\gamma\)</span>, which lies on the surface. So it is perpendicular to the unit normal to the surface. Therefore, its dot product with it is 0, i.e. <span class="math display">\[\dot{\gamma}(t).\hat{n}(\gamma(t))=0\]</span> Differentiating, and using the product rule, <span class="math display">\[\ddot{\gamma}(t).\hat{n}(\gamma(t)) + \frac{\mathrm{d}}{\mathrm{d}t}\dot{\gamma}(t).\hat{n}(\gamma(t))=0\]</span></p>
+<hr />
+<p><strong>Question 4:</strong> Prove that <span class="math inline">\(\mathbf{\hat{n}}(\gamma(t))\)</span> is perpendicular to <span class="math inline">\(\mathbf{T}(t)\)</span>, where <span class="math inline">\(\mathbf{T}(t)\)</span> is the unit tangent of <span class="math inline">\(\gamma\)</span> at <span class="math inline">\(t\)</span>.</p>
+<p><strong>Solution 4:</strong> The unit normal is defined as the cross product of <span class="math inline">\(\sigma_x\)</span> and <span class="math inline">\(\sigma_y\)</span> and by the property of cross products, is perpendicular to each. Chain rule shows that any tangent vector is a linear combination of <span class="math inline">\(\sigma_x\)</span> and <span class="math inline">\(\sigma_y\)</span>, and so every tangent vector is also perpendicular to the unit normal.</p>
+<hr />
+<p><strong>Question 6:</strong> Consider a parametrization, <span class="math inline">\(\gamma(t)\)</span> of a curve on a surface and let <span class="math inline">\(\mathbf{N}(t)\)</span> denote its unit normal at <span class="math inline">\(t\)</span>. Prove that <span class="math inline">\(\mathbf{N}(t) =\pm \mathbf{\hat{n}}(\gamma(t))\)</span> if and only if <span class="math inline">\(\kappa_g(t)=0\)</span></p>
+<p><strong>Solution 4:</strong> The unit normal of the curve is in the direction of the acceleration of a unit speed parametrization. So, the unit normal to the curve is in the direction of the unit normal of the surface if and only if the acceleration is in the direction of the unit normal. Also, the acceleration is in the direction of the unit normal means it is equal to the component in the direction of the normal and has no other component, which is equivalent to the geodesic curvature being 0.</p>
+<hr />
+<p><strong>Question 6:</strong> Consider the sphere of radius 1. Give it a surface patch and use that to compute the normal curvature of a unit speed parametrization of any curve on the sphere at any given point.</p>
+<p><strong>Solution 6:</strong> Owing to the symmetry of the sphere, it deos not matter which point we choose. Also, recall that the normal curvature of any two unit speed parametrizations depend only on the direction of its (unit) velocity vector. Furthermore, note that on a sphere, owing to its symmetry, the direction too does not matter. Therefore, we can choose any curve on the sphere and find its component in the normal direction.</p>
+<p>First let us compute the normal,</p>
+<p><span class="math inline">\(\sigma(x,y)=(x, y, \sqrt{1-x^2-y^2})\)</span> defines a surface patch. <span class="math display">\[\sigma_x(x,y)=(1, 0, \frac{ x}{\sqrt{1-x^2-y^2}})\]</span> <span class="math display">\[\sigma_y(x,y)=(0, 1, \frac{ y}{\sqrt{1-x^2-y^2}})\]</span> <span class="math display">\[\sigma_x(x,y) \times \sigma_y(x,y)=(\frac{-x}{\sqrt{1-x^2-y^2}}, \frac{-y}{\sqrt{1-x^2-y^2}}, 1 )\]</span> <span class="math display">\[\hat{n}(x,y) =(-x, -y,  \sqrt{1-x^2-y^2})\]</span></p>
+<p>Note how this vector is normal to the position vector defining a point on the part of the surface covered by the surface patch.</p>
+<p>We have already noted that it does not matter which unit speed parametrization we choose. Therefore, we may choose. In fact, all curves on the surface are of the form</p>
+<p><span class="math display">\[\gamma(t) = \sigma(x(t),y(t))=(x(t), y(t), \sqrt{1-x^2(t)-y^2(t)})\]</span> for some <span class="math inline">\(x(t)\)</span> and <span class="math inline">\(y(t)\)</span>. Let us choose <span class="math inline">\(x(t) =\cos(t)\)</span> and <span class="math inline">\(y(t)=\sin(t)\)</span> so that the parametrization is, <span class="math display">\[\gamma(t) = \sigma(x(t),y(t))=(\cos(t), \sin(t), 0)\]</span> Note that this is just the great circle lying on the sphere and the paramtrization is unit speed</p>
+<p>Now, <span class="math display">\[\ddot{\gamma}(t) = (-\cos(t), -\sin(t), 0)\]</span> Consider the point at <span class="math inline">\(t=0\)</span>, i.e. <span class="math inline">\(\gamma(0)= (1,0,0)\)</span>. Note that the unit normal at that point is <span class="math inline">\((1, 0, 0)\)</span> and <span class="math inline">\(\ddot{\gamma}(0) = (-1, -1, 0)\)</span>. Taking the dot product, we get that the normal curvature is -1.</p>
+    </section>
+</article>
+
+    </section>
+
+<section id="posts" class="sidenav">
+
+    <h2>Latest exercise sheet</h2>
+<ul>
+    
+        <li>
+          <a href="../../assignments/2022-10-26-exercise05.html">Exercise sheet 5</a>
+	   /
+	  <a href="../../assignments/pdfs/2022-10-26-exercise05.pdf">PDF version</a>
+	  
+	  
+        </li>
+    
+        <li>
+          <a href="../../assignments/2022-10-11-exercise04.html">Exercise sheet 4</a>
+	   /
+	  <a href="../../assignments/pdfs/2022-10-11-exercise04.pdf">PDF version</a>
+	  
+	  <br /> 
+	   (<a href="../../assignments/solutions/2022-10-11-exercise04.html">Hints or Solutions</a> /
+	  <a href="../../assignments/solutions/pdfs/2022-10-11-exercise04.pdf">Hints or Solutions PDF</a>)
+	  
+        </li>
+    
+</ul>
+
+    <p><a href="../../assignments.html">All exercise sheets&hellip;</a></p>
+
+
+
+
+
+
+
+</section>
+</body>
+</html>
